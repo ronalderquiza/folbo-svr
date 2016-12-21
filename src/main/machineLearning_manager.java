@@ -11,7 +11,7 @@ import tools.DBQueries;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	machineLearning_manager.java
  * Description:	Machine Learning Manager of the FoLBO System
- * Version:		1.0.1
+ * Version:		2.1.3
  *
  * @lastreview
  */
