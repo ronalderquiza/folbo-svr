@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 19, 2016 at 06:51 AM
+-- Generation Time: Dec 26, 2016 at 02:20 PM
 -- Server version: 5.6.26
 -- PHP Version: 5.5.28
 
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `tblartist` (
   `artistID` int(11) NOT NULL,
   `artistName` varchar(100) NOT NULL,
   `gender` int(11) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=314 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=316 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblartist`
@@ -348,7 +348,9 @@ INSERT INTO `tblartist` (`artistID`, `artistName`, `gender`) VALUES
 (310, 'Zaijan Jaranilla ', 1),
 (311, 'Zanjoe Marudo ', 1),
 (312, 'Zoren Legaspi ', 1),
-(313, 'Zsa Zsa Padilla ', 2);
+(313, 'Zsa Zsa Padilla ', 2),
+(314, 'Enrique Gil', 2),
+(315, 'Daniel Padilla', 2);
 
 --
 -- Indexes for dumped tables
@@ -368,7 +370,7 @@ ALTER TABLE `tblartist`
 -- AUTO_INCREMENT for table `tblartist`
 --
 ALTER TABLE `tblartist`
-  MODIFY `artistID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=314;
+  MODIFY `artistID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=316;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

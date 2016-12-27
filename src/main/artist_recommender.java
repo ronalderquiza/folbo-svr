@@ -11,7 +11,7 @@ import tools.DBQueries;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	artist_recommender.java
  * Description:	Recommending artists
- * Version:		2.4.1
+ * @version		2.4.1
  *
  * @lastreview 20161203
  * Ron, Kat, Ran
