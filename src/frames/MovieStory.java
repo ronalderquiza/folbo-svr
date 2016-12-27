@@ -52,6 +52,8 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 	
 	String plot = new String();
 	String title = new String();
+
+	private int theme;
 	/**
 	 * initialize MovieStory
 	 */
@@ -140,7 +142,7 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 	public void mouseClicked(MouseEvent arg0) {
 		if(arg0.getSource() == labelNext){
 			String title = tfMovieTitle.getText();
-			system_manager.getInput_mngr().input_story(title, plot, 1);
+			system_manager.getInput_mngr().input_story(title, plot, theme);
 			this.setVisible(false);
 			GUI_manager.getMovieSequel().setVisible(true);
 		} else if(arg0.getSource() == labelBack) {
@@ -198,6 +200,9 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 			tfMovieTitle.setText(title);
 			taPlot.setText(wholeStory);
 			taPlot.setFont(component_manager.getFontSmallPlain());
+			system_manager.getTheme_recog().execute(plot);
+			theme = system_manager.getTheme_recog().getTheme();
+			tfMovieTheme.setText(system_manager.getOutput_mngr().themes[theme-1]);
 			taPlot.setEditable(false);
 		
 		

@@ -142,7 +142,6 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 			int selectedID = movieIDs.get(cbMovieSequel.getSelectedIndex());
 			double[] infos = getInfos(selectedID);
 			ArrayList<Integer> mainCasts = getMainCasts(selectedID);
-			int theme = (int)infos[0];
 			int mg = (int)infos[1];
 			int sg = (int)infos[2];
 			int mtrcb = (int)infos[3];
@@ -151,7 +150,6 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 			int prod = (int)infos[6];
 			int dist = (int)infos[7];
 			system_manager.getInput_mngr().getMovie().setPrequel(selectedID);
-			system_manager.getInput_mngr().getMovie().getMovieInfo().setTheme(theme);
 			system_manager.getInput_mngr().input_movieInfo(mg, sg, origin, mtrcb);
 			system_manager.getInput_mngr().input_prod(prod, dir, dist);
 			system_manager.getInput_mngr().input_mainCasts(mainCasts);

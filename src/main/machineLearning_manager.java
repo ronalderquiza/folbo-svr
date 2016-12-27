@@ -52,7 +52,7 @@ public class machineLearning_manager {
 		
 		
 		//setting the output
-		setOutput(getModel().predict(input));
+		setOutput(Math.abs(getModel().predict(input)));
 	}
 	
 	/**

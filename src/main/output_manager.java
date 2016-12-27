@@ -21,10 +21,10 @@ import main.system_manager;
  * 
  */
 public class output_manager {
-	private String[] themes;
-	private String[] genres;
-	private String[] producers;
-	private String[] directors;
+	public String[] themes;
+	public String[] genres;
+	public String[] producers;
+	public String[] directors;
 	private HashMap<Integer, String> artistNames;
 	
 	/**
