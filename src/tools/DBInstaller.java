@@ -68,7 +68,7 @@ public class DBInstaller {
 	 */
 	public void installDB() {
 		String[] files = { "tblartist.sql", "tblartistmovie.sql", "tbldirector.sql", "tblgender.sql", "tblgenre.sql", 
-				"tblkeywords", "tblmonth.sql", "tblmovie.sql", "tblmtrcbrating.sql", "tblorigin.sql", "tblprodcompany.sql",
+				"tblkeywords.sql", "tblmonth.sql", "tblmovie.sql", "tblmtrcbrating.sql", "tblorigin.sql", "tblprodcompany.sql",
 				"tbltheme.sql" };
 		
 		try {
