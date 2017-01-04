@@ -3,6 +3,7 @@ package main;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import objects.NGram;
 
@@ -20,7 +21,8 @@ public class theme_recognizer {
 	private NGram ngram;
 	private int theme;
 	private String[][] themeKeywords;
-	private int[][] themePoints;
+	private double[][] themePoints;
+	private HashMap<Integer, Double> themeDivisor;
 	final int KEYWORD = 0;
 	final int THEME = 1;
 
@@ -36,6 +38,7 @@ public class theme_recognizer {
 		setNgram(new NGram());
 		setThemeKeywords(fetchThemeKeywords());
 		setThemePoints(fetchThemePoints());
+		getDivisor();
 	}
 	
 	/**
@@ -47,10 +50,10 @@ public class theme_recognizer {
 		ngram.setText(plot);
 		ngram.collectGram();
 		scoringThemes();
-		int temp = 0;
+		double temp = 0;
 		for(int i = 0; i < themePoints.length; i++){
 			if(themePoints[i][POINTS] > temp){
-				setTheme(themePoints[i][THEMEID]);
+				setTheme((int)themePoints[i][THEMEID]);
 				temp = themePoints[i][POINTS];
 			}
 		}
@@ -62,15 +65,36 @@ public class theme_recognizer {
 	public void scoringThemes(){
 		for(String gram: ngram.keySet()){
 			for(int i = 0; i < themeKeywords.length; i++){
-				if(gram.contains(themeKeywords[i][KEYWORD])){
+				if(gram.equals(themeKeywords[i][KEYWORD])){
 					int theme = Integer.parseInt(themeKeywords[i][THEME]) - 1;
 					String themeName = system_manager.getOutput_mngr().themes[theme];
-					System.out.println(gram + ">" + themeName);
-					int temp = themePoints[theme][POINTS];
-					themePoints[theme][POINTS] = temp + ngram.get(gram);
+					System.out.println(gram + ">" + themeName + "[" + theme + "]");
+					double temp = themePoints[theme][POINTS];
+					themePoints[theme][POINTS] = temp + (double) ngram.get(gram)/themeDivisor.get(theme+1);
 				}
 			}
 		}
+	}
+	
+	/**
+	 * theme divisor
+	 */
+	public void getDivisor(){
+		String query = "SELECT COUNT(*), `theme` FROM `tblkeywords` GROUP BY `theme`";
+		themeDivisor = new HashMap<Integer, Double>();
+		database_manager db = system_manager.getDb_mngr();
+		try {
+			db.query(query);
+			for(;db.getRs().next();){
+				int key = db.getRs().getInt("theme");
+				double value = (double)db.getRs().getInt("COUNT(*)");
+				themeDivisor.put(key, value);
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 	
 	/**
@@ -147,9 +171,9 @@ public class theme_recognizer {
 		this.themeKeywords = themeKeywords;
 	}
 
-	public int[][] fetchThemePoints() {
+	public double[][] fetchThemePoints() {
 		ArrayList<Integer> themes = new ArrayList<Integer>();
-		int[][] arrThemes;
+		double[][] arrThemes;
 		database_manager db = system_manager.getDb_mngr();
 		String query = "SELECT * FROM `tbltheme`";
 		try {
@@ -161,7 +185,7 @@ public class theme_recognizer {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		arrThemes = new int[themes.size()][2];
+		arrThemes = new double[themes.size()][2];
 		for(int i = 0; i < themes.size(); i++){
 			arrThemes[i][0] = themes.get(i);
 			arrThemes[i][1] = 0;
@@ -173,7 +197,7 @@ public class theme_recognizer {
 	 * 
 	 * @return themePoints
 	 */
-	public int[][] getThemePoints() {
+	public double[][] getThemePoints() {
 		return themePoints;
 	}
 
@@ -181,7 +205,7 @@ public class theme_recognizer {
 	 * 
 	 * @param themePoints
 	 */
-	public void setThemePoints(int[][] themePoints) {
+	public void setThemePoints(double[][] themePoints) {
 		this.themePoints = themePoints;
 	}
 
