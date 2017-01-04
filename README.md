@@ -14,4 +14,4 @@ Bachelor of Science in Computer Science
 
 On Collaboration
 
-01-04-2017
+Pulled
