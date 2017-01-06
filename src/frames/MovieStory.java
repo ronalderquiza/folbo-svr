@@ -202,7 +202,7 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 			taPlot.setFont(component_manager.getFontSmallPlain());
 			system_manager.getTheme_recog().execute(plot);
 			theme = system_manager.getTheme_recog().getTheme();
-			tfMovieTheme.setText(system_manager.getOutput_mngr().themes[theme-1]);
+			tfMovieTheme.setText(system_manager.getOutput_mngr().getThemes()[theme-1]);
 			taPlot.setEditable(false);
 		
 		

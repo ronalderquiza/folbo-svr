@@ -24,6 +24,11 @@ public class input_manager {
 		input = new Movie();
 	}
 
+	/**
+	 * @param title
+	 * @param plot
+	 * @param theme
+	 */
 	public void input_story(String title, String plot, int theme){
 		system_manager.getInput_mngr().getMovie().setTitle(title);
 		system_manager.getInput_mngr().getMovie().setPlot(plot);

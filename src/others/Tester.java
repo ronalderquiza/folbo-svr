@@ -5,17 +5,27 @@ import java.text.DecimalFormat;
 import objects.SVR;
 import objects.eSVR;
 
+/**
+ * @author		Ronald Erquiza
+ * Email:		ronalderquiza@gmail.com
+ * Filename:	Tester.java
+ * Description:	
+ * Version:		1.0.3
+ *
+ * @lastreview 
+ * 
+ */
 public class Tester {
-
-	/*private static String host = "jdbc:mysql://localhost/";
-	private static String database = "dbfolbo";
-	private static String user = "root";
-	private static String pass = "";
-	static database_manager dbmngr = new database_manager(host, database, user, pass);*/
+	/**
+	 * Initialize Tester
+	 */
 	public Tester() {
 		// TODO Auto-generated constructor stub
 	}
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args){
 		double[][] x = {{7}, {15}};
 		double[] y = {15, 44};

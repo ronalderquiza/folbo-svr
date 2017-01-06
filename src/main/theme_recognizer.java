@@ -43,6 +43,7 @@ public class theme_recognizer {
 	
 	/**
 	 * executes the theme recognizer
+	 * @param plot 
 	 */
 	public void execute(String plot){
 		ngram.setStart(1);
@@ -67,7 +68,7 @@ public class theme_recognizer {
 			for(int i = 0; i < themeKeywords.length; i++){
 				if(gram.equals(themeKeywords[i][KEYWORD])){
 					int theme = Integer.parseInt(themeKeywords[i][THEME]) - 1;
-					String themeName = system_manager.getOutput_mngr().themes[theme];
+					String themeName = system_manager.getOutput_mngr().getThemes()[theme];
 					System.out.println(gram + ">" + themeName + "[" + theme + "]");
 					double temp = themePoints[theme][POINTS];
 					themePoints[theme][POINTS] = temp + (double) ngram.get(gram);//themeDivisor.get(theme+1);
@@ -171,6 +172,9 @@ public class theme_recognizer {
 		this.themeKeywords = themeKeywords;
 	}
 
+	/**
+	 * @return arrThemes
+	 */
 	public double[][] fetchThemePoints() {
 		ArrayList<Integer> themes = new ArrayList<Integer>();
 		double[][] arrThemes;

@@ -38,11 +38,13 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 	JLabel labelBackground = new JLabel(cmpmngr.getIconBackground());
 	JLabel labelNext = new JLabel(cmpmngr.getIconNext());
 	JLabel labelBack = new JLabel(cmpmngr.getIconBack());
-	JLabel labelQuestion = new JLabel("MOVIE PRE-SEQUEL");
+	JLabel labelPrequelTitle = new JLabel("PREQUEL TITLE:");
+	JLabel labelTitle = new JLabel("MOVIE PREQUEL");
 	
 	JComboBox<String> cbMovieSequel = new JComboBox<String>();
 	JTextField text = (JTextField)cbMovieSequel.getEditor().getEditorComponent();
 	ArrayList<Integer> movieIDs = new ArrayList<Integer>();
+	
 	/**
 	 * initialize MoviePrequel
 	 */
@@ -58,18 +60,20 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/FoLBOLogo.png")));
 
 		this.add(labelBackground);
-		labelBackground.add(labelQuestion);
+		labelBackground.add(labelTitle);
 		labelBackground.add(labelCloseIcon);
 		labelBackground.add(labelMinimizeIcon);
 		labelBackground.add(labelNext);
 		labelBackground.add(labelBack);
 		labelBackground.add(cbMovieSequel);
+		labelBackground.add(labelPrequelTitle);
 		
 		labelCloseIcon.setBounds(495, 0, 50, 50);
 		labelMinimizeIcon.setBounds(460, 0, 50, 50);
 		labelNext.setBounds(430, 470, 80, 80);
 		labelBack.setBounds(20, 470, 80, 80);
-		labelQuestion.setBounds(125, 170, 500, 50);
+		labelTitle.setBounds(140, 110, 400, 50);
+		labelPrequelTitle.setBounds(60, 190, 420, 40);
 		cbMovieSequel.setBounds(60, 230, 420, 40);
 		
 		labelCloseIcon.setCursor(new Cursor(Cursor.HAND_CURSOR));
@@ -85,16 +89,16 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		
 		labelNext.setFont(component_manager.getFontMediumBold());
 		labelBack.setFont(component_manager.getFontMediumBold());
-		labelQuestion.setFont(component_manager.getFontXLargePlain());
+		labelTitle.setFont(component_manager.getFontXLargePlain());
 		cbMovieSequel.setFont(component_manager.getFontMediumPlain());
+		labelPrequelTitle.setFont(component_manager.getFontMediumBold());
 		
-		labelQuestion.setForeground(Color.white);
+		labelTitle.setForeground(Color.white);
+		labelPrequelTitle.setForeground(Color.white);
 		
-		cbMovieSequel.setEditable(true);
+		cbMovieSequel.setEditable(false);
 		
-		text.setText("");
-		text.addKeyListener(new ComboKeyHandler(cbMovieSequel));
-
+		AutoCompletion.enable(cbMovieSequel);
 		getDatabase();
 		
 		//LISTENERS

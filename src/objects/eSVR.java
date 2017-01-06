@@ -229,6 +229,7 @@ public class eSVR {
 	
 	/**
 	 * computes the certainty of the model
+	 * @param index 
 	 * @param inputs
 	 * @param actual
 	 * @return accuracy

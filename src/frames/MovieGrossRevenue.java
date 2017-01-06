@@ -44,8 +44,8 @@ public class MovieGrossRevenue extends JFrame implements MouseListener, MouseMot
 	private JLabel labelRevenue = new JLabel();
 	private JLabel labelFirstSentence = new JLabel();
 	
-	public JEditorPane taArtists = new JEditorPane();
-	JScrollPane scrollArtists = new JScrollPane(taArtists);
+	private JEditorPane taArtists = new JEditorPane();
+	JScrollPane scrollArtists = new JScrollPane(getTaArtists());
 	int counter;
 
 
@@ -61,7 +61,7 @@ public class MovieGrossRevenue extends JFrame implements MouseListener, MouseMot
 		this.setUndecorated(true);
 		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/FoLBOLogo.png")));
 		this.getRootPane().setBorder(BorderFactory.createMatteBorder(2, 2, 2, 2, Color.DARK_GRAY));
-		this.taArtists.setEditable(false);
+		this.getTaArtists().setEditable(false);
 		this.scrollArtists.setWheelScrollingEnabled(true);
 		this.scrollArtists.setBorder(null);
 	
@@ -94,7 +94,7 @@ public class MovieGrossRevenue extends JFrame implements MouseListener, MouseMot
 		
 		labelMovieGrossRevenue.setForeground(Color.white);
 		getLabelFirstSentence().setForeground(Color.white);
-		taArtists.setForeground(Color.white);
+		getTaArtists().setForeground(Color.white);
 		labelTitle.setForeground(Color.white);
 		
 		labelTitle.setFont(component_manager.getFontXLargePlain());
@@ -103,12 +103,12 @@ public class MovieGrossRevenue extends JFrame implements MouseListener, MouseMot
 		labelReset.setFont(component_manager.getFontLargeBold());
 		getLabelRevenue().setFont(component_manager.getFontXXLargeBold());
 		getLabelFirstSentence().setFont(component_manager.getFontMediumPlain());
-		taArtists.setFont(component_manager.getFontMediumPlain());
+		getTaArtists().setFont(component_manager.getFontMediumPlain());
 		labelHome.setBackground(Color.white);
 		labelReset.setBackground(Color.white);
-		taArtists.setBackground(Color.black);
+		getTaArtists().setBackground(Color.black);
 		
-		taArtists.setContentType("text/html");
+		getTaArtists().setContentType("text/html");
 		
 		scrollArtists.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
 		scrollArtists.getViewport().setOpaque(false);
@@ -244,6 +244,20 @@ public class MovieGrossRevenue extends JFrame implements MouseListener, MouseMot
 	 */
 	public void setLabelRevenue(JLabel labelRevenue) {
 		this.labelRevenue = labelRevenue;
+	}
+
+	/**
+	 * @return the taArtists
+	 */
+	public JEditorPane getTaArtists() {
+		return taArtists;
+	}
+
+	/**
+	 * @param taArtists the taArtists to set
+	 */
+	public void setTaArtists(JEditorPane taArtists) {
+		this.taArtists = taArtists;
 	}
 
 }

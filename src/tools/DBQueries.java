@@ -4,15 +4,33 @@ import main.system_manager;
 import objects.Movie;
 import objects.MovieInfo;
 
+/**
+ * @author		Ronald Erquiza
+ * Email:		ronalderquiza@gmail.com
+ * Filename:	DBQueries.java
+ * Description:	
+ * Version:		1.0.1
+ *
+ * @lastreview 
+ * 
+ */
+
 public class DBQueries {
 
 	Movie movie = system_manager.getInput_mngr().getMovie();
 	int currYear = system_manager.getCurrYear();
 	
+	/**
+	 * Initialize DBQueries
+	 */
 	public DBQueries() {
 		// TODO Auto-generated constructor stub
 	}
 
+	/**
+	 * @param gender
+	 * @return queries
+	 */
 	public String[] getArtistDataQueries(int gender){
 		MovieInfo movieInfo = movie.getMovieInfo();
 		String query1 = "SELECT * FROM `tblartist` " + "INNER JOIN `tblartistmovie` ON "
@@ -105,6 +123,9 @@ public class DBQueries {
 		}
 	}	
 	
+	/**
+	 * @return queries
+	 */
 	public String[] getTrainingDataQueries(){
 		String q1 = "SELECT * FROM `tblmovie` WHERE "
 				+ "(`theme` = " + movie.getMovieInfo().getTheme() + " OR "
