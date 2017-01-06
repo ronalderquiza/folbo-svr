@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 /.classpath
 /.project
 /new
 /new.pub
 /bin/
+=======
+.classpath
+.project
+/bin/
+new
+new.pub
+>>>>>>> master
