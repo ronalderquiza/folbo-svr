@@ -15,3 +15,4 @@ Bachelor of Science in Computer Science
 --
 
 To use FoLBO System, database should be installed first.
+Uses Java Runtime Environment 7
