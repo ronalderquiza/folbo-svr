@@ -1,17 +1,9 @@
 # Forecasting pre-produced Local Box-Office Revenue Using epsilon-Support Vector Regression
 
-Forecasting Pre-Produced Local Box Office Revenue using 
-epsilon-Support Vector Regression
+Forecasting Pre-Produced Local Box Office Revenue using Epsilon-Support Vector Regression
 
-A Thesis
-Presented to the Faculty of the
-College of Computer and Information Sciences
-Polytechnic University of the Philippines
-
-In Partial Fulfillment
-of the Requirements for the Degree
-Bachelor of Science in Computer Science
+This system is an expert system with Support Vector Machine algorithm that tends to predict estimated total gross revenue for pre-produced movies using historical IMDB data analysis regarding specific characteristics, such as movie’s genre, sequel, origin, cast, director, producer and other relevant data.
 
 On Collaboration
 
-Pulled
+Last Updated: January 6, 2017 10:07PM
