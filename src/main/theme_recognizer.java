@@ -70,7 +70,7 @@ public class theme_recognizer {
 					String themeName = system_manager.getOutput_mngr().themes[theme];
 					System.out.println(gram + ">" + themeName + "[" + theme + "]");
 					double temp = themePoints[theme][POINTS];
-					themePoints[theme][POINTS] = temp + (double) ngram.get(gram)/themeDivisor.get(theme+1);
+					themePoints[theme][POINTS] = temp + (double) ngram.get(gram);//themeDivisor.get(theme+1);
 				}
 			}
 		}
