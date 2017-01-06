@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 27, 2016 at 04:41 AM
+-- Generation Time: Jan 04, 2017 at 06:11 AM
 -- Server version: 5.6.26
 -- PHP Version: 5.5.28
 
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `tblkeywords` (
   `keywordID` int(11) NOT NULL,
   `keyword` varchar(50) NOT NULL,
   `theme` int(11) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=205 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=213 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblkeywords`
@@ -59,9 +59,6 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (20, 'spirit', 4),
 (21, 'hospital', 4),
 (22, 'life', 4),
-(23, 'love', 5),
-(24, 'life', 5),
-(25, 'ex', 5),
 (26, 'anger', 6),
 (27, 'leading', 6),
 (28, 'plan', 6),
@@ -73,13 +70,11 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (34, 'way', 7),
 (35, 'life', 7),
 (36, 'cured', 7),
-(37, 'love', 7),
 (38, 'healing', 7),
 (39, 'church', 7),
 (40, 'health', 7),
 (41, 'family', 8),
 (42, 'mother', 8),
-(43, 'love', 8),
 (44, 'daughter', 8),
 (45, 'children', 8),
 (46, 'life', 8),
@@ -88,7 +83,6 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (49, 'story', 8),
 (50, 'husband', 8),
 (51, 'lives', 8),
-(52, 'wedding', 8),
 (53, 'married', 8),
 (54, 'soul', 8),
 (55, 'man', 8),
@@ -96,7 +90,6 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (57, 'happy', 8),
 (58, 'business', 8),
 (59, 'parents', 8),
-(60, 'young', 8),
 (61, 'wife', 8),
 (62, 'friend', 8),
 (63, 'sisters', 8),
@@ -110,9 +103,7 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (71, 'unlucky', 9),
 (72, 'negative', 9),
 (73, 'others', 10),
-(74, 'family', 10),
-(75, 'friends', 10),
-(76, 'girlfriend', 10),
+(75, 'friend', 10),
 (77, 'gang', 10),
 (78, 'love', 10),
 (79, 'school', 10),
@@ -127,13 +118,11 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (88, 'money', 11),
 (89, 'corruption', 11),
 (90, 'affair', 11),
-(91, 'continues', 11),
 (92, 'bitter', 12),
 (93, 'hatred', 12),
 (94, 'hate', 12),
 (95, 'hope', 13),
 (96, 'dreams', 13),
-(97, 'love', 13),
 (98, 'family', 13),
 (99, 'life', 13),
 (100, 'help', 13),
@@ -240,7 +229,15 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (201, 'cops', 24),
 (202, 'general', 24),
 (203, 'officers', 24),
-(204, 'stabbed', 24);
+(204, 'stabbed', 24),
+(205, 'romantic', 17),
+(206, 'ex', 17),
+(207, 'true love', 17),
+(208, 'concede', 1),
+(209, 'endure', 1),
+(210, 'approve', 1),
+(211, 'consent', 1),
+(212, 'defense', 16);
 
 --
 -- Indexes for dumped tables
@@ -260,7 +257,7 @@ ALTER TABLE `tblkeywords`
 -- AUTO_INCREMENT for table `tblkeywords`
 --
 ALTER TABLE `tblkeywords`
-  MODIFY `keywordID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=205;
+  MODIFY `keywordID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=213;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
