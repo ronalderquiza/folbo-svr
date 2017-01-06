@@ -50,7 +50,7 @@ public class MovieSequel extends JFrame implements MouseListener, MouseMotionLis
 	    this.setResizable(false);
 		this.setLocationRelativeTo(null);
 		this.getRootPane().setBorder(BorderFactory.createMatteBorder(2, 2, 2, 2, Color.DARK_GRAY));
-		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/FoLBOLogo.png")));
+		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/Others/FoLBO_Logo.png")));
 
 		this.add(labelBackground);
 		labelBackground.add(labelCloseIcon);
