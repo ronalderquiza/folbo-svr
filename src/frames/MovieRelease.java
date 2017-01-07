@@ -57,7 +57,7 @@ public class MovieRelease extends JFrame implements MouseListener, MouseMotionLi
 		this.setResizable(false);
 		this.setLocationRelativeTo(null);
 		this.setUndecorated(true);
-		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/FoLBOLogo.png")));
+		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/Others/FoLBO_Logo.png")));
 		this.getRootPane().setBorder(BorderFactory.createMatteBorder(2, 2, 2, 2, Color.DARK_GRAY));
 		this.setVisible(false);
 		

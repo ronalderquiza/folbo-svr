@@ -128,10 +128,16 @@ public class Movie {
 				"\n\t}";
 	}
 
+	/**
+	 * @return prequel
+	 */
 	public int getPrequel() {
 		return prequel;
 	}
 
+	/**
+	 * @param prequel
+	 */
 	public void setPrequel(int prequel) {
 		this.prequel = prequel;
 	}

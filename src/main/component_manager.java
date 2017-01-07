@@ -32,32 +32,34 @@ public class component_manager extends JFrame{
 	private static Font fontXXLargeBold = new Font("Rockwell", Font.PLAIN, 40); //fontHeader1
 	
 	//ICONS
-	private Icon iconCloseIcon = new ImageIcon(getClass().getResource("/frames/Photos/Close_Icon.png"));
-	private Icon iconMinimizeIcon = new ImageIcon(getClass().getResource("/frames/Photos/Minimize_Icon.png"));
-	private Icon iconBackground = new ImageIcon(getClass().getResource("/frames/Photos/Background_3.png"));
-	private Icon iconBack = new ImageIcon(getClass().getResource("/frames/Photos/Back.png"));
-	private Icon iconNext = new ImageIcon(getClass().getResource("/frames/Photos/Next.png"));
-	
+	private Icon iconCloseIcon = new ImageIcon(getClass().getResource("/frames/Photos/Icons/Close_Icon.png"));
+	private Icon iconMinimizeIcon = new ImageIcon(getClass().getResource("/frames/Photos/Icons/Minimize_Icon.png"));
+	private Icon iconBackground = new ImageIcon(getClass().getResource("/frames/Photos/Backgrounds/Background_3.png"));
+	private Icon iconBack = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Back_90x90.png"));
+	private Icon iconNext = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Next_90x90.png"));
 	
 	// HOME ICONS
-	private Icon iconTitleHome = new ImageIcon(getClass().getResource("/frames/Photos/TitleHome.png"));
-	private Icon iconInfo = new ImageIcon(getClass().getResource("/frames/Photos/Info.png"));
-	private Icon iconInfoHover = new ImageIcon(getClass().getResource("/frames/Photos/Info_Hover.png"));
-	private Icon iconStart = new ImageIcon(getClass().getResource("/frames/Photos/Start.png"));
-	private Icon iconStartHover = new ImageIcon(getClass().getResource("/frames/Photos/Start_Hover.png"));
-	private Icon iconExit = new ImageIcon(getClass().getResource("/frames/Photos/Exit.png"));
-	private Icon iconExitHover = new ImageIcon(getClass().getResource("/frames/Photos/Exit_Hover.png"));
+	private Icon iconTitleHome = new ImageIcon(getClass().getResource("/frames/Photos/Texts/Title.png"));
+	private Icon iconInfo = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Info_80x80.png"));
+	private Icon iconInfoHover = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Info_80x80_Hover.png"));
+	private Icon iconStart = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Start_80x80.png"));
+	private Icon iconStartHover = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Start_80x80_Hover.png"));
+	private Icon iconExit = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Exit_80x80.png"));
+	private Icon iconExitHover = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Exit_80x80_Hover.png"));
 	
 	//ABOUT ICONS
-	private Icon iconTitleMovieAbout = new ImageIcon(getClass().getResource("/frames/Photos/About.png"));
+	private Icon iconTitleMovieAbout = new ImageIcon(getClass().getResource("/frames/Photos/Texts/About.png"));
+	private Icon iconPokemonRun = new ImageIcon(getClass().getResource("/frames/Photos/Others/FoLBO_PokemonRun.gif"));
 
 	// GROSS REVENUE ICONS
-	private Icon iconGrossRevBackground = new ImageIcon(getClass().getResource("/frames/Photos/Background_3_1.png"));
-	private Icon iconMovieGrossRevenue = new ImageIcon(getClass().getResource("/frames/Photos/GrossRevenueMovieIcon.png"));
-	private Icon iconReset = new ImageIcon(getClass().getResource("/frames/Photos/Reset.png"));
-	private Icon iconResetHover = new ImageIcon(getClass().getResource("/frames/Photos/Reset_Hover.png"));
-	private Icon iconHome = new ImageIcon(getClass().getResource("/frames/Photos/Home.png"));
-	private Icon iconHomeHover = new ImageIcon(getClass().getResource("/frames/Photos/Home_Hover.png"));
+	private Icon iconGrossRevBackground = new ImageIcon(getClass().getResource("/frames/Photos/Backgrounds/Background_3_1.png"));
+	private Icon iconReset = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Reset_60x60.png"));
+	private Icon iconResetHover = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Reset_60x60_Hover.png"));
+	private Icon iconHome = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Home_60x60.png"));
+	private Icon iconHomeHover = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Home_60x60_Hover.png"));
+	private Icon iconGRExit = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Exit_60x60.png"));
+	private Icon iconGRExitHover = new ImageIcon(getClass().getResource("/frames/Photos/Buttons/Exit_60x60_Hover.png"));
+	private Icon iconMovieClip = new ImageIcon(getClass().getResource("/frames/Photos/Others/FoLBO_Movie_Clip.gif"));
 	
 	//JLABEL
 	private JLabel labelMinimizeIcon = new JLabel(getIconMinimizeIcon());
@@ -376,20 +378,6 @@ public class component_manager extends JFrame{
 	}
 
 	/**
-	 * @return the iconMovieGrossRevenue
-	 */
-	public Icon getIconMovieGrossRevenue() {
-		return iconMovieGrossRevenue;
-	}
-
-	/**
-	 * @param iconMovieGrossRevenue the iconMovieGrossRevenue to set
-	 */
-	public void setIconMovieGrossRevenue(Icon iconMovieGrossRevenue) {
-		this.iconMovieGrossRevenue = iconMovieGrossRevenue;
-	}
-
-	/**
 	 * @return the iconReset
 	 */
 	public Icon getIconReset() {
@@ -613,5 +601,60 @@ public class component_manager extends JFrame{
 		component_manager.fontXXLargeBold = fontXXLargeBold;
 	}
 
+	/**
+	 * @return the iconMovieClip
+	 */
+	public Icon getIconMovieClip() {
+		return iconMovieClip;
+	}
+
+	/**
+	 * @param iconMovieClip the iconMovieClip to set
+	 */
+	public void setIconMovieClip(Icon iconMovieClip) {
+		this.iconMovieClip = iconMovieClip;
+	}
+
+	/**
+	 * @return the iconPokemonRun
+	 */
+	public Icon getIconPokemonRun() {
+		return iconPokemonRun;
+	}
+
+	/**
+	 * @param iconPokemonRun the iconPokemonRun to set
+	 */
+	public void setIconPokemonRun(Icon iconPokemonRun) {
+		this.iconPokemonRun = iconPokemonRun;
+	}
+
+	/**
+	 * @return the iconGRExit
+	 */
+	public Icon getIconGRExit() {
+		return iconGRExit;
+	}
+
+	/**
+	 * @param iconGRExit the iconGRExit to set
+	 */
+	public void setIconGRExit(Icon iconGRExit) {
+		this.iconGRExit = iconGRExit;
+	}
+
+	/**
+	 * @return the iconGRExitHover
+	 */
+	public Icon getIconGRExitHover() {
+		return iconGRExitHover;
+	}
+
+	/**
+	 * @param iconGRExitHover the iconGRExitHover to set
+	 */
+	public void setIconGRExitHover(Icon iconGRExitHover) {
+		this.iconGRExitHover = iconGRExitHover;
+	}
 
 }

@@ -21,10 +21,10 @@ import main.system_manager;
  * 
  */
 public class output_manager {
-	public String[] themes;
-	public String[] genres;
-	public String[] producers;
-	public String[] directors;
+	private String[] themes;
+	private String[] genres;
+	private String[] producers;
+	private String[] directors;
 	private HashMap<Integer, String> artistNames;
 	
 	/**
@@ -33,10 +33,10 @@ public class output_manager {
 	public output_manager() {
 		// TODO Auto-generated constructor stub
 		system_manager.getSplashscreen().setLabel("Initializing output manager...");
-		themes = getList("tbltheme", "theme");
-		genres = getList("tblgenre", "genre");
-		producers = getList("tblprodcompany", "prodCompany");
-		directors = getList("tbldirector", "directorName");
+		setThemes(getList("tbltheme", "theme"));
+		setGenres(getList("tblgenre", "genre"));
+		setProducers(getList("tblprodcompany", "prodCompany"));
+		setDirectors(getList("tbldirector", "directorName"));
 		setArtistNames(getListHM("tblartist", "artistID", "artistName"));
 	}
 	
@@ -60,24 +60,24 @@ public class output_manager {
 		String css = "text-align: center;";
 		DecimalFormat dFormat = new DecimalFormat("#,###.##");
 		String movieSummary1 = "<html><div style='" + css + "'> THE MOVIE THAT WILL" + " BE PRODUCED IS," + "<br>" + "<h2><font color = '#2ecc71'>" +
-				movieTitle + "</h2></font>" +  "that has <b>'" + themes[theme] + "'</b></font> theme" + "<br>" +
-              "It is a <b>" + genres[mainGenre] + "</b>" + " film" + "<br>" + "<br>" + 
-              "Directed by <b>" + directors[director] + "</b> " + "<br>" +
-              "Produced by <b>" + producers[producer] + "</b> " + "<br>" +
-              "Distributed by <b>" + producers[distributor] + "</b> " + "<br>" +
+				movieTitle + "</h2></font>" +  "that has <b>'" + getThemes()[theme] + "'</b></font> theme" + "<br>" +
+              "It is a <b>" + getGenres()[mainGenre] + "</b>" + " film" + "<br>" + "<br>" + 
+              "Directed by <b>" + getDirectors()[director] + "</b> " + "<br>" +
+              "Produced by <b>" + getProducers()[producer] + "</b> " + "<br>" +
+              "Distributed by <b>" + getProducers()[distributor] + "</b> " + "<br>" +
               "</div></html>";
 
 		String movieSummary2 = "<html><div style='" + css + "'> THE MOVIE THAT WILL" + " BE PRODUCED IS," + "<br>" + "<h2><font color = '#2ecc71'>" +
-				movieTitle + "</h2></font>" +  "that has <b>'" + themes[theme] + "'</b></font> theme" + "<br>" +
-              "It is a <b>" + genres[mainGenre] + "</b> and <b>" + genres[subGenre] + "</b> " + "film" + "<br>" + "<br>" + 
-              "Directed by <b>" + directors[director] + "</b> " + "<br>" +
-              "Produced by <b>" + producers[producer] + "</b> " + "<br>" +
-              "Distributed by <b>" + producers[distributor] + "</b> " + "<br>" 
+				movieTitle + "</h2></font>" +  "that has <b>'" + getThemes()[theme] + "'</b></font> theme" + "<br>" +
+              "It is a <b>" + getGenres()[mainGenre] + "</b> and <b>" + getGenres()[subGenre] + "</b> " + "film" + "<br>" + "<br>" + 
+              "Directed by <b>" + getDirectors()[director] + "</b> " + "<br>" +
+              "Produced by <b>" + getProducers()[producer] + "</b> " + "<br>" +
+              "Distributed by <b>" + getProducers()[distributor] + "</b> " + "<br>" 
               + "</div></html>";
 		
 		String wholetext = "";
 		
-		if(genres[mainGenre] == genres[subGenre]) {
+		if(getGenres()[mainGenre] == getGenres()[subGenre]) {
 			wholetext = "<html><div style='text-align: center;'>" + movieSummary1 + "</div></html>";
 		} if(subGenre == 0) {
 			wholetext = "<html><div style='text-align: center;'>" + movieSummary1 + "</div></html>";
@@ -100,7 +100,7 @@ public class output_manager {
 		}
 		currString = currString + "</div> </font></html>";
 		
-		GUI_manager.getMovieGrossRevenue().taArtists.setText(currString);
+		GUI_manager.getMovieGrossRevenue().getTaArtists().setText(currString);
 	}
 	
 	/**
@@ -132,6 +132,7 @@ public class output_manager {
 	/**
 	 * getting the data
 	 * @param tblName
+	 * @param colID 
 	 * @param colName
 	 * @return result
 	 */
@@ -164,6 +165,62 @@ public class output_manager {
 	 */
 	public void setArtistNames(HashMap<Integer, String> artistNames) {
 		this.artistNames = artistNames;
+	}
+
+	/**
+	 * @return the themes
+	 */
+	public String[] getThemes() {
+		return themes;
+	}
+
+	/**
+	 * @param themes the themes to set
+	 */
+	public void setThemes(String[] themes) {
+		this.themes = themes;
+	}
+
+	/**
+	 * @return the genres
+	 */
+	public String[] getGenres() {
+		return genres;
+	}
+
+	/**
+	 * @param genres the genres to set
+	 */
+	public void setGenres(String[] genres) {
+		this.genres = genres;
+	}
+
+	/**
+	 * @return the producers
+	 */
+	public String[] getProducers() {
+		return producers;
+	}
+
+	/**
+	 * @param producers the producers to set
+	 */
+	public void setProducers(String[] producers) {
+		this.producers = producers;
+	}
+
+	/**
+	 * @return the directors
+	 */
+	public String[] getDirectors() {
+		return directors;
+	}
+
+	/**
+	 * @param directors the directors to set
+	 */
+	public void setDirectors(String[] directors) {
+		this.directors = directors;
 	}
 	
 }

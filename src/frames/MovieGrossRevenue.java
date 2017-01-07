@@ -33,17 +33,19 @@ public class MovieGrossRevenue extends JFrame implements MouseListener, MouseMot
 	
 	JLabel labelMinimizeIcon = new JLabel(cmpmngr.getIconMinimizeIcon());
 	JLabel labelCloseIcon = new JLabel(cmpmngr.getIconCloseIcon());
-	JLabel labelMovieGrossRevenue = new JLabel(cmpmngr.getIconMovieGrossRevenue());
 	JLabel labelBackground = new JLabel(cmpmngr.getIconGrossRevBackground());
 	JLabel labelHome = new JLabel(cmpmngr.getIconHome());
 	JLabel labelReset = new JLabel(cmpmngr.getIconReset());
-	JLabel labelExit = new JLabel(cmpmngr.getIconExit());
-	JLabel labelExitHover = new JLabel(cmpmngr.getIconExitHover());
+	JLabel labelExit = new JLabel(cmpmngr.getIconGRExit());
+	JLabel labelExitHover = new JLabel(cmpmngr.getIconGRExitHover());
 	JLabel labelTitle = new JLabel("BOX OFFICE REVENUE");
 	JLabel labelSuggestedArtists = new JLabel("Suggested Artists:");
 	private JLabel labelRevenue = new JLabel();
 	private JLabel labelFirstSentence = new JLabel();
 	
+	/**
+	 * 
+	 */
 	public JEditorPane taArtists = new JEditorPane();
 	JScrollPane scrollArtists = new JScrollPane(taArtists);
 	int counter;
@@ -59,7 +61,7 @@ public class MovieGrossRevenue extends JFrame implements MouseListener, MouseMot
 		this.setResizable(false);
 		this.setLocationRelativeTo(null);
 		this.setUndecorated(true);
-		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/FoLBOLogo.png")));
+		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/Others/FoLBO_Logo.png")));
 		this.getRootPane().setBorder(BorderFactory.createMatteBorder(2, 2, 2, 2, Color.DARK_GRAY));
 		this.taArtists.setEditable(false);
 		this.scrollArtists.setWheelScrollingEnabled(true);
@@ -92,7 +94,6 @@ public class MovieGrossRevenue extends JFrame implements MouseListener, MouseMot
 		labelExit.setCursor(new Cursor(Cursor.HAND_CURSOR));
 		labelReset.setCursor(new Cursor(Cursor.HAND_CURSOR));
 		
-		labelMovieGrossRevenue.setForeground(Color.white);
 		getLabelFirstSentence().setForeground(Color.white);
 		taArtists.setForeground(Color.white);
 		labelTitle.setForeground(Color.white);
@@ -128,6 +129,7 @@ public class MovieGrossRevenue extends JFrame implements MouseListener, MouseMot
 		
 	}
 	
+
 	@Override
 	public void mouseDragged(MouseEvent arg0) {
 		if(arg0.getSource() == this) {
@@ -244,6 +246,20 @@ public class MovieGrossRevenue extends JFrame implements MouseListener, MouseMot
 	 */
 	public void setLabelRevenue(JLabel labelRevenue) {
 		this.labelRevenue = labelRevenue;
+	}
+
+	/**
+	 * @return the taArtists
+	 */
+	public JEditorPane getTaArtists() {
+		return taArtists;
+	}
+
+	/**
+	 * @param taArtists the taArtists to set
+	 */
+	public void setTaArtists(JEditorPane taArtists) {
+		this.taArtists = taArtists;
 	}
 
 }

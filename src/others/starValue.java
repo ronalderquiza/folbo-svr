@@ -6,6 +6,17 @@ import java.util.HashMap;
 
 import main.database_manager;
 
+/**
+ * @author		Ronald Erquiza
+ * Email:		ronalderquiza@gmail.com
+ * Filename:	starValue.java
+ * Description:	
+ * Version:		1.0.1
+ *
+ * @lastreview 
+ * 
+ */
+
 public class starValue {
 	static String host = "jdbc:mysql://localhost/";
 	static String database = "dbfolbo";
@@ -14,10 +25,16 @@ public class starValue {
 	static database_manager db = new database_manager(host, database, user, pass);
 	static HashMap<Integer, Double> artistmovie = new HashMap<Integer, Double>();
 	
+	/**
+	 * Initialize starValue
+	 */
 	public starValue() {
 		// TODO Auto-generated constructor stub
 	}
 	
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args){
 		for(int year = 2012; year <= 2012; year++){
 			artistmovie.clear();
@@ -105,6 +122,10 @@ public class starValue {
 		return star;
 	}
 	
+	/**
+	 * @param year
+	 * @return movies
+	 */
 	public static ArrayList<Integer> moviesToBeUpdated(int year){
 		ArrayList<Integer> movies = new ArrayList<Integer>();
 		String query = "SELECT `movieID` FROM `tblmovie` WHERE `year` = " + year;
@@ -121,6 +142,9 @@ public class starValue {
 		return movies;
 	}
 	
+	/**
+	 * @param year
+	 */
 	public static void collectArtistMovie(int year){
 		double divisor = 100000000;
 		String query = "SELECT SUM(`grossRevenue`), `artistID`, "
@@ -145,6 +169,9 @@ public class starValue {
 		
 	}
 	
+	/**
+	 * @return max
+	 */
 	public static double standarddev(){
 		double max = 0;
 		for(int num: artistmovie.keySet()){
@@ -155,6 +182,9 @@ public class starValue {
 		return max;
 	}
 	
+	/**
+	 * @return mu
+	 */
 	public static double mu(){
 		double sum = 0;
 		double len = artistmovie.size();
@@ -165,6 +195,11 @@ public class starValue {
 		return sum/len;
 	}
 	
+	/**
+	 * @param x
+	 * @param stdev
+	 * @return percentage
+	 */
 	public static double percentage(double x, double stdev){
 		return (x/stdev) * 10;
 	}
