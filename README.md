@@ -12,4 +12,6 @@ In Partial Fulfillment
 of the Requirements for the Degree
 Bachelor of Science in Computer Science
 
-On Collaboration
+--
+
+To use FoLBO System, database should be installed first.
