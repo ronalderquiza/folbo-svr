@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 04, 2017 at 06:11 AM
+-- Generation Time: Jan 08, 2017 at 05:25 PM
 -- Server version: 5.6.26
 -- PHP Version: 5.5.28
 
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `tblkeywords` (
   `keywordID` int(11) NOT NULL,
   `keyword` varchar(50) NOT NULL,
   `theme` int(11) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=213 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=304 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblkeywords`
@@ -46,8 +46,6 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (7, 'learn', 3),
 (8, 'break up', 3),
 (9, 'killed', 4),
-(10, 'house', 4),
-(11, 'help', 4),
 (12, 'body', 4),
 (13, 'leave', 4),
 (14, 'death', 4),
@@ -82,7 +80,6 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (48, 'son', 8),
 (49, 'story', 8),
 (50, 'husband', 8),
-(51, 'lives', 8),
 (53, 'married', 8),
 (54, 'soul', 8),
 (55, 'man', 8),
@@ -91,7 +88,6 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (58, 'business', 8),
 (59, 'parents', 8),
 (61, 'wife', 8),
-(62, 'friend', 8),
 (63, 'sisters', 8),
 (64, 'child', 8),
 (65, 'curse', 9),
@@ -103,7 +99,6 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (71, 'unlucky', 9),
 (72, 'negative', 9),
 (73, 'others', 10),
-(75, 'friend', 10),
 (77, 'gang', 10),
 (78, 'love', 10),
 (79, 'school', 10),
@@ -123,7 +118,6 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (94, 'hate', 12),
 (95, 'hope', 13),
 (96, 'dreams', 13),
-(98, 'family', 13),
 (99, 'life', 13),
 (100, 'help', 13),
 (101, 'heart', 13),
@@ -201,7 +195,6 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (173, 'angry', 22),
 (174, 'seeking', 22),
 (175, 'sacrifice', 23),
-(176, 'family', 23),
 (177, 'work', 23),
 (178, 'life', 23),
 (179, 'hard', 23),
@@ -237,7 +230,98 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (209, 'endure', 1),
 (210, 'approve', 1),
 (211, 'consent', 1),
-(212, 'defense', 16);
+(212, 'defense', 16),
+(213, 'conjuring', 4),
+(214, 'accident', 4),
+(215, 'torture', 4),
+(216, 'mysterious', 4),
+(217, 'terrify', 4),
+(218, 'ghost', 4),
+(219, 'haunt', 4),
+(220, 'assassinated', 4),
+(221, 'corpse', 4),
+(222, 'suicide', 4),
+(223, 'vengeance ', 4),
+(224, 'blood', 4),
+(225, 'strange', 4),
+(226, 'evil', 4),
+(227, 'tragic', 4),
+(228, 'victim', 4),
+(229, 'murder', 4),
+(230, 'nightmare', 4),
+(231, 'brother', 8),
+(232, 'siblings', 8),
+(233, 'boy', 8),
+(234, 'girl', 8),
+(235, 'prince', 8),
+(236, 'princess', 8),
+(237, 'queen', 8),
+(238, 'king', 8),
+(239, 'father''s', 8),
+(240, 'mother''s', 8),
+(241, 'reunion', 8),
+(242, 'reunited', 8),
+(243, 'supernatural', 14),
+(244, 'reveal', 14),
+(245, 'abilities', 14),
+(246, 'ability', 14),
+(247, 'vow', 17),
+(248, 'vowing', 17),
+(249, 'forever', 17),
+(250, 'married', 17),
+(251, 'fall', 17),
+(252, 'falls', 17),
+(253, 'man', 17),
+(254, 'woman', 17),
+(255, 'friendship', 10),
+(256, 'bond', 10),
+(257, 'accompanies', 10),
+(258, 'accompany', 10),
+(259, 'guy', 17),
+(260, 'bestfriend', 17),
+(261, 'friend', 17),
+(262, 'forever', 10),
+(263, 'men', 10),
+(264, 'women', 10),
+(265, 'woman', 10),
+(266, 'man', 10),
+(267, 'abandon', 4),
+(268, 'abandoned', 4),
+(269, 'deathly', 4),
+(270, 'engkanto', 4),
+(271, 'spell', 4),
+(272, 'attack', 4),
+(273, 'attacks', 4),
+(274, 'killing', 4),
+(275, 'dies', 4),
+(276, 'disabling', 4),
+(277, 'survive', 4),
+(278, 'survivor', 4),
+(279, 'lost', 4),
+(280, 'survivors', 4),
+(281, 'house', 4),
+(282, 'defend', 4),
+(283, 'defending', 4),
+(284, 'reunite', 10),
+(285, 'reunites', 10),
+(286, 'boyfriend', 17),
+(287, 'girlfriend', 17),
+(288, 'feeling', 17),
+(289, 'develop', 17),
+(290, 'develops', 17),
+(291, 'heart', 17),
+(292, 'dedicate', 17),
+(293, 'dedicated', 17),
+(294, 'dedicates', 17),
+(295, 'best', 17),
+(296, 'heartbreak', 17),
+(297, 'husband', 17),
+(298, 'wife', 17),
+(299, 'Tiyanak', 4),
+(300, 'Tiyanaks', 4),
+(301, 'relationships', 17),
+(302, 'attraction', 17),
+(303, 'attract', 17);
 
 --
 -- Indexes for dumped tables
@@ -257,7 +341,7 @@ ALTER TABLE `tblkeywords`
 -- AUTO_INCREMENT for table `tblkeywords`
 --
 ALTER TABLE `tblkeywords`
-  MODIFY `keywordID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=213;
+  MODIFY `keywordID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=304;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
