@@ -34,6 +34,7 @@ public class MovieAbout extends JFrame implements MouseListener, MouseMotionList
 	JLabel labelBack = new JLabel(cmpmngr.getIconBack());
 	JLabel labelBackground = new JLabel(cmpmngr.getIconBackground());
 	JLabel labelTitle = new JLabel(cmpmngr.getIconTitleMovieAbout());	
+	JLabel labelPokemonRun = new JLabel(cmpmngr.getIconPokemonRun());	
 	
 	JButton buttonYes = new JButton("YES");
 	JButton buttonNo = new JButton("NO");
@@ -51,16 +52,18 @@ public class MovieAbout extends JFrame implements MouseListener, MouseMotionList
 		this.setLocationRelativeTo(null);
 		this.getRootPane().setBorder(BorderFactory.createMatteBorder(2, 2, 2, 2, Color.DARK_GRAY));
 		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/Others/FoLBO_Logo.png")));
-		
+
 		this.add(labelBackground);
 		labelBackground.add(labelCloseIcon);
 		labelBackground.add(labelTitle);
 		labelBackground.add(labelBack);
 		labelBackground.add(labelMinimizeIcon);
+		labelBackground.add(labelPokemonRun);
 		
 		labelCloseIcon.setBounds(495, 0, 50, 50);
 		labelMinimizeIcon.setBounds(460, 0, 50, 50);
-		labelTitle.setBounds(25, 70, 500, 400);
+		labelTitle.setBounds(25, 90, 500, 400);
+		labelPokemonRun.setBounds(180, 70, 150, 150);
 		labelBack.setBounds(20, 470, 80, 80);
 		
 		labelCloseIcon.setCursor(new Cursor(Cursor.HAND_CURSOR));
