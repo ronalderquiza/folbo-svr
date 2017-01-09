@@ -268,7 +268,7 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 			dbmngr.query(query);
 			for (; dbmngr.getRs().next();) {				
 				if(!containing(all,dbmngr.getRs().getInt("movieID"))) {
-					cbMovieSequel.addItem((("(" + dbmngr.getRs().getInt("year") + ") " + dbmngr.getRs().getString("movieTitle"))));
+					cbMovieSequel.addItem(((dbmngr.getRs().getString("movieTitle")) + "(" + dbmngr.getRs().getInt("year") + ") "));
 					movieIDs.add(dbmngr.getRs().getInt("movieID"));
 				}
 			}

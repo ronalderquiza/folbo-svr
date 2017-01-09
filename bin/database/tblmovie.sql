@@ -3,11 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
-<<<<<<< HEAD
--- Generation Time: Jan 08, 2017 at 05:25 PM
-=======
 -- Generation Time: Jan 09, 2017 at 08:53 AM
->>>>>>> katrina
 -- Server version: 5.6.26
 -- PHP Version: 5.5.28
 

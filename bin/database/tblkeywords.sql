@@ -3,11 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
-<<<<<<< HEAD
--- Generation Time: Jan 08, 2017 at 05:25 PM
-=======
 -- Generation Time: Jan 09, 2017 at 08:53 AM
->>>>>>> katrina
 -- Server version: 5.6.26
 -- PHP Version: 5.5.28
 
@@ -34,11 +30,7 @@ CREATE TABLE IF NOT EXISTS `tblkeywords` (
   `keywordID` int(11) NOT NULL,
   `keyword` varchar(50) NOT NULL,
   `theme` int(11) NOT NULL
-<<<<<<< HEAD
-) ENGINE=InnoDB AUTO_INCREMENT=304 DEFAULT CHARSET=latin1;
-=======
 ) ENGINE=InnoDB AUTO_INCREMENT=395 DEFAULT CHARSET=latin1;
->>>>>>> katrina
 
 --
 -- Dumping data for table `tblkeywords`
@@ -284,10 +276,6 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (255, 'friendship', 10),
 (256, 'bond', 10),
 (257, 'accompanies', 10),
-<<<<<<< HEAD
-(258, 'accompany', 10),
-=======
->>>>>>> katrina
 (259, 'guy', 17),
 (260, 'bestfriend', 17),
 (261, 'friend', 17),
@@ -332,9 +320,6 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (300, 'Tiyanaks', 4),
 (301, 'relationships', 17),
 (302, 'attraction', 17),
-<<<<<<< HEAD
-(303, 'attract', 17);
-=======
 (303, 'attract', 17),
 (304, 'stay', 5),
 (305, 'do', 5),
@@ -427,7 +412,6 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (392, 'unbeatable', 21),
 (393, 'unreachable', 21),
 (394, 'scam', 11);
->>>>>>> katrina
 
 --
 -- Indexes for dumped tables
@@ -447,11 +431,7 @@ ALTER TABLE `tblkeywords`
 -- AUTO_INCREMENT for table `tblkeywords`
 --
 ALTER TABLE `tblkeywords`
-<<<<<<< HEAD
-  MODIFY `keywordID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=304;
-=======
   MODIFY `keywordID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=395;
->>>>>>> katrina
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
