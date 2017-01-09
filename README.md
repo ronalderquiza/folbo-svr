@@ -9,5 +9,4 @@ producer and other relevant data.
 
 __________________________________________________________________________________________
 To use FoLBO System, database should be installed first.
-
-Last Updated: January 6, 2017 10:07PM
+Runs in Java Runtime Environment 7

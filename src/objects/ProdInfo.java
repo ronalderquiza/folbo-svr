@@ -9,7 +9,7 @@ import main.system_manager;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	ProdInfo.java
  * Description:	Production information object
- * Version:		1.0.2
+ * @version		1.0.2
  *
  * @lastreview 
  * 

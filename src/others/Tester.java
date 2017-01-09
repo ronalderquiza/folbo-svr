@@ -2,7 +2,6 @@ package others;
 
 import java.text.DecimalFormat;
 
-import objects.SVR;
 import objects.eSVR;
 
 /**
@@ -10,7 +9,7 @@ import objects.eSVR;
  * Email:		ronalderquiza@gmail.com
  * Filename:	Tester.java
  * Description:	
- * Version:		1.0.3
+ * @version		1.0.3
  *
  * @lastreview 
  * 
@@ -27,9 +26,9 @@ public class Tester {
 	 * @param args
 	 */
 	public static void main(String[] args){
-		double[][] x = {{7}, {15}};
+		/*double[][] x = {{7}, {15}};
 		double[] y = {15, 44};
-		SVR svr = new SVR(x, y, x[0].length);
+		eSVR svr = new eSVR(x, y, x[0].length);
 		eSVR esvr = new eSVR();
 		DecimalFormat dFormat = new DecimalFormat("#,###.##");
 		esvr.setTrainingData(x, y);
@@ -40,6 +39,6 @@ public class Tester {
 			double output2 = esvr.predict(x[i]);
 			System.out.println("Actual: " + y[i] + "\tPrediction: " + dFormat.format(output));
 			System.out.println("\t\tPrediction: " + dFormat.format(output2));
-		}
+		}*/
 	}
 }

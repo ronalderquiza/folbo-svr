@@ -7,7 +7,7 @@ import frames.*;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	GUI_manager.java
  * Description:	Manages the Graphical User Interface of the System
- * Version:		1.0.5
+ * @version		1.0.5
  *
  * @lastreview 
  */

@@ -20,7 +20,7 @@ import main.*;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	SearchBoxModel.java
  * Description:	For searching of prequel movies.
- * Version:		
+ * @version		1.0.0
  *
  * @lastreview 
  * 

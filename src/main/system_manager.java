@@ -12,7 +12,7 @@ import tools.DBInstaller;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	system_manager.java
  * Description:	System Manager of the FoLBO System
- * Version:		1.1.7
+ * @version		1.1.7
  *
  * @lastreview 20161203
  * Ron, Kat, Ran
@@ -156,6 +156,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
+	 * set artist recommender
 	 * @param artist_recom
 	 */
 	public static void setArtist_recom(artist_recommender artist_recom) {

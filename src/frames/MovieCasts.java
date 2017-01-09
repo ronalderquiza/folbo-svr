@@ -32,7 +32,7 @@ import main.*;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	MovieCasts.java
  * Description:	Frame for Movie Cast
- * Version:		
+ * @version		1.2.1
  *
  * @lastreview 
  * 

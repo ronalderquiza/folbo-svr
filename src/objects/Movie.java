@@ -7,7 +7,7 @@ import main.system_manager;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	Movie.java
  * Description:	Movie object
- * Version:		1.0.1
+ * @version		1.0.1
  *
  * @lastreview 
  * 

@@ -14,7 +14,6 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import javax.swing.JTextField;
 
 import main.*;
 
@@ -23,7 +22,7 @@ import main.*;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	MoviePrequel.java
  * Description:	Frame for Movie Prequel
- * Version:		
+ * @version		3.2.0
  *
  * @lastreview 
  * 
@@ -268,7 +267,7 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 			dbmngr.query(query);
 			for (; dbmngr.getRs().next();) {				
 				if(!containing(all,dbmngr.getRs().getInt("movieID"))) {
-					cbMovieSequel.addItem((("(" + dbmngr.getRs().getInt("year") + ") " + dbmngr.getRs().getString("movieTitle"))));
+					cbMovieSequel.addItem(((dbmngr.getRs().getString("movieTitle")) + "(" + dbmngr.getRs().getInt("year") + ") "));
 					movieIDs.add(dbmngr.getRs().getInt("movieID"));
 				}
 			}

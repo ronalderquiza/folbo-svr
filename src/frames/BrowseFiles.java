@@ -3,7 +3,16 @@ package frames;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.*;
-
+/**
+ * @author		Ronald Erquiza, Katrina Buca
+ * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
+ * Filename:	BrowseFiles.java
+ * Description:	browser functionality
+ * @@version	1.0.1	
+ *
+ * @lastreview 
+ * 
+ */
 class BrowseFiles {
 	public static String plot;
 	public static String title = new String();

@@ -7,7 +7,7 @@ import main.system_manager;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	NGram.java
  * Description:	N-Gram tool
- * Version:		1.2.1
+ * @version		1.2.1
  *
  * @lastreview 20161203
  * Ron, Kat, Ran

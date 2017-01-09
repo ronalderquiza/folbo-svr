@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	MovieSequel.java
  * Description:	Frame for Movie Sequel
- * Version:		
+ * @version		1.0.0
  *
  * @lastreview 
  * 

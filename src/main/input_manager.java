@@ -8,7 +8,7 @@ import objects.*;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	input_manager.java
  * Description:	Manages the input of the system
- * Version:		1.1.3
+ * @version		1.1.3
  *
  * @lastreview 20161203
  * Ron, Kat, Ran

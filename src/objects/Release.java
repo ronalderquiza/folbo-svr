@@ -7,7 +7,7 @@ import main.system_manager;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	Release.java
  * Description:	Release date object
- * Version:		1.0.0
+ * @version		1.0.0
  *
  * @lastreview 
  * 

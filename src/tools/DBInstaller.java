@@ -17,7 +17,7 @@ import tools.TextUploader;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	DBInstaller.java
  * Description:	For creating databases.
- * Version:		
+ * @version		
  *
  * @lastreview 
  * 

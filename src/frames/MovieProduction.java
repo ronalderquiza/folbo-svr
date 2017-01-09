@@ -22,7 +22,7 @@ import main.*;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	MovieProduction.java
  * Description:	Frame for Movie Production
- * Version:		
+ * @version		1.0.0
  *
  * @lastreview 
  * 

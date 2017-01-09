@@ -9,7 +9,7 @@ import objects.MovieInfo;
  * Email:		ronalderquiza@gmail.com
  * Filename:	DBQueries.java
  * Description:	
- * Version:		1.0.1
+ * @version		1.0.1
  *
  * @lastreview 
  * 
