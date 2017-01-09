@@ -3,7 +3,11 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Generation Time: Jan 08, 2017 at 05:25 PM
+=======
+-- Generation Time: Jan 09, 2017 at 08:53 AM
+>>>>>>> katrina
 -- Server version: 5.6.26
 -- PHP Version: 5.5.28
 
@@ -30,7 +34,11 @@ CREATE TABLE IF NOT EXISTS `tblkeywords` (
   `keywordID` int(11) NOT NULL,
   `keyword` varchar(50) NOT NULL,
   `theme` int(11) NOT NULL
+<<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=304 DEFAULT CHARSET=latin1;
+=======
+) ENGINE=InnoDB AUTO_INCREMENT=395 DEFAULT CHARSET=latin1;
+>>>>>>> katrina
 
 --
 -- Dumping data for table `tblkeywords`
@@ -276,7 +284,10 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (255, 'friendship', 10),
 (256, 'bond', 10),
 (257, 'accompanies', 10),
+<<<<<<< HEAD
 (258, 'accompany', 10),
+=======
+>>>>>>> katrina
 (259, 'guy', 17),
 (260, 'bestfriend', 17),
 (261, 'friend', 17),
@@ -321,7 +332,102 @@ INSERT INTO `tblkeywords` (`keywordID`, `keyword`, `theme`) VALUES
 (300, 'Tiyanaks', 4),
 (301, 'relationships', 17),
 (302, 'attraction', 17),
+<<<<<<< HEAD
 (303, 'attract', 17);
+=======
+(303, 'attract', 17),
+(304, 'stay', 5),
+(305, 'do', 5),
+(306, 'breakup', 5),
+(307, 'refuse', 5),
+(308, 'refused', 5),
+(309, 'broken', 5),
+(310, 'abandoned', 5),
+(311, 'abandon', 5),
+(312, 'fail', 5),
+(313, 'failed', 5),
+(314, 'heartbreak', 5),
+(315, 'heartbroken', 5),
+(316, 'pain', 5),
+(317, 'painfull', 5),
+(318, 'grave', 4),
+(319, 'possessed', 4),
+(320, 'possess', 4),
+(321, 'execute', 4),
+(322, 'execution', 4),
+(323, 'hauting', 4),
+(324, 'hauntings', 4),
+(325, 'haunted', 4),
+(326, 'ghosts', 4),
+(327, 'ghost''s', 4),
+(328, 'demon', 4),
+(329, 'demons', 4),
+(330, 'aswang', 4),
+(331, 'accepts', 1),
+(332, 'accepted', 1),
+(333, 'beloved', 1),
+(334, 'family', 1),
+(335, 'love', 1),
+(336, 'beloved', 1),
+(337, 'save', 23),
+(338, 'saves', 23),
+(339, 'saving', 23),
+(340, 'superhero', 23),
+(341, 'hero', 23),
+(342, 'working', 23),
+(343, 'sacrifice', 23),
+(344, 'sacrifices', 23),
+(345, 'support', 23),
+(346, 'dignity', 23),
+(347, 'comfort', 10),
+(348, 'company', 10),
+(349, 'accompany', 10),
+(350, 'change', 13),
+(351, 'open', 13),
+(352, 'opens', 13),
+(353, 'loyalty', 13),
+(354, 'changes', 13),
+(355, 'learn', 13),
+(356, 'learns', 13),
+(357, 'realize', 13),
+(358, 'realizes', 13),
+(359, 'witness', 13),
+(360, 'witnesses', 13),
+(361, 'save', 13),
+(362, 'saves', 13),
+(363, 'give', 13),
+(364, 'gives', 13),
+(365, 'supportive', 13),
+(366, 'support', 13),
+(367, 'supports', 13),
+(368, 'reconnect', 13),
+(369, 'reconnects', 13),
+(370, 'reconnected', 13),
+(371, 'reconnection', 13),
+(372, 'accomplish', 13),
+(373, 'accomplished', 13),
+(374, 'success', 13),
+(375, 'successfull', 13),
+(376, 'hopes', 13),
+(377, 'heroic', 21),
+(378, 'heroically', 21),
+(379, 'defend', 21),
+(380, 'defends', 21),
+(381, 'defended', 21),
+(382, 'annulled', 11),
+(383, 'annulment', 11),
+(384, 'succumb', 11),
+(385, 'married', 11),
+(386, 'couple', 11),
+(387, 'husband', 11),
+(388, 'wife', 11),
+(389, 'seedy', 11),
+(390, 'rise', 21),
+(391, 'rises', 21),
+(392, 'unbeatable', 21),
+(393, 'unreachable', 21),
+(394, 'scam', 11);
+>>>>>>> katrina
 
 --
 -- Indexes for dumped tables
@@ -341,7 +447,11 @@ ALTER TABLE `tblkeywords`
 -- AUTO_INCREMENT for table `tblkeywords`
 --
 ALTER TABLE `tblkeywords`
+<<<<<<< HEAD
   MODIFY `keywordID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=304;
+=======
+  MODIFY `keywordID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=395;
+>>>>>>> katrina
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

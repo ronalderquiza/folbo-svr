@@ -190,6 +190,8 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
+			//system_manager.getInput_mngr().input_story("", "", 0);
+			
 			BrowseFiles story = new BrowseFiles();
 			taPlot.setText("");
 			title = story.getTitle().toUpperCase();
