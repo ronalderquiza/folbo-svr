@@ -1,18 +1,35 @@
 package others;
 
+/**
+ * @author		Ronald Erquiza
+ * Email:		ronalderquiza@gmail.com,
+ * Filename:	CorrelationAnalysis.java
+ * Description:	
+ * Version:		1.0.1
+ *
+ * @lastreview 
+ * 
+ */
 
 public class CorrelationAnalysis {
-	public double[] x;
-    public double[] y;
+	private double[] x;
+    private double[] y;
     
+	/**
+	 * @param x
+	 * @param y
+	 */
 	public CorrelationAnalysis(double[] x, double[] y){
-		this.x = x;
-		this.y = y;
+		this.setX(x);
+		this.setY(y);
 		for(int i = 0; i < x.length; i++){
 			//System.out.println("x = " + x[i] + " y = " + y[i]);
 		}
 	}
 	
+	/**
+	 * @return p
+	 */
 	public double SROCC(){
 		//double n = x.length;
 		double p = 0;
@@ -20,13 +37,16 @@ public class CorrelationAnalysis {
 		return p;
 	}
 	
+	/**
+	 * @return r
+	 */
 	public double PPMCC(){
-		double n = x.length;
-		double sxy = sumMultiply(x,y);
-		double sx = sum(x);
-		double sy = sum(y);
-		double ssx = sumSquare(x);
-		double ssy = sumSquare(y);
+		double n = getX().length;
+		double sxy = sumMultiply(getX(),getY());
+		double sx = sum(getX());
+		double sy = sum(getY());
+		double ssx = sumSquare(getX());
+		double ssy = sumSquare(getY());
 		double num = ((n * sxy) - (sx * sy));
 		double den = Math.sqrt(((n * ssx) - square(sx))*((n * ssy) - square(sy)));
 		
@@ -45,9 +65,18 @@ public class CorrelationAnalysis {
 		return r;
 	}
 	
+	/**
+	 * @param val
+	 * @return square
+	 */
 	public double square(double val){
 		return val * val;
 	}
+	/**
+	 * @param x
+	 * @param y
+	 * @return sum
+	 */
 	public double sumMultiply(double[] x, double[] y){
 		double sum = 0;
 		for(int i = 0; i < x.length; i++){
@@ -56,6 +85,10 @@ public class CorrelationAnalysis {
 		return sum;
 	}
 	
+	/**
+	 * @param eq
+	 * @return sum
+	 */
 	public double sumSquare(double[] eq){
 		double sum = 0;
 		for(int i = 0; i < eq.length; i++){
@@ -64,11 +97,43 @@ public class CorrelationAnalysis {
 		return sum;
 	}
 	
+	/**
+	 * @param eq
+	 * @return sum
+	 */
 	public double sum(double[] eq){
 		double sum = 0;
 		for(int i = 0; i < eq.length; i++){
 			sum += eq[i];
 		}
 		return sum;
+	}
+
+	/**
+	 * @return the x
+	 */
+	public double[] getX() {
+		return x;
+	}
+
+	/**
+	 * @param x the x to set
+	 */
+	public void setX(double[] x) {
+		this.x = x;
+	}
+
+	/**
+	 * @return the y
+	 */
+	public double[] getY() {
+		return y;
+	}
+
+	/**
+	 * @param y the y to set
+	 */
+	public void setY(double[] y) {
+		this.y = y;
 	}
 }

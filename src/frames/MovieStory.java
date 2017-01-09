@@ -65,7 +65,7 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 		this.setLocationRelativeTo(null);
 		this.setUndecorated(true);
 		this.getRootPane().setBorder(BorderFactory.createMatteBorder(2, 2, 2, 2, Color.DARK_GRAY));
-		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/FoLBOLogo.png")));
+		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/Others/FoLBO_Logo.png")));
 
 		this.add(labelBackground);
 		labelBackground.add(labelCloseIcon);
@@ -190,6 +190,8 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
+			//system_manager.getInput_mngr().input_story("", "", 0);
+			
 			BrowseFiles story = new BrowseFiles();
 			taPlot.setText("");
 			title = story.getTitle().toUpperCase();
@@ -202,7 +204,7 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 			taPlot.setFont(component_manager.getFontSmallPlain());
 			system_manager.getTheme_recog().execute(plot);
 			theme = system_manager.getTheme_recog().getTheme();
-			tfMovieTheme.setText(system_manager.getOutput_mngr().themes[theme-1]);
+			tfMovieTheme.setText(system_manager.getOutput_mngr().getThemes()[theme-1]);
 			taPlot.setEditable(false);
 		
 		

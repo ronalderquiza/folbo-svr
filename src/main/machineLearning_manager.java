@@ -33,6 +33,7 @@ public class machineLearning_manager {
 	 * execute the machine learning
 	 * training
 	 * predicting
+	 * @param input_data 
 	 */
 	public void execute(Movie input_data){
 		Movie movie = input_data;
@@ -200,18 +201,30 @@ public class machineLearning_manager {
 		this.model = model;
 	}
 
+	/**
+	 * @return output
+	 */
 	public double getOutput() {
 		return output;
 	}
 
+	/**
+	 * @param output
+	 */
 	public void setOutput(double output) {
 		this.output = output;
 	}
 
+	/**
+	 * @return certainty
+	 */
 	public double getCertainty() {
 		return certainty;
 	}
 
+	/**
+	 * @param certainty
+	 */
 	public void setCertainty(double certainty) {
 		this.certainty = certainty;
 	}

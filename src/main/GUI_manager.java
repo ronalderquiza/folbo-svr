@@ -79,8 +79,9 @@ public class GUI_manager {
 		return moviePrequel;
 	}
 
+
 	/**
-	 * @param moviePreSequel
+	 * @param moviePrequel
 	 */
 	public static void setMoviePrequel(MoviePrequel moviePrequel) {
 		GUI_manager.moviePrequel = moviePrequel;

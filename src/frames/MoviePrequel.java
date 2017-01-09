@@ -33,16 +33,20 @@ import main.*;
 public class MoviePrequel extends JFrame implements MouseListener, MouseMotionListener{
 	component_manager cmpmngr = GUI_manager.getCmp_mngr();
 	
+
 	JLabel labelMinimizeIcon = new JLabel(cmpmngr.getIconMinimizeIcon());
 	JLabel labelCloseIcon = new JLabel(cmpmngr.getIconCloseIcon());
 	JLabel labelBackground = new JLabel(cmpmngr.getIconBackground());
 	JLabel labelNext = new JLabel(cmpmngr.getIconNext());
 	JLabel labelBack = new JLabel(cmpmngr.getIconBack());
-	JLabel labelQuestion = new JLabel("MOVIE PRE-SEQUEL");
+	JLabel labelTitle = new JLabel("MOVIE PRE-SEQUEL");
+	//JLabel labelMovieTitle = new JLabel("MOVIE TITLE:");
+	JLabel labelMoviePrequel = new JLabel("PREQUEL:");
 	
 	JComboBox<String> cbMovieSequel = new JComboBox<String>();
-	JTextField text = (JTextField)cbMovieSequel.getEditor().getEditorComponent();
+	//JTextField tfMovieTitle = new JTextField("");
 	ArrayList<Integer> movieIDs = new ArrayList<Integer>();
+	
 	/**
 	 * initialize MoviePrequel
 	 */
@@ -53,24 +57,29 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 	    this.setUndecorated(true);
 		this.setResizable(false);
 		this.setLocationRelativeTo(null);
-		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/FoLBOLogo.png")));
+		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/Others/FoLBO_Logo.png")));
 		this.getRootPane().setBorder(BorderFactory.createMatteBorder(2, 2, 2, 2, Color.DARK_GRAY));
-		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/FoLBOLogo.png")));
-
+	
 		this.add(labelBackground);
-		labelBackground.add(labelQuestion);
+		labelBackground.add(labelTitle);
 		labelBackground.add(labelCloseIcon);
 		labelBackground.add(labelMinimizeIcon);
 		labelBackground.add(labelNext);
 		labelBackground.add(labelBack);
 		labelBackground.add(cbMovieSequel);
+		//labelBackground.add(labelMovieTitle);
+		//labelBackground.add(tfMovieTitle);
+		labelBackground.add(labelMoviePrequel);
 		
 		labelCloseIcon.setBounds(495, 0, 50, 50);
 		labelMinimizeIcon.setBounds(460, 0, 50, 50);
 		labelNext.setBounds(430, 470, 80, 80);
 		labelBack.setBounds(20, 470, 80, 80);
-		labelQuestion.setBounds(125, 170, 500, 50);
-		cbMovieSequel.setBounds(60, 230, 420, 40);
+		labelTitle.setBounds(130, 120, 500, 50);
+		//labelMovieTitle.setBounds(50, 200, 150, 30);
+		//tfMovieTitle.setBounds(50, 230, 430, 25);
+		labelMoviePrequel.setBounds(50, 220, 150, 30);
+		cbMovieSequel.setBounds(50, 250, 430, 30);
 		
 		labelCloseIcon.setCursor(new Cursor(Cursor.HAND_CURSOR));
 		labelMinimizeIcon.setCursor(new Cursor(Cursor.HAND_CURSOR));
@@ -85,15 +94,22 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		
 		labelNext.setFont(component_manager.getFontMediumBold());
 		labelBack.setFont(component_manager.getFontMediumBold());
-		labelQuestion.setFont(component_manager.getFontXLargePlain());
-		cbMovieSequel.setFont(component_manager.getFontMediumPlain());
+		labelTitle.setFont(component_manager.getFontXLargePlain());
+		cbMovieSequel.setFont(component_manager.getFontSmallPlain());
+		//tfMovieTitle.setFont(component_manager.getFontSmallPlain());
+		//labelMovieTitle.setFont(component_manager.getFontMediumBold());
+		labelMoviePrequel.setFont(component_manager.getFontMediumBold());
 		
-		labelQuestion.setForeground(Color.white);
+		labelTitle.setForeground(Color.white);
+		//labelMovieTitle.setForeground(Color.white);
+		labelMoviePrequel.setForeground(Color.white);
 		
-		cbMovieSequel.setEditable(true);
+		cbMovieSequel.setEditable(false);
 		
-		text.setText("");
-		text.addKeyListener(new ComboKeyHandler(cbMovieSequel));
+		/*text.setText("");
+		text.addKeyListener(new ComboKeyHandler(cbMovieSequel));*/
+		
+		AutoCompletion.enable(cbMovieSequel);
 
 		getDatabase();
 		
@@ -107,7 +123,6 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		
 		
 	}
-	
 		
 	
 	/**

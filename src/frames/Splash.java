@@ -22,8 +22,8 @@ import javax.swing.JPanel;
 @SuppressWarnings("serial")
 public class Splash extends JFrame {
 	Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
-	Icon iconEffects = new ImageIcon(getClass().getResource("/frames/Photos/effects.gif"));
-	Icon titleImage = new ImageIcon(getClass().getResource("/frames/Photos/splash.png"));
+	Icon iconEffects = new ImageIcon(getClass().getResource("/frames/Photos/Others/FoLBO_Loading_2.gif"));
+	Icon titleImage = new ImageIcon(getClass().getResource("/frames/Photos/Texts/splash.png"));
 	JLabel title = new JLabel(titleImage);
 	JLabel gif = new JLabel(iconEffects);
 	JLabel load = new JLabel();
