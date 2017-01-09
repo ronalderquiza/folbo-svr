@@ -1,8 +1,9 @@
-<<<<<<< HEAD
+/database/
+/eSVR.jar
+/frames/
 /main/
+/mysql-connector-java-5.1.23-bin.jar
 /objects/
 /others/
+/splash.png
 /tools/
-=======
-/frames/
->>>>>>> 96edda8d1f0567aec07a8ee8fe1e45e1bdf59296
