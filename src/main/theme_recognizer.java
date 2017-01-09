@@ -12,7 +12,7 @@ import objects.NGram;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	theme_recognizer.java
  * Description:	Recognizes the theme from the Movie Information
- * Version:		1.0.0
+ * @version		2.3.0
  *
  * @lastreview
  *

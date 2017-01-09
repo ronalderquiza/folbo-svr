@@ -9,7 +9,7 @@ import java.util.HashMap;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	starValue_calculator.java
  * Description:	Star Value Calculator of the FoLBO System
- * Version:		1.0.1
+ * @version		1.0.1
  *
  * @lastreview
  */

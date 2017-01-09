@@ -12,7 +12,7 @@ import javax.swing.Timer;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	component_manager.java
  * Description:	Component manager
- * Version:		1.0.1
+ * @version		1.0.1
  *
  * @lastreview 
  * 

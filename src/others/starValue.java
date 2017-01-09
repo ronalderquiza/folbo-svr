@@ -11,7 +11,7 @@ import main.database_manager;
  * Email:		ronalderquiza@gmail.com
  * Filename:	starValue.java
  * Description:	
- * Version:		1.0.1
+ * @version		1.0.1
  *
  * @lastreview 
  * 

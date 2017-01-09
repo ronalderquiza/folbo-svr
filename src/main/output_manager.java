@@ -15,7 +15,7 @@ import main.system_manager;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	output_manager.java
  * Description:	Manages the output of the system
- * Version:		1.3.1
+ * @version		1.3.1
  *
  * @lastreview 
  * 

@@ -26,7 +26,7 @@ import javax.swing.JTextField;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	MovieStory.java
  * Description:	Frame for Movie Story
- * Version:		
+ * @version		1.2.2
  *
  * @lastreview 
  * 

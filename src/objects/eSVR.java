@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	eSVR.java
  * Description:	epsilon-Support Vector Regression model
- * Version:		2.0.2
+ * @version		2.0.2
  *
  * @lastreview 
  * 

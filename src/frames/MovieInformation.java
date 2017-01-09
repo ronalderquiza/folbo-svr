@@ -19,7 +19,7 @@ import main.*;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	MovieInformation.java
  * Description:	Frame for Movie Information
- * Version:		
+ * @version		1.0.0
  *
  * @lastreview 
  * 

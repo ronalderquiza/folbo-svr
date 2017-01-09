@@ -20,7 +20,7 @@ import main.*;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	MovieProductionRelease.java
  * Description:	Frame for Movie Production Release
- * Version:		
+ * @version		1.0.2
  *
  * @lastreview 
  * 

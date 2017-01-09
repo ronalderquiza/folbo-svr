@@ -22,7 +22,7 @@ import main.*;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	MovieGrossRevenue.java
  * Description:	Final frame of the system to show the output or result.
- * Version:		
+ * @version		2.1.1
  *
  * @lastreview 
  * 

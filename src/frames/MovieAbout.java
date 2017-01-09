@@ -20,7 +20,7 @@ import main.*;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	MovieAbout.java
  * Description:	This shows the description of the system.
- * Version:		1.0.1
+ * @version		1.0.1
  *
  * @lastreview 
  * 

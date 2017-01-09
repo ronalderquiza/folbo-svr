@@ -11,9 +11,9 @@ import javax.swing.JPanel;
 /**
  * @author		Ronald Erquiza, Katrina Buca
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
- * Filename:	Loading.java
+ * Filename:	Splash.java
  * Description:	Splash Screen of the System
- * Version:		
+ * @version		2.1.1
  *
  * @lastreview 
  * 

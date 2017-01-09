@@ -21,7 +21,7 @@ import main.*;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	Home.java
  * Description:	Main GUI of the System
- * Version:		1.3.0
+ * @version		1.3.0
  *
  * @lastreview 
  * 

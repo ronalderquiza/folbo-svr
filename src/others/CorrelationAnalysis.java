@@ -5,7 +5,7 @@ package others;
  * Email:		ronalderquiza@gmail.com,
  * Filename:	CorrelationAnalysis.java
  * Description:	
- * Version:		1.0.1
+ * @version		1.0.1
  *
  * @lastreview 
  * 

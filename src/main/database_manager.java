@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	database_manager.java
  * Description:	Manages the Database Activity of the System
- * Version:		1.0.3
+ * @version		1.0.3
  *
  * @lastreview 20161203
  * Ron, Kat, Ran

@@ -10,8 +10,8 @@ import javax.swing.text.*;
  * @author		Ronald Erquiza, Katrina Buca
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	AutoCompletion.java
- * Description:	
- * Version:		
+ * Description:	for the autocompletion of input in prequel
+ * @version		1.0.1	
  *
  * @lastreview 
  * 
@@ -197,7 +197,7 @@ public class AutoCompletion extends PlainDocument {
     
     private static void createAndShowGUI() {
         // the combo box (add/modify items if you like to)
-        final JComboBox comboBox = new JComboBox(new Object[] {"Ester", "Jordi", "Jordina", "Jorge", "Sergi"});
+        final JComboBox<String> comboBox = new JComboBox<String>(new String[] {"Ester", "Jordi", "Jordina", "Jorge", "Sergi"});
         enable(comboBox);
 
         // create and show a window containing the combo box

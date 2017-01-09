@@ -9,7 +9,7 @@ import main.system_manager;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	Tokenizer.java
  * Description:	tokenizer tool
- * Version:		1.0.1
+ * @version		1.0.1
  *
  * @lastreview 20161203
  * Ron, Kat, Ran
