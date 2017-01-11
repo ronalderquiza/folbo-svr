@@ -109,7 +109,7 @@ public class MovieCasts extends JFrame implements MouseListener, MouseMotionList
 		labelMinimizeIcon.addMouseListener(this);
 		this.addMouseListener(this);
 		this.addMouseMotionListener(this);
-		collectArtist();
+		allArtist = system_manager.getArtist_recom().getAllArtist();
 	}
 	
 	@Override
@@ -348,22 +348,6 @@ public class MovieCasts extends JFrame implements MouseListener, MouseMotionList
 			}
 		}
 		return false;
-	}
-	
-	private void collectArtist(){
-		try {
- 			database_manager dbmngr = system_manager.getDb_mngr();
- 			String query = "SELECT * FROM `tblartist`";
-			dbmngr.query(query);
- 			for (; dbmngr.getRs().next();) {
- 				int id = dbmngr.getRs().getInt("artistID");
- 				String name = dbmngr.getRs().getString("artistName");
- 				allArtist.put(id, name);
- 			}
- 			
- 		}catch (SQLException | ClassNotFoundException a) {
- 			a.printStackTrace();
- 		}
 	}
 	
 }

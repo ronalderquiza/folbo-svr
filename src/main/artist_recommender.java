@@ -28,8 +28,8 @@ public class artist_recommender {
 	private final int FEMALE_INDEX = 1;
 	private int[] finalTop;
 	private HashMap<Integer, Double> artistmovie = new HashMap<Integer, Double>();
-	HashMap<Integer, String> allArtist = new HashMap<Integer, String>();
-	
+	private HashMap<Integer, String> allArtist = new HashMap<Integer, String>();
+
 	/**
 	 * initialize artist recommender
 	 */
@@ -192,7 +192,7 @@ public class artist_recommender {
 	/**
 	 * collects all the artist from the database
 	 */
-	private void collectAllArtist(){
+	public void collectAllArtist(){
 		try {
  			database_manager dbmngr = system_manager.getDb_mngr();
  			String query = "SELECT * FROM `tblartist`";
@@ -289,4 +289,15 @@ public class artist_recommender {
 		this.allTop = allTop;
 	}
 
+    /**
+     *
+     * @param allArtist
+     */
+	public void setAllArtist(HashMap<Integer, String> allArtist) { this.allArtist = allArtist; }
+
+    /**
+     *
+     * @return allArtist
+     */
+    public HashMap<Integer, String> getAllArtist() { return allArtist; }
 }

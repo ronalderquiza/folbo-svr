@@ -34,7 +34,7 @@ public class Tokenizer {
 	public ArrayList<String> tokenize(String string){
 		final int FIRST = 0;
 		ArrayList<String> tokenList = new ArrayList<String>();
-		String regex = "([\\w’'`]+)";
+		String regex = "([\\w]+)";
 		Pattern pattern = Pattern.compile(regex);
 		Matcher matcher = pattern.matcher(string);
 		while(matcher.find()){

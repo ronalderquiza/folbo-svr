@@ -37,10 +37,10 @@ public class database_manager  {
 	 * instantiation of the manager
 	 */
 	public database_manager(String host, String database, String user, String pass){
-		system_manager.getSplashscreen().setLabel("Initializing database manager...");
-		this.setUser(user);
-		this.setPass(pass);
-		this.setHost(host);
+        system_manager.getSplashscreen().setLabel("Initializing database manager...");
+        this.setUser(user);
+        this.setPass(pass);
+        this.setHost(host);
 		this.setDatabase(database);
 		system_manager.getSplashscreen().setLabel("Checking database connection...");
 		checkConnection();
