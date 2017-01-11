@@ -33,7 +33,7 @@ public class system_manager implements Runnable {
 	private static GUI_manager gui_mngr;
 	private static output_manager output_mngr;
 	private static int time = 1000;
-	private static int currYear = 2016;
+	private static int currYear = 2014;
 	Thread runner;
 	
 	/**

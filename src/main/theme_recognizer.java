@@ -53,6 +53,7 @@ public class theme_recognizer {
 		scoringThemes();
 		double temp = 0;
 		for(int i = 0; i < themePoints.length; i++){
+			System.out.println(system_manager.getOutput_mngr().getThemes()[(int)themePoints[i][THEMEID]-1] + " - " + themePoints[i][POINTS]);
 			if(themePoints[i][POINTS] > temp){
 				setTheme((int)themePoints[i][THEMEID]);
 				temp = themePoints[i][POINTS];
@@ -69,7 +70,7 @@ public class theme_recognizer {
 				if(gram.equals(themeKeywords[i][KEYWORD])){
 					int theme = Integer.parseInt(themeKeywords[i][THEME]) - 1;
 					String themeName = system_manager.getOutput_mngr().getThemes()[theme];
-					System.out.println(gram + ">" + themeName + "[" + theme + "]");
+					System.out.println(gram + ">" + themeName + "[" + (theme+1) + "]");
 					double temp = themePoints[theme][POINTS];
 					themePoints[theme][POINTS] = temp + (double) ngram.get(gram);//themeDivisor.get(theme+1);
 				}

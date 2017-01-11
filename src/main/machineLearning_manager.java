@@ -39,7 +39,7 @@ public class machineLearning_manager {
 		Movie movie = input_data;
 		double[][] training_dataX = setTrainingDataX(movie);	//features
 		double[] training_dataY = setTrainingDataY(movie);		//targets
-		double[] input = {movie.getProdInfo().getStarValue(), movie.getRelease().getYear(), movie.getRelease().getMonth()};
+		double[] input = {movie.getProdInfo().getStarValue(), movie.getRelease().getYear(), movie.getRelease().getMonth(), movie.getMovieInfo().getTheme()};
 
 
 		//setting the training data of the model
@@ -76,10 +76,11 @@ public class machineLearning_manager {
 					System.out.println(query);
 					dbmngr.query(query);
 					for(;dbmngr.getRs().next();){
-						Double[] record = new Double[3];
+						Double[] record = new Double[4];
 						record[0] = dbmngr.getRs().getDouble("starValue");
 						record[1] = (double)dbmngr.getRs().getInt("year");
 						record[2] = (double)dbmngr.getRs().getInt("month");
+						record[3] = (double)dbmngr.getRs().getInt("theme");
 						dataList.add(record);
 					}
 				} catch (ClassNotFoundException | SQLException e) {

@@ -252,7 +252,7 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		database_manager dbmngr = system_manager.getDb_mngr();
 		ArrayList<Integer> all = new ArrayList<Integer>();
 		int year = system_manager.getCurrYear();
-		String query = "SELECT * FROM `tblmovie` WHERE `year` < " + year ;
+		String query = "SELECT * FROM `tblmovie` WHERE `year` < " + year+ " ORDER BY `year`" ;
         try {
         	dbmngr.query(query);
 			for (;dbmngr.getRs().next();) {				

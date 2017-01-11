@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="src/" kind="src" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/Ronald Erquiza/workspace/FoLBO/src/eSVR.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Ronald Erquiza/workspace/FoLBO/src/mysql-connector-java-5.1.23-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LAPTOP/Downloads/New Repo/folbo-svr/src/eSVR.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LAPTOP/Downloads/New Repo/folbo-svr/src/mysql-connector-java-5.1.23-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

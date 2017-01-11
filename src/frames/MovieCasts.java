@@ -218,7 +218,7 @@ public class MovieCasts extends JFrame implements MouseListener, MouseMotionList
 			}
  			lastIndex++;
  		try {
- 			String query = "SELECT * FROM `tblartist`";
+ 			String query = "SELECT * FROM `tblartist` ORDER BY `artistName` ASC";
  			dbmngr.query(query);
  			for (int count = lastIndex; dbmngr.getRs().next(); count++) {
  				if(!isExisting(allTop, dbmngr.getRs().getString("artistID"))){
@@ -276,7 +276,7 @@ public class MovieCasts extends JFrame implements MouseListener, MouseMotionList
 		selectedArtist.clear();
  	   	int ctr = 0;
  		try {
- 			String query = "SELECT * FROM `tblartist`";
+ 			String query = "SELECT * FROM `tblartist` ORDER BY `artistName` ASC";
  			dbmngr.query(query);
  			for (; dbmngr.getRs().next();) {
  	 			ctr++;
@@ -289,7 +289,7 @@ public class MovieCasts extends JFrame implements MouseListener, MouseMotionList
 		final String artistIDNum[] = new String[ctr];
 		
  		try {
- 			String query = "SELECT * FROM `tblartist`";
+ 			String query = "SELECT * FROM `tblartist` ORDER BY `artistName` ASC";
  			dbmngr.query(query);
  			for (int count = 0; dbmngr.getRs().next(); count++) {
  				cbi[count] = new CheckboxListItem(dbmngr.getRs().getString("artistName"));
