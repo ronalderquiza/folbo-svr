@@ -36,7 +36,7 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 	component_manager cmpmngr = GUI_manager.getCmp_mngr();
 	
 	JLabel labelMinimizeIcon = new JLabel(cmpmngr.getIconMinimizeIcon());
-	JLabel labelCloseIcon = new JLabel(cmpmngr.getIconCloseIcon());;
+	JLabel labelCloseIcon = new JLabel(cmpmngr.getIconCloseIcon());
 	JLabel labelBackground = new JLabel(cmpmngr.getIconBackground());
 	JLabel labelNext = new JLabel(cmpmngr.getIconNext());
 	JLabel labelBack = new JLabel(cmpmngr.getIconBack());

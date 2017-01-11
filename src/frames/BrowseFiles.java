@@ -8,7 +8,7 @@ import java.io.*;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	BrowseFiles.java
  * Description:	browser functionality
- * @@version	1.0.1	
+ * @version	1.0.1
  *
  * @lastreview 
  * 

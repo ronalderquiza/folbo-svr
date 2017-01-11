@@ -17,7 +17,7 @@ import tools.TextUploader;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	CSVtoDB.java
  * Description:	Extracting excel file to database
- * @version		
+ * @version		1.0.0
  *
  * @lastreview 
  * 

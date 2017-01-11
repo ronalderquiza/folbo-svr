@@ -25,9 +25,9 @@ public class starValue_calculator {
 
 	/**
 	 * execute the calculation
-	 * @param artists
-	 * @param year
-	 * @return
+	 * @param artists - list of artists
+	 * @param year - current year
+	 * @return starValue
 	 */
 	public double execute(ArrayList<Integer> artists, int year){
 		double starValue = 0;
@@ -38,7 +38,7 @@ public class starValue_calculator {
 		for(int i = 0; i < artists.size(); i++){
 			points.add(artistmovie.get(artists.get(i)));
 			if(points.get(i) != null)
-				starvalues.add(percentage((double)points.get(i), stdev));
+				starvalues.add(percentage(points.get(i), stdev));
 			else
 				starvalues.add(0.0);
 		}
@@ -79,7 +79,7 @@ public class starValue_calculator {
 	
 	/**
 	 * gets the standard deviation
-	 * @return
+	 * @return max
 	 */
 	private double standarddev(){
 		double max = 0;
@@ -95,7 +95,7 @@ public class starValue_calculator {
 	 * gets the percentage and limit to 10
 	 * @param x
 	 * @param stdev
-	 * @return
+	 * @return percentage
 	 */
 	private double percentage(double x, double stdev){
 		double max = 10;
@@ -105,10 +105,9 @@ public class starValue_calculator {
 	/**
 	 * sorts star value
 	 * @param star
-	 * @return
+	 * @return star
 	 */
 	private static ArrayList<Double> sort(ArrayList<Double> star) {
-		// TODO Auto-generated method stub
 		double[] newValues = new double[star.size()];
 		for(int i = 0; i < newValues.length; i++){
 			newValues[i] = star.get(i);
@@ -133,7 +132,7 @@ public class starValue_calculator {
 	/**
 	 * average of the half artists' star values 
 	 * @param starvalue
-	 * @return
+	 * @return starvalue
 	 */
 	private double average(ArrayList<Double> starvalue) {
 		// TODO Auto-generated method stub

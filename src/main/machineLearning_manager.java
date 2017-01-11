@@ -59,7 +59,7 @@ public class machineLearning_manager {
 	/**
 	 * setting the training data features
 	 * @param movie
-	 * @return
+	 * @return data
 	 */
 	private double[][] setTrainingDataX(Movie movie) {
 		// TODO Auto-generated method stub
@@ -132,7 +132,7 @@ public class machineLearning_manager {
 	/**
 	 * setting the training data label
 	 * @param movie
-	 * @return
+	 * @return data
 	 */
 	private double[] setTrainingDataY(Movie movie) {
 		// TODO Auto-generated method stub

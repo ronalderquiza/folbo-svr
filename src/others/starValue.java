@@ -63,7 +63,7 @@ public class starValue {
 						artists.add(db.getRs().getInt("artistID"));
 						points.add(artistmovie.get(artists.get(j)));
 						if(points.get(j) != null)
-							starvalue.add(percentage((double)points.get(j), stdev));
+							starvalue.add(percentage(points.get(j), stdev));
 						else
 							starvalue.add(0.0);
 						System.out.println(artists.get(j) + "\t"+ points.get(j) + "\t" + starvalue.get(j));

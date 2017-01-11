@@ -254,7 +254,7 @@ public class MovieCasts extends JFrame implements MouseListener, MouseMotionList
 	           JList<CheckboxListItem> list = (JList<CheckboxListItem>) event.getSource();
 
 	           int index = list.locationToIndex(event.getPoint());
-	           CheckboxListItem item = (CheckboxListItem) list.getModel().getElementAt(index);
+	           CheckboxListItem item = list.getModel().getElementAt(index);
 	           
 	           item.setSelected(!item.isSelected());
 	           list.repaint(list.getCellBounds(index, index));
@@ -320,7 +320,7 @@ public class MovieCasts extends JFrame implements MouseListener, MouseMotionList
 	           JList<CheckboxListItem> list = (JList<CheckboxListItem>) event.getSource();
 
 	           int index = list.locationToIndex(event.getPoint());
-	           CheckboxListItem item = (CheckboxListItem) list.getModel()
+	           CheckboxListItem item = list.getModel()
 	                 .getElementAt(index);
 	           
 	           item.setSelected(!item.isSelected());

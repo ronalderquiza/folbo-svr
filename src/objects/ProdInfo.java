@@ -32,7 +32,6 @@ public class ProdInfo {
 	
 	/**
 	 * @param artist
-	 * @param name
 	 */
 	public void setMainCasts(ArrayList<Integer> artist){
 		this.mainCasts.clear();

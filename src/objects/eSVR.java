@@ -43,7 +43,6 @@ public class eSVR {
 	/**
 	 * @param x the features
 	 * @param y the targets
-	 * @param n the number of features
 	 */
 	public void setTrainingData(double[][] x, double[] y){
 		this.setM(x.length);
@@ -229,9 +228,7 @@ public class eSVR {
 	
 	/**
 	 * computes the certainty of the model
-	 * @param index 
-	 * @param inputs
-	 * @param actual
+	 * @param index
 	 * @return accuracy
 	 */
 	public double computesCertainty(int index){
