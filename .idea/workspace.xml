@@ -7,50 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4fad861-c7f3-4f42-8f65-c19c8844c85b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_23_bin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/BrowseFiles.class" afterPath="$PROJECT_DIR$/bin/frames/BrowseFiles.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/CheckboxListItem.class" afterPath="$PROJECT_DIR$/bin/frames/CheckboxListItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/CheckboxListRenderer.class" afterPath="$PROJECT_DIR$/bin/frames/CheckboxListRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/Home.class" afterPath="$PROJECT_DIR$/bin/frames/Home.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieAbout.class" afterPath="$PROJECT_DIR$/bin/frames/MovieAbout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieCasts$1.class" afterPath="$PROJECT_DIR$/bin/frames/MovieCasts$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieCasts$2.class" afterPath="$PROJECT_DIR$/bin/frames/MovieCasts$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieCasts.class" afterPath="$PROJECT_DIR$/bin/frames/MovieCasts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieGrossRevenue.class" afterPath="$PROJECT_DIR$/bin/frames/MovieGrossRevenue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieInformation.class" afterPath="$PROJECT_DIR$/bin/frames/MovieInformation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MoviePrequel.class" afterPath="$PROJECT_DIR$/bin/frames/MoviePrequel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieProduction.class" afterPath="$PROJECT_DIR$/bin/frames/MovieProduction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieRelease.class" afterPath="$PROJECT_DIR$/bin/frames/MovieRelease.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieSequel.class" afterPath="$PROJECT_DIR$/bin/frames/MovieSequel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieStory.class" afterPath="$PROJECT_DIR$/bin/frames/MovieStory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/SearchBoxModel.class" afterPath="$PROJECT_DIR$/bin/frames/SearchBoxModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/Splash.class" afterPath="$PROJECT_DIR$/bin/frames/Splash.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/GUI_manager.class" afterPath="$PROJECT_DIR$/bin/main/GUI_manager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/artist_recommender.class" afterPath="$PROJECT_DIR$/bin/main/artist_recommender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/component_manager.class" afterPath="$PROJECT_DIR$/bin/main/component_manager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/database_manager.class" afterPath="$PROJECT_DIR$/bin/main/database_manager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/input_manager.class" afterPath="$PROJECT_DIR$/bin/main/input_manager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/machineLearning_manager.class" afterPath="$PROJECT_DIR$/bin/main/machineLearning_manager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/output_manager.class" afterPath="$PROJECT_DIR$/bin/main/output_manager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/starValue_calculator.class" afterPath="$PROJECT_DIR$/bin/main/starValue_calculator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/system_manager$1.class" afterPath="$PROJECT_DIR$/bin/main/system_manager$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/system_manager.class" afterPath="$PROJECT_DIR$/bin/main/system_manager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/theme_recognizer.class" afterPath="$PROJECT_DIR$/bin/main/theme_recognizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/objects/Movie.class" afterPath="$PROJECT_DIR$/bin/objects/Movie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/objects/MovieInfo.class" afterPath="$PROJECT_DIR$/bin/objects/MovieInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/objects/NGram.class" afterPath="$PROJECT_DIR$/bin/objects/NGram.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/objects/ProdInfo.class" afterPath="$PROJECT_DIR$/bin/objects/ProdInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/objects/Release.class" afterPath="$PROJECT_DIR$/bin/objects/Release.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/objects/Tokenizer.class" afterPath="$PROJECT_DIR$/bin/objects/Tokenizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/objects/eSVR.class" afterPath="$PROJECT_DIR$/bin/objects/eSVR.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/others/CorrelationAnalysis.class" afterPath="$PROJECT_DIR$/bin/others/CorrelationAnalysis.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/others/Tester.class" afterPath="$PROJECT_DIR$/bin/others/Tester.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/others/starValue.class" afterPath="$PROJECT_DIR$/bin/others/starValue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/tools/CSVtoDB.class" afterPath="$PROJECT_DIR$/bin/tools/CSVtoDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/tools/DBInstaller.class" afterPath="$PROJECT_DIR$/bin/tools/DBInstaller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/tools/DBQueries.class" afterPath="$PROJECT_DIR$/bin/tools/DBQueries.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/tools/TextUploader.class" afterPath="$PROJECT_DIR$/bin/tools/TextUploader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/tools/Texts.class" afterPath="$PROJECT_DIR$/bin/tools/Texts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FoLBO_jar/FoLBO.jar" afterPath="$PROJECT_DIR$/out/artifacts/FoLBO_jar/FoLBO.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblartist.sql" afterPath="$PROJECT_DIR$/src/database/tblartist.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblartistmovie.sql" afterPath="$PROJECT_DIR$/src/database/tblartistmovie.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tbldirector.sql" afterPath="$PROJECT_DIR$/src/database/tbldirector.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblgender.sql" afterPath="$PROJECT_DIR$/src/database/tblgender.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblgenre.sql" afterPath="$PROJECT_DIR$/src/database/tblgenre.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblkeywords.sql" afterPath="$PROJECT_DIR$/src/database/tblkeywords.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblmonth.sql" afterPath="$PROJECT_DIR$/src/database/tblmonth.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblmovie.sql" afterPath="$PROJECT_DIR$/src/database/tblmovie.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblmtrcbrating.sql" afterPath="$PROJECT_DIR$/src/database/tblmtrcbrating.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblorigin.sql" afterPath="$PROJECT_DIR$/src/database/tblorigin.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblprodcompany.sql" afterPath="$PROJECT_DIR$/src/database/tblprodcompany.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tbltheme.sql" afterPath="$PROJECT_DIR$/src/database/tbltheme.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,6 +66,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -122,11 +95,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="folbo-svr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="folbo-svr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="folbo-svr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="folbo-svr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,6 +140,11 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LAPTOP\Downloads\New Repo\folbo-svr\src\database" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.system_manager">
     <configuration default="false" name="system_manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -144,6 +155,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="main.system_manager" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FoLBO" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="starValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="others.starValue" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -360,12 +391,14 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.system_manager" />
+      <item index="1" class="java.lang.String" itemvalue="Application.starValue" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.system_manager" />
+        <item index="1" class="java.lang.String" itemvalue="Application.starValue" />
       </list>
     </recent_temporary>
   </component>
@@ -392,19 +425,18 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2408492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2408492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -416,9 +448,41 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2408492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -434,9 +498,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/system_manager.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1348#1375#1" expanded="true" />
+            <element signature="e#1518#1552#0" expanded="true" />
+            <element signature="e#2893#2925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/system_manager.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#1348#1375#1" expanded="true" />
+            <element signature="e#1518#1552#0" expanded="true" />
+            <element signature="e#2893#2925#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -456,7 +536,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1348#1375#1" expanded="true" />
+            <element signature="e#1518#1552#0" expanded="true" />
+            <element signature="e#2893#2925#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -472,11 +556,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/others/starValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/tblartist.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2312">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/tblgender.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/system_manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="e#1348#1375#1" expanded="true" />
+            <element signature="e#1518#1552#0" expanded="true" />
+            <element signature="e#2893#2925#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
