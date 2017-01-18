@@ -7,64 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4fad861-c7f3-4f42-8f65-c19c8844c85b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/BrowseFiles.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/CheckboxListItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/CheckboxListRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/Home.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/MovieAbout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/MovieCasts$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/MovieCasts$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/MovieCasts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/MovieGrossRevenue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/MovieInformation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/MoviePrequel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/MovieProduction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/MovieRelease.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/MovieSequel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/MovieStory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/SearchBoxModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/frames/Splash.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/main/GUI_manager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/main/artist_recommender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/main/component_manager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/main/database_manager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/main/input_manager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/main/machineLearning_manager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/main/output_manager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/main/starValue_calculator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/main/system_manager$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/main/system_manager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/main/theme_recognizer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/objects/Movie.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/objects/MovieInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/objects/NGram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/objects/ProdInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/objects/Release.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/objects/Tokenizer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/objects/eSVR.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tools/CSVtoDB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tools/DBInstaller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tools/DBQueries.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tools/TextUploader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tools/Texts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/others/CorrelationAnalysis.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/others/Tester.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/others/starValue.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FoLBO.iml" afterPath="$PROJECT_DIR$/FoLBO.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblartist.sql" afterPath="$PROJECT_DIR$/bin/database/tblartist.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblartistmovie.sql" afterPath="$PROJECT_DIR$/bin/database/tblartistmovie.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tbldirector.sql" afterPath="$PROJECT_DIR$/bin/database/tbldirector.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblgender.sql" afterPath="$PROJECT_DIR$/bin/database/tblgender.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblgenre.sql" afterPath="$PROJECT_DIR$/bin/database/tblgenre.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblkeywords.sql" afterPath="$PROJECT_DIR$/bin/database/tblkeywords.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblmonth.sql" afterPath="$PROJECT_DIR$/bin/database/tblmonth.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblmovie.sql" afterPath="$PROJECT_DIR$/bin/database/tblmovie.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblmtrcbrating.sql" afterPath="$PROJECT_DIR$/bin/database/tblmtrcbrating.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblorigin.sql" afterPath="$PROJECT_DIR$/bin/database/tblorigin.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblprodcompany.sql" afterPath="$PROJECT_DIR$/bin/database/tblprodcompany.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tbltheme.sql" afterPath="$PROJECT_DIR$/bin/database/tbltheme.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -134,6 +77,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,25 +98,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoLBO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoLBO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,31 +125,11 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="main.system_manager" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="FoLBO" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="starValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="others.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="others.starValue" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.7" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -571,6 +480,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -601,14 +516,12 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.system_manager" />
-      <item index="1" class="java.lang.String" itemvalue="Application.starValue" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Application.system_manager" />
-        <item index="1" class="java.lang.String" itemvalue="Application.starValue" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -659,11 +572,12 @@
       <option name="presentableId" value="Default" />
       <updated>1484469410370</updated>
       <workItem from="1484735521277" duration="401000" />
+      <workItem from="1484736026269" duration="320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="401000" />
+    <option name="totallyTimeSpent" value="721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -671,18 +585,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.48828697" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.4795022" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.511713" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5204978" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2408492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.238653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -774,8 +688,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1752#1762#0" expanded="false" />
-            <element signature="e#3875#3883#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -798,8 +710,6 @@
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1752#1762#0" expanded="false" />
-            <element signature="e#3875#3883#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -830,18 +740,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/others/starValue.java">
+    <entry file="file://$PROJECT_DIR$/src/others/starValue.java" />
+    <entry file="file://$PROJECT_DIR$/FoLBO.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        <state relative-caret-position="-368">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FoLBO.iml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="218" column="22" selection-start-line="218" selection-start-column="20" selection-end-line="218" selection-end-column="22" />
           <folding />
         </state>
       </provider>
