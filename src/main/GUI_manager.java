@@ -3,10 +3,10 @@ package main;
 import frames.*;
 
 /**
- * @author		Ronald Erquiza, Katrina Buca
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	GUI_manager.java
  * Description:	Manages the Graphical User Interface of the System
+ * @author		Ronald Erquiza, Katrina Buca
  * @version		1.0.5
  *
  * @lastreview 

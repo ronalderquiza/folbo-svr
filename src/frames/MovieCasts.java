@@ -196,8 +196,8 @@ public class MovieCasts extends JFrame implements MouseListener, MouseMotionList
  		try {
  			String query = "SELECT * FROM `tblartist`";
  			dbmngr.query(query);
- 			for (; dbmngr.getRs().next();) {
- 				if(!isExisting(allTop, dbmngr.getRs().getString("artistID"))){
+ 			for (; dbmngr.getResultSet().next();) {
+ 				if(!isExisting(allTop, dbmngr.getResultSet().getString("artistID"))){
  	 				ctr++;
  				}
  			}
@@ -220,11 +220,11 @@ public class MovieCasts extends JFrame implements MouseListener, MouseMotionList
  		try {
  			String query = "SELECT * FROM `tblartist` ORDER BY `artistName` ASC";
  			dbmngr.query(query);
- 			for (int count = lastIndex; dbmngr.getRs().next(); count++) {
- 				if(!isExisting(allTop, dbmngr.getRs().getString("artistID"))){
- 	 				cbi[count] = new CheckboxListItem(dbmngr.getRs().getString("artistName"));
- 	 				artistIDNum[count] = new String(dbmngr.getRs().getInt("artistID") + "");
- 	 				artistList.add(dbmngr.getRs().getInt("artistID"));
+ 			for (int count = lastIndex; dbmngr.getResultSet().next(); count++) {
+ 				if(!isExisting(allTop, dbmngr.getResultSet().getString("artistID"))){
+ 	 				cbi[count] = new CheckboxListItem(dbmngr.getResultSet().getString("artistName"));
+ 	 				artistIDNum[count] = new String(dbmngr.getResultSet().getInt("artistID") + "");
+ 	 				artistList.add(dbmngr.getResultSet().getInt("artistID"));
  	 				selectedArtist.add(false);
  				}
  				else{
@@ -278,7 +278,7 @@ public class MovieCasts extends JFrame implements MouseListener, MouseMotionList
  		try {
  			String query = "SELECT * FROM `tblartist` ORDER BY `artistName` ASC";
  			dbmngr.query(query);
- 			for (; dbmngr.getRs().next();) {
+ 			for (; dbmngr.getResultSet().next();) {
  	 			ctr++;
  			}
  		}catch (SQLException | ClassNotFoundException a) {
@@ -291,10 +291,10 @@ public class MovieCasts extends JFrame implements MouseListener, MouseMotionList
  		try {
  			String query = "SELECT * FROM `tblartist` ORDER BY `artistName` ASC";
  			dbmngr.query(query);
- 			for (int count = 0; dbmngr.getRs().next(); count++) {
- 				cbi[count] = new CheckboxListItem(dbmngr.getRs().getString("artistName"));
- 				artistIDNum[count] = new String(dbmngr.getRs().getInt("artistID") + "");
- 				artistList.add(dbmngr.getRs().getInt("artistID"));
+ 			for (int count = 0; dbmngr.getResultSet().next(); count++) {
+ 				cbi[count] = new CheckboxListItem(dbmngr.getResultSet().getString("artistName"));
+ 				artistIDNum[count] = new String(dbmngr.getResultSet().getInt("artistID") + "");
+ 				artistList.add(dbmngr.getResultSet().getInt("artistID"));
  				selectedArtist.add(false);
  			}
  			

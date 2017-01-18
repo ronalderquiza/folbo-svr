@@ -7,16 +7,19 @@ import java.util.HashMap;
 import objects.MovieInfo;
 import tools.DBQueries;
 /**
- * @author		Ronald Erquiza, Katrina Buca
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	artist_recommender.java
  * Description:	Recommending artists
+ * @author		Ronald Erquiza, Katrina Buca
  * @version		2.4.1
  *
- * @lastreview 20161203
+ * @lastreview 20170117
  * Ron, Kat, Ran
  */
 public class artist_recommender {
+    /**
+     * Movie Information
+     */
 	private MovieInfo movieInfo;
 	private ArrayList<Integer>[] artist;
 	private ArrayList<Integer> topMale; 
@@ -31,11 +34,10 @@ public class artist_recommender {
 	private HashMap<Integer, String> allArtist = new HashMap<Integer, String>();
 
 	/**
-	 * initialize artist recommender
+	 * Instantiation of Artist Recommender
 	 */
 	@SuppressWarnings("unchecked")
 	public artist_recommender() {
-		// TODO Auto-generated constructor stub
 		system_manager.getSplashscreen().setLabel("Initializing Artists Recommender...");
 		collectAllArtist();
 		setArtist(new ArrayList[2]);
@@ -47,11 +49,9 @@ public class artist_recommender {
 		setAllTop(new ArrayList<Integer>());
 	}
 	/**
-	 * 
-	 * @param movieInfo
-	 * @param gender 
-	 * i is the index of an array
-	 * 
+	 * Recommend Artists
+	 * @param movieInfo Movie Information
+	 * @param gender Gender
 	 */
 	public void recommendArtist(MovieInfo movieInfo, int gender) {
 		int year = system_manager.getCurrYear();
@@ -73,10 +73,7 @@ public class artist_recommender {
 	}
 	
 	/**
-	 * setting all top artists to final array
-	 * i is the index for rows
-	 * j is the index for columns
-	 * 
+	 * Setting all top artists to final array
 	 */
 	public void setAll(){
 		setFinalTop(new int[getAllTop().size()]);
@@ -86,10 +83,8 @@ public class artist_recommender {
 	}
 	
 	/**
-	 * 
-	 * @param gender 
-	 * collecting of artists from the database
-	 * 
+	 * Collecting of artists from the database
+     * @param gender Gender
 	 */
 	public void collectArtist(int gender) {
 		getArtist()[gender - 1] = new ArrayList<Integer>();
@@ -101,14 +96,13 @@ public class artist_recommender {
 				String query = dbq.getArtistDataQueries(gender)[index];
 				System.out.println(query);
 				db_mngr.query(query);
-				for (;db_mngr.getRs().next();) {
-					int id = db_mngr.getRs().getInt("artistID");
+				for (;db_mngr.getResultSet().next();) {
+					int id = db_mngr.getResultSet().getInt("artistID");
 					getArtist()[gender - 1].add(id);
 					System.out.println(">" + allArtist.get(id) + "-" + id + "-" + artistmovie.get(id));
 				}
 				
 			} catch (ClassNotFoundException | SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			index++;
@@ -117,8 +111,8 @@ public class artist_recommender {
 	}
 	
 	/**
-	 * collects all the artists' movie count
-	 * @param year
+	 * Collects all the artists' movie count
+	 * @param year Year
 	 */
 	private void collectArtistMovie(int year){
 		database_manager db = system_manager.getDb_mngr();
@@ -133,14 +127,14 @@ public class artist_recommender {
 		try {
 			System.out.println(query);
 			db.query(query);
-			for(;db.getRs().next();){
-				int artistID = db.getRs().getInt("artistID");
-				int count = db.getRs().getInt("COUNT(`artistID`)");
-				double gross = db.getRs().getDouble("SUM(`grossRevenue`)");
+			for(;db.getResultSet().next();){
+				int artistID = db.getResultSet().getInt("artistID");
+				int count = db.getResultSet().getInt("COUNT(`artistID`)");
+				double gross = db.getResultSet().getDouble("SUM(`grossRevenue`)");
 				artistmovie.put(artistID, (gross/count)/divisor);
 				System.out.println(artistID + "---->" + (gross/count)/divisor);
 			}
-			db.getRs().close();
+			db.getResultSet().close();
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -149,15 +143,8 @@ public class artist_recommender {
 	}
 	
 	/**
-	 * 
-	 * @param gender
-	 * i is the index of an array
-	 * info is the artist's information
-	 * curr is the current highest frequency
-	 * currInfo is the info of the current highest frequency
-	 * num is the number of artist;
-	 * getting the top artists
-	 * 
+     * Getting the top artists
+	 * @param gender Gender
 	 */
 	public void getTopArtist(int gender){
 		gender = gender - 1;
@@ -190,16 +177,16 @@ public class artist_recommender {
 	}
 	
 	/**
-	 * collects all the artist from the database
+	 * Collects all the artist from the database
 	 */
 	public void collectAllArtist(){
 		try {
  			database_manager dbmngr = system_manager.getDb_mngr();
  			String query = "SELECT * FROM `tblartist`";
 			dbmngr.query(query);
- 			for (; dbmngr.getRs().next();) {
- 				int id = dbmngr.getRs().getInt("artistID");
- 				String name = dbmngr.getRs().getString("artistName");
+ 			for (; dbmngr.getResultSet().next();) {
+ 				int id = dbmngr.getResultSet().getInt("artistID");
+ 				String name = dbmngr.getResultSet().getString("artistName");
  				allArtist.put(id, name);
  			}
  			
@@ -209,95 +196,110 @@ public class artist_recommender {
 	}
 	
 	/**
-	 * 
-	 * @return finalTop
-	 * getting the Final top artists
-	 * 
+	 * Getting the Final top artists
+     * @return Final Top Artists
 	 */
 	public int[] getFinalTop() {
 		return finalTop;
 	}
 	
 	/**
-	 * 
-	 * @param finalTop
-	 * setting the Final top artists
-	 * 
+     * Setting the Final Top Artists
+	 * @param finalTop Final Top Artists
 	 */
 	public void setFinalTop(int[] finalTop) {
 		this.finalTop = finalTop;
 	}
 	
 	/**
-	 * @return movieInfo
+     * Getting Movie Information
+	 * @return Movie Information
 	 */
 	public MovieInfo getMovieInfo() {
 		return movieInfo;
 	}
-	/**
-	 * @param movieInfo
+
+    /**
+     * Setting Movie Information
+	 * @param movieInfo Movie Information
 	 */
 	public void setMovieInfo(MovieInfo movieInfo) {
 		this.movieInfo = movieInfo;
 	}
-	/**
-	 * @return artist
+
+    /**
+     * Getting Artists
+	 * @return Artists
 	 */
 	public ArrayList<Integer>[] getArtist() {
 		return artist;
 	}
-	/**
-	 * @param artist
+
+    /**
+     * Setting Artists
+	 * @param artist Artists
 	 */
 	public void setArtist(ArrayList<Integer>[] artist) {
 		this.artist = artist;
 	}
-	/**
-	 * @return topMale
+
+    /**
+     * Getting Top Male
+	 * @return Top Male
 	 */
 	public ArrayList<Integer> getTopMale() {
 		return topMale;
 	}
-	/**
+
+    /**
+     * Setting Top Male Artist
 	 * @param topMale
 	 */
 	public void setTopMale(ArrayList<Integer> topMale) {
 		this.topMale = topMale;
 	}
-	/**
-	 * @return topFemale
+
+    /**
+     * Getting Top Female Artists
+	 * @return Top Female Artists
 	 */
 	public ArrayList<Integer> getTopFemale() {
 		return topFemale;
 	}
+
 	/**
-	 * @param topFemale
+     * Setting Top Female Artists
+	 * @param topFemale Top Female Artists
 	 */
 	public void setTopFemale(ArrayList<Integer> topFemale) {
 		this.topFemale = topFemale;
 	}
-	/**
-	 * @return allTop
+
+    /**
+     * Getting All Top Artists
+	 * @return All Top Artists
 	 */
 	public ArrayList<Integer> getAllTop() {
 		return allTop;
 	}
-	/**
-	 * @param allTop
+
+    /**
+     * Setting All Top Artists
+	 * @param allTop All Top Artists
 	 */
 	public void setAllTop(ArrayList<Integer> allTop) {
 		this.allTop = allTop;
 	}
 
     /**
-     *
-     * @param allArtist
+     * Getting All Artists
+     * @param allArtist All Artists
      */
 	public void setAllArtist(HashMap<Integer, String> allArtist) { this.allArtist = allArtist; }
 
     /**
-     *
-     * @return allArtist
+     * Getting All Artists
+     * @return All Artists
      */
     public HashMap<Integer, String> getAllArtist() { return allArtist; }
 }

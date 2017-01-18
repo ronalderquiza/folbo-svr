@@ -7,33 +7,47 @@ import objects.Movie;
 import svr.eSVR;
 import tools.DBQueries;
 /**
- * @author		Ronald Erquiza, Katrina Buca
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	machineLearning_manager.java
  * Description:	Machine Learning Manager of the FoLBO System
+ * @author		Ronald Erquiza, Katrina Buca
  * @version		2.1.3
- *
- * @lastreview
+ * @lastreview  20170117
+ * Ron, Kat, Ran
  */
 public class machineLearning_manager {
+	/**
+	 * Machine Learning Model used
+	 */
 	private eSVR model;
+
+	/**
+	 * The output of the Machine Learning
+	 */
 	private double output;
+
+	/**
+	 * Certainty of the Machine Learning output
+	 */
 	private double certainty;
+
+	/**
+	 * Index of the training data
+	 */
 	private int index = 0;
 	
 	/**
-	 * initializing machine learning manager
+	 * Instantiation of the Machine Learning Manager
 	 */
-	public machineLearning_manager(){
+    machineLearning_manager(){
 		system_manager.getSplashscreen().setLabel("Initializing machine learning manager...");
 		setModel(new eSVR());
 	}
 	
 	/**
-	 * execute the machine learning
-	 * training
-	 * predicting
-	 * @param input_data 
+	 * Execution of the Machine Learning Manager.
+	 * Training and Predicting is included.
+	 * @param input_data The input for the Model.
 	 */
 	public void execute(Movie input_data){
 		Movie movie = input_data;
@@ -51,15 +65,14 @@ public class machineLearning_manager {
 		//computes the certainty of the algorithm's result
 		setCertainty(getModel().computesCertainty(index));
 		
-		
 		//setting the output
 		setOutput(Math.abs(getModel().predict(input)));
 	}
 	
 	/**
-	 * setting the training data features
-	 * @param movie
-	 * @return data
+	 * Setting the Training data features
+	 * @param movie Movie Input
+	 * @return Training Data Input
 	 */
 	private double[][] setTrainingDataX(Movie movie) {
 		// TODO Auto-generated method stub
@@ -75,12 +88,12 @@ public class machineLearning_manager {
 				try {
 					System.out.println(query);
 					dbmngr.query(query);
-					for(;dbmngr.getRs().next();){
+					for(;dbmngr.getResultSet().next();){
 						Double[] record = new Double[4];
-						record[0] = dbmngr.getRs().getDouble("starValue");
-						record[1] = (double)dbmngr.getRs().getInt("year");
-						record[2] = (double)dbmngr.getRs().getInt("month");
-						record[3] = (double)dbmngr.getRs().getInt("theme");
+						record[0] = dbmngr.getResultSet().getDouble("starValue");
+						record[1] = (double)dbmngr.getResultSet().getInt("year");
+						record[2] = (double)dbmngr.getResultSet().getInt("month");
+						record[3] = (double)dbmngr.getResultSet().getInt("theme");
 						dataList.add(record);
 					}
 				} catch (ClassNotFoundException | SQLException e) {
@@ -97,12 +110,12 @@ public class machineLearning_manager {
 					try {
 						int count = 0;
 						dbmngr.query(query);
-						for(;dbmngr.getRs().next();){
-							id = dbmngr.getRs().getInt("preSequel");
+						for(;dbmngr.getResultSet().next();){
+							id = dbmngr.getResultSet().getInt("preSequel");
 							Double[] record = new Double[3];
-							record[0] = dbmngr.getRs().getDouble("starValue");
-							record[1] = (double)dbmngr.getRs().getInt("year");
-							record[2] = (double)dbmngr.getRs().getInt("month");
+							record[0] = dbmngr.getResultSet().getDouble("starValue");
+							record[1] = (double)dbmngr.getResultSet().getInt("year");
+							record[2] = (double)dbmngr.getResultSet().getInt("month");
 							dataList.add(record);
 							count++;
 						}
@@ -130,9 +143,9 @@ public class machineLearning_manager {
 	}
 
 	/**
-	 * setting the training data label
-	 * @param movie
-	 * @return data
+	 * Setting the Training Data Label/Target
+	 * @param movie Movie Input
+	 * @return Training Data Target
 	 */
 	private double[] setTrainingDataY(Movie movie) {
 		// TODO Auto-generated method stub
@@ -147,8 +160,8 @@ public class machineLearning_manager {
 				query = dbq.getTrainingDataQueries()[index];
 				try {
 					dbmngr.query(query);
-					for(;dbmngr.getRs().next();){
-						dataList.add(dbmngr.getRs().getDouble("grossRevenue"));
+					for(;dbmngr.getResultSet().next();){
+						dataList.add(dbmngr.getResultSet().getDouble("grossRevenue"));
 					}
 				} catch (ClassNotFoundException | SQLException e) {
 					// TODO Auto-generated catch block
@@ -163,9 +176,9 @@ public class machineLearning_manager {
 					try {
 						int count = 0;
 						dbmngr.query(query);
-						for(;dbmngr.getRs().next();){
-							id = dbmngr.getRs().getInt("preSequel");
-							dataList.add(dbmngr.getRs().getDouble("grossRevenue"));
+						for(;dbmngr.getResultSet().next();){
+							id = dbmngr.getResultSet().getInt("preSequel");
+							dataList.add(dbmngr.getResultSet().getDouble("grossRevenue"));
 							count++;
 						}
 						if(count == 0){
@@ -189,6 +202,7 @@ public class machineLearning_manager {
 	}
 	
 	/**
+     * Getting the Model
 	 * @return model
 	 */
 	public eSVR getModel() {
@@ -196,13 +210,15 @@ public class machineLearning_manager {
 	}
 	
 	/**
-	 * @param model
+     * Setting the Model
+	 * @param model Model
 	 */
 	public void setModel(eSVR model) {
 		this.model = model;
 	}
 
 	/**
+     * Getting the Output
 	 * @return output
 	 */
 	public double getOutput() {
@@ -210,13 +226,15 @@ public class machineLearning_manager {
 	}
 
 	/**
-	 * @param output
+     * Setting the Output
+	 * @param output Output
 	 */
 	public void setOutput(double output) {
 		this.output = output;
 	}
 
 	/**
+     * Getting the Certainty
 	 * @return certainty
 	 */
 	public double getCertainty() {
@@ -224,7 +242,8 @@ public class machineLearning_manager {
 	}
 
 	/**
-	 * @param certainty
+     * Setting the Certainty
+	 * @param certainty Certainty
 	 */
 	public void setCertainty(double certainty) {
 		this.certainty = certainty;

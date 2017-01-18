@@ -183,8 +183,8 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		String query = "SELECT * FROM `tblartistmovie` WHERE `movieID` = " + selectedID;
 		try {
 			dbmngr.query(query);
-			for(;dbmngr.getRs().next();){
-				list.add(dbmngr.getRs().getInt("artistID"));
+			for(;dbmngr.getResultSet().next();){
+				list.add(dbmngr.getResultSet().getInt("artistID"));
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
@@ -202,15 +202,15 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		String query = "SELECT * FROM `tblmovie` WHERE `movieID` = " + selectedID;
 		try {
 			dbmngr.query(query);
-			for(;dbmngr.getRs().next();){
-				infos[0] = dbmngr.getRs().getInt("theme");
-				infos[1] = dbmngr.getRs().getInt("mainGenre");
-				infos[2] = dbmngr.getRs().getInt("subGenre");
-				infos[3] = dbmngr.getRs().getInt("mtrcbRating");
-				infos[4] = dbmngr.getRs().getInt("origin");
-				infos[5] = dbmngr.getRs().getInt("director");
-				infos[6] = dbmngr.getRs().getInt("prodCompany");
-				infos[7] = dbmngr.getRs().getInt("distributor");
+			for(;dbmngr.getResultSet().next();){
+				infos[0] = dbmngr.getResultSet().getInt("theme");
+				infos[1] = dbmngr.getResultSet().getInt("mainGenre");
+				infos[2] = dbmngr.getResultSet().getInt("subGenre");
+				infos[3] = dbmngr.getResultSet().getInt("mtrcbRating");
+				infos[4] = dbmngr.getResultSet().getInt("origin");
+				infos[5] = dbmngr.getResultSet().getInt("director");
+				infos[6] = dbmngr.getResultSet().getInt("prodCompany");
+				infos[7] = dbmngr.getResultSet().getInt("distributor");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
@@ -255,8 +255,8 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		String query = "SELECT * FROM `tblmovie` WHERE `year` < " + year+ " ORDER BY `year`" ;
         try {
         	dbmngr.query(query);
-			for (;dbmngr.getRs().next();) {				
-				Integer data = dbmngr.getRs().getInt("preSequel");
+			for (;dbmngr.getResultSet().next();) {
+				Integer data = dbmngr.getResultSet().getInt("preSequel");
 				all.add(data);
 			}
         } catch (ClassNotFoundException | SQLException e1) {
@@ -265,10 +265,10 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
         
 		try {
 			dbmngr.query(query);
-			for (; dbmngr.getRs().next();) {				
-				if(!containing(all,dbmngr.getRs().getInt("movieID"))) {
-					cbMovieSequel.addItem(((dbmngr.getRs().getString("movieTitle")) + "(" + dbmngr.getRs().getInt("year") + ") "));
-					movieIDs.add(dbmngr.getRs().getInt("movieID"));
+			for (; dbmngr.getResultSet().next();) {
+				if(!containing(all,dbmngr.getResultSet().getInt("movieID"))) {
+					cbMovieSequel.addItem(((dbmngr.getResultSet().getString("movieTitle")) + "(" + dbmngr.getResultSet().getInt("year") + ") "));
+					movieIDs.add(dbmngr.getResultSet().getInt("movieID"));
 				}
 			}
 		} catch (ClassNotFoundException | SQLException e1) {

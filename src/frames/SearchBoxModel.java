@@ -48,8 +48,8 @@ public class SearchBoxModel extends AbstractListModel implements ComboBoxModel, 
 		database_manager dbmngr = system_manager.getDb_mngr();
 		try {
 			dbmngr.query("SELECT * FROM `tblmovie` WHERE `sequel` = 1;");
-			for (; dbmngr.getRs().next();) {				
-				db.add((dbmngr.getRs().getString("movieTitle"))+"");
+			for (; dbmngr.getResultSet().next();) {
+				db.add((dbmngr.getResultSet().getString("movieTitle"))+"");
 			} 
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block

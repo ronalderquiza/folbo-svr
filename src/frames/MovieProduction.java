@@ -203,8 +203,8 @@ public class MovieProduction extends JFrame implements MouseListener, MouseMotio
 		database_manager dbmngr = system_manager.getDb_mngr();
 		try {
 			dbmngr.query("SELECT * FROM `tbldirector`;");
-			for (; dbmngr.getRs().next();) {
-				cbDirector.addItem(dbmngr.getRs().getString("directorName"));
+			for (; dbmngr.getResultSet().next();) {
+				cbDirector.addItem(dbmngr.getResultSet().getString("directorName"));
 			}
 		} catch (ClassNotFoundException | SQLException e1) {
 			e1.printStackTrace();
@@ -212,9 +212,9 @@ public class MovieProduction extends JFrame implements MouseListener, MouseMotio
 		
 		try {
 			dbmngr.query("SELECT * FROM `tblprodcompany`");
-			for (; dbmngr.getRs().next();) {
-				cbProduction.addItem((dbmngr.getRs().getString("prodCompany"))+"");
-				cbDistributor.addItem((dbmngr.getRs().getString("prodCompany"))+"");
+			for (; dbmngr.getResultSet().next();) {
+				cbProduction.addItem((dbmngr.getResultSet().getString("prodCompany"))+"");
+				cbDistributor.addItem((dbmngr.getResultSet().getString("prodCompany"))+"");
 			}
 		} catch (ClassNotFoundException | SQLException e1) {
 			e1.printStackTrace();
