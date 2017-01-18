@@ -23,6 +23,7 @@ public class database_manager  {
      * Driver for the Database
      */
 	private final String DRIVER_CLASS = "com.mysql.jdbc.Driver";
+<<<<<<< HEAD
 
     /**
      * Connection of the Database
@@ -63,6 +64,16 @@ public class database_manager  {
      * Database Name
      */
     private String database;
+=======
+	private static Connection con;
+	private static Statement st;
+	private static ResultSet rs;
+	private static PreparedStatement pst;
+	private String user;                         /** <jkjjjkjkj*/
+	private String pass;
+	private String host;
+	private String database;
+>>>>>>> c4d41264175697e9a2d5d1e9bbd5adb2e9808fdd
 	
 	/**
      * Instantiation of the Database Manager

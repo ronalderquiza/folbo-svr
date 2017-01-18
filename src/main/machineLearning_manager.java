@@ -57,7 +57,11 @@ public class machineLearning_manager {
 							movie.getRelease().getYear(),
 							movie.getRelease().getMonth(),
 							movie.getMovieInfo().getTheme()
+<<<<<<< HEAD
 							};
+=======
+						};
+>>>>>>> c4d41264175697e9a2d5d1e9bbd5adb2e9808fdd
 
 
 		//setting the training data of the model
