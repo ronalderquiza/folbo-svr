@@ -6,28 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4fad861-c7f3-4f42-8f65-c19c8844c85b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Ron_Erquiza.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieStory.class" afterPath="$PROJECT_DIR$/bin/frames/MovieStory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frames/MovieCasts.java" afterPath="$PROJECT_DIR$/src/frames/MovieCasts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frames/MovieInformation.java" afterPath="$PROJECT_DIR$/src/frames/MovieInformation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frames/MoviePrequel.java" afterPath="$PROJECT_DIR$/src/frames/MoviePrequel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frames/MovieProduction.java" afterPath="$PROJECT_DIR$/src/frames/MovieProduction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frames/MovieStory.java" afterPath="$PROJECT_DIR$/src/frames/MovieStory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frames/SearchBoxModel.java" afterPath="$PROJECT_DIR$/src/frames/SearchBoxModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/GUI_manager.java" afterPath="$PROJECT_DIR$/src/main/GUI_manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/artist_recommender.java" afterPath="$PROJECT_DIR$/src/main/artist_recommender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/component_manager.java" afterPath="$PROJECT_DIR$/src/main/component_manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/database_manager.java" afterPath="$PROJECT_DIR$/src/main/database_manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/input_manager.java" afterPath="$PROJECT_DIR$/src/main/input_manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/machineLearning_manager.java" afterPath="$PROJECT_DIR$/src/main/machineLearning_manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/output_manager.java" afterPath="$PROJECT_DIR$/src/main/output_manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/starValue_calculator.java" afterPath="$PROJECT_DIR$/src/main/starValue_calculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/system_manager.java" afterPath="$PROJECT_DIR$/src/main/system_manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/theme_recognizer.java" afterPath="$PROJECT_DIR$/src/main/theme_recognizer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tools/CSVtoDB.java" afterPath="$PROJECT_DIR$/src/tools/CSVtoDB.java" />
-    </list>
+    <list default="true" id="f4fad861-c7f3-4f42-8f65-c19c8844c85b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -649,12 +628,12 @@
       <workItem from="1484739373455" duration="423000" />
       <workItem from="1484739958215" duration="673000" />
       <workItem from="1484741745558" duration="861000" />
-      <workItem from="1484743811225" duration="7477000" />
+      <workItem from="1484743811225" duration="7587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10564000" />
+    <option name="totallyTimeSpent" value="10674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
