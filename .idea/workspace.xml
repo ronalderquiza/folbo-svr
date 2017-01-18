@@ -17,22 +17,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4fad861-c7f3-4f42-8f65-c19c8844c85b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FoLBO_jar/FoLBO.jar" afterPath="$PROJECT_DIR$/out/artifacts/FoLBO_jar/FoLBO.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblartist.sql" afterPath="$PROJECT_DIR$/src/database/tblartist.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblartistmovie.sql" afterPath="$PROJECT_DIR$/src/database/tblartistmovie.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tbldirector.sql" afterPath="$PROJECT_DIR$/src/database/tbldirector.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblgender.sql" afterPath="$PROJECT_DIR$/src/database/tblgender.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblgenre.sql" afterPath="$PROJECT_DIR$/src/database/tblgenre.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblkeywords.sql" afterPath="$PROJECT_DIR$/src/database/tblkeywords.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblmonth.sql" afterPath="$PROJECT_DIR$/src/database/tblmonth.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblmovie.sql" afterPath="$PROJECT_DIR$/src/database/tblmovie.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblmtrcbrating.sql" afterPath="$PROJECT_DIR$/src/database/tblmtrcbrating.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblorigin.sql" afterPath="$PROJECT_DIR$/src/database/tblorigin.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tblprodcompany.sql" afterPath="$PROJECT_DIR$/src/database/tblprodcompany.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/tbltheme.sql" afterPath="$PROJECT_DIR$/src/database/tbltheme.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
+<<<<<<< HEAD
+>>>>>>> katrina
+=======
+    <ignored path=".idea/dataSources.local.xml" />
 >>>>>>> katrina
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,13 +33,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
 =======
+>>>>>>> katrina
+=======
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
 >>>>>>> katrina
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="FavoritesManager">
     <favorites_list name="FoLBO" />
@@ -114,6 +114,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
 >>>>>>> katrina
+=======
+  <component name="FavoritesManager">
+    <favorites_list name="FoLBO" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+>>>>>>> katrina
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,6 +130,7 @@
       <projects_view />
     </option>
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -148,11 +156,14 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> katrina
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+<<<<<<< HEAD
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -162,6 +173,8 @@
   </component>
 =======
 >>>>>>> katrina
+=======
+>>>>>>> katrina
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -169,6 +182,9 @@
     <option name="height" value="744" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> katrina
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -179,6 +195,9 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+<<<<<<< HEAD
+=======
+>>>>>>> katrina
 =======
 >>>>>>> katrina
   <component name="ProjectView">
@@ -197,6 +216,7 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
 =======
@@ -204,10 +224,16 @@
       <pane id="Scope" />
       <pane id="Scratches" />
 >>>>>>> katrina
+=======
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> katrina
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
 <<<<<<< HEAD
               <option name="myItemId" value="FoLBO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
@@ -222,19 +248,19 @@
               <option name="myItemId" value="FoLBO" />
 =======
               <option name="myItemId" value="folbo-svr" />
+=======
+              <option name="myItemId" value="FoLBO" />
+>>>>>>> katrina
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="folbo-svr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="folbo-svr" />
+              <option name="myItemId" value="FoLBO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="folbo-svr" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -300,6 +326,9 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="database" />
 >>>>>>> katrina
+=======
+              <option name="myItemId" value="FoLBO" />
+>>>>>>> katrina
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,9 +352,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/eSVR.jar!/" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -342,6 +374,7 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="main.system_manager" />
+<<<<<<< HEAD
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -369,6 +402,13 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+=======
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.7" />
+>>>>>>> katrina
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -389,7 +429,11 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+>>>>>>> katrina
+=======
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
 >>>>>>> katrina
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -401,6 +445,7 @@
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
@@ -408,11 +453,14 @@
       <option name="PREFERRED_AVD" value="" />
 =======
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+=======
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+>>>>>>> katrina
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+<<<<<<< HEAD
       <Java />
       <Profilers>
         <option name="ENABLE_ADVANCED_PROFILING" value="true" />
@@ -421,6 +469,8 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
+>>>>>>> katrina
+=======
 >>>>>>> katrina
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -447,9 +497,9 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+<<<<<<< HEAD
       <Java />
       <Profilers>
         <option name="ENABLE_ADVANCED_PROFILING" value="true" />
@@ -458,6 +508,8 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
+>>>>>>> katrina
+=======
 >>>>>>> katrina
       <method />
     </configuration>
@@ -485,6 +537,9 @@
       <method />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> katrina
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
@@ -553,6 +608,9 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
+<<<<<<< HEAD
+=======
+>>>>>>> katrina
 =======
 >>>>>>> katrina
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
@@ -593,6 +651,9 @@
       <method />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> katrina
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -614,6 +675,9 @@
       <patterns />
       <method />
     </configuration>
+<<<<<<< HEAD
+=======
+>>>>>>> katrina
 =======
 >>>>>>> katrina
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -638,10 +702,16 @@
       <method />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
 =======
+>>>>>>> katrina
+=======
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
 >>>>>>> katrina
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -677,6 +747,9 @@
       <method />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> katrina
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -713,6 +786,9 @@
       <envs />
       <method />
     </configuration>
+<<<<<<< HEAD
+=======
+>>>>>>> katrina
 =======
 >>>>>>> katrina
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -744,6 +820,9 @@
       <method />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> katrina
     <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -773,6 +852,15 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+<<<<<<< HEAD
+=======
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+>>>>>>> katrina
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -804,6 +892,7 @@
       <method />
     </configuration>
     <list size="1">
+<<<<<<< HEAD
       <item index="0" class="java.lang.String" itemvalue="Application.system_manager" />
     </list>
     <recent_temporary>
@@ -819,15 +908,48 @@
   </component>
 =======
     <list size="2">
+=======
+>>>>>>> katrina
       <item index="0" class="java.lang.String" itemvalue="Application.system_manager" />
-      <item index="1" class="java.lang.String" itemvalue="Application.starValue" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Application.system_manager" />
-        <item index="1" class="java.lang.String" itemvalue="Application.starValue" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
 >>>>>>> katrina
   <component name="ShelveChangesManager" show_recycled="false">
@@ -857,8 +979,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484469410370</updated>
+      <workItem from="1484735521277" duration="401000" />
+      <workItem from="1484736026269" duration="320000" />
     </task>
     <servers />
+  </component>
+<<<<<<< HEAD
+>>>>>>> katrina
+=======
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="721000" />
   </component>
 >>>>>>> katrina
   <component name="ToolWindowManager">
@@ -923,33 +1053,34 @@
 =======
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.4795022" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5204978" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2408492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.238653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1078,11 +1209,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/system_manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1348#1375#1" expanded="true" />
-            <element signature="e#1518#1552#0" expanded="true" />
-            <element signature="e#2893#2925#0" expanded="true" />
+            <element signature="e#1348#1375#1" expanded="false" />
+            <element signature="e#1518#1552#0" expanded="false" />
+            <element signature="e#2893#2925#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1090,11 +1221,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/system_manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#1348#1375#1" expanded="true" />
             <element signature="e#1518#1552#0" expanded="true" />
             <element signature="e#2893#2925#0" expanded="true" />
+>>>>>>> katrina
+=======
+            <element signature="e#1348#1375#1" expanded="false" />
+            <element signature="e#1518#1552#0" expanded="false" />
+            <element signature="e#2893#2925#0" expanded="false" />
 >>>>>>> katrina
           </folding>
         </state>
@@ -1109,11 +1246,14 @@
             <element signature="imports" expanded="true" />
 =======
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
+<<<<<<< HEAD
             <element signature="e#1752#1762#0" expanded="false" />
             <element signature="e#3875#3883#0" expanded="false" />
+>>>>>>> katrina
+=======
 >>>>>>> katrina
           </folding>
         </state>
@@ -1138,11 +1278,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/system_manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#1348#1375#1" expanded="true" />
             <element signature="e#1518#1552#0" expanded="true" />
             <element signature="e#2893#2925#0" expanded="true" />
+>>>>>>> katrina
+=======
+            <element signature="e#1348#1375#1" expanded="false" />
+            <element signature="e#1518#1552#0" expanded="false" />
+            <element signature="e#2893#2925#0" expanded="false" />
 >>>>>>> katrina
           </folding>
         </state>
@@ -1168,16 +1314,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/machineLearning_manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="false" />
+<<<<<<< HEAD
             <element signature="e#1752#1762#0" expanded="false" />
             <element signature="e#3875#3883#0" expanded="false" />
+>>>>>>> katrina
+=======
 >>>>>>> katrina
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/objects/eSVR.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1221,6 +1371,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 >>>>>>> katrina
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/database/tblartist.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2312">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> katrina
         </state>
       </provider>
     </entry>
@@ -1233,9 +1389,13 @@
     <entry file="file://$PROJECT_DIR$/src/database/tblgender.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
+<<<<<<< HEAD
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 >>>>>>> katrina
           <folding />
+=======
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> katrina
         </state>
       </provider>
     </entry>
@@ -1266,26 +1426,44 @@
             <element signature="imports" expanded="true" />
 =======
         <state relative-caret-position="153">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#1348#1375#1" expanded="true" />
             <element signature="e#1518#1552#0" expanded="true" />
             <element signature="e#2893#2925#0" expanded="true" />
+>>>>>>> katrina
+=======
+            <element signature="e#1348#1375#1" expanded="false" />
+            <element signature="e#1518#1552#0" expanded="false" />
+            <element signature="e#2893#2925#0" expanded="false" />
 >>>>>>> katrina
           </folding>
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/database_manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/others/starValue.java" />
+    <entry file="file://$PROJECT_DIR$/FoLBO.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> katrina
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+>>>>>>> katrina
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1293,14 +1471,56 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="218" column="22" selection-start-line="218" selection-start-column="20" selection-end-line="218" selection-end-column="22" />
+>>>>>>> katrina
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+>>>>>>> katrina
 =======
 >>>>>>> katrina
   </component>
@@ -1352,9 +1572,13 @@
       <state key="JdkListConfigurable.UI">
         <settings>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <last-edited>1.7</last-edited>
 =======
           <last-edited>1.8</last-edited>
+>>>>>>> katrina
+=======
+          <last-edited>1.7</last-edited>
 >>>>>>> katrina
           <splitter-proportions>
             <option name="proportions">

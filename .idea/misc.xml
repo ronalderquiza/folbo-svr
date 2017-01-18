@@ -45,6 +45,9 @@
       <property name="caretWidth" class="java.lang.Integer" />
     </properties>
   </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Desktop/FoLBO/FoLBO_Javadoc" />
 >>>>>>> katrina
@@ -65,6 +68,7 @@
     <option name="OPTION_INCLUDE_LIBS" value="false" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -79,6 +83,9 @@
     <output url="file://$PROJECT_DIR$/classes" />
 =======
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="false" assert-keyword="false" jdk-15="false">
+>>>>>>> katrina
     <output url="file://$PROJECT_DIR$/out" />
 >>>>>>> katrina
   </component>

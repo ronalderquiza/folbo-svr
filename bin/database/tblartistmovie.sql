@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 26, 2016 at 02:20 PM
--- Server @version 5.6.26
--- PHP @version 5.5.28
+-- Generation Time: Jan 16, 2017 at 03:33 PM
+-- Server version: 5.6.26
+-- PHP Version: 5.5.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `tblartistmovie` (
   `artistmovieID` int(11) NOT NULL,
   `artistID` int(11) NOT NULL,
   `movieID` int(11) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=861 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=872 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblartistmovie`
@@ -606,7 +606,6 @@ INSERT INTO `tblartistmovie` (`artistmovieID`, `artistID`, `movieID`) VALUES
 (567, 209, 179),
 (568, 210, 188),
 (569, 210, 202),
-(570, 210, 188),
 (571, 211, 75),
 (572, 212, 14),
 (573, 213, 200),
@@ -896,7 +895,18 @@ INSERT INTO `tblartistmovie` (`artistmovieID`, `artistID`, `movieID`) VALUES
 (857, 315, 152),
 (858, 315, 161),
 (859, 315, 173),
-(860, 315, 181);
+(860, 315, 181),
+(861, 119, 204),
+(862, 104, 204),
+(863, 63, 204),
+(864, 190, 204),
+(865, 238, 204),
+(866, 296, 204),
+(867, 266, 205),
+(868, 193, 205),
+(869, 247, 205),
+(870, 312, 205),
+(871, 204, 205);
 
 --
 -- Indexes for dumped tables
@@ -916,7 +926,7 @@ ALTER TABLE `tblartistmovie`
 -- AUTO_INCREMENT for table `tblartistmovie`
 --
 ALTER TABLE `tblartistmovie`
-  MODIFY `artistmovieID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=861;
+  MODIFY `artistmovieID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=872;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
