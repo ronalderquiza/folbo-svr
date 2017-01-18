@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="FoLBO:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FoLBO_jar</output-path>
+    <root id="archive" name="FoLBO.jar">
+      <element id="module-output" name="FoLBO" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/eSVR.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/mysql-connector-java-5.1.23-bin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

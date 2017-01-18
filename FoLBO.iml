@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
+<<<<<<< HEAD
     <libelement value="file://C:/Users/LAPTOP/Downloads/New Repo/folbo-svr/src/eSVR.jar" />
     <libelement value="file://C:/Users/LAPTOP/Downloads/New Repo/folbo-svr/src/mysql-connector-java-5.1.23-bin.jar" />
+=======
+    <libelement value="jar://$MODULE_DIR$/src/eSVR.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/src/mysql-connector-java-5.1.23-bin.jar!/" />
+>>>>>>> katrina
     <src_description expected_position="0">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
       <src_folder value="file://$MODULE_DIR$/" expected_position="1" />
@@ -20,7 +25,11 @@
     <orderEntry type="module-library">
       <library name="eSVR.jar">
         <CLASSES>
+<<<<<<< HEAD
           <root url="file://C:/Users/LAPTOP/Downloads/New Repo/folbo-svr/src/eSVR.jar" />
+=======
+          <root url="jar://$MODULE_DIR$/src/eSVR.jar!/" />
+>>>>>>> katrina
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -29,12 +38,20 @@
     <orderEntry type="module-library">
       <library name="mysql-connector-java-5.1.23-bin.jar">
         <CLASSES>
+<<<<<<< HEAD
           <root url="file://C:/Users/LAPTOP/Downloads/New Repo/folbo-svr/src/mysql-connector-java-5.1.23-bin.jar" />
+=======
+          <root url="jar://$MODULE_DIR$/src/mysql-connector-java-5.1.23-bin.jar!/" />
+>>>>>>> katrina
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
+<<<<<<< HEAD
     <orderEntry type="library" name="eSVR" level="project" />
+=======
+    <orderEntry type="library" name="mysql-connector-java-5.1.23-bin" level="project" />
+>>>>>>> katrina
   </component>
 </module>
