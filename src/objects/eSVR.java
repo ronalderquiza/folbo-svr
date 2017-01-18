@@ -112,7 +112,8 @@ public class eSVR {
 		
 		return min;
 	}
-	
+
+
 	/**
 	 * mean normalization for feature scaling
 	 * @param x

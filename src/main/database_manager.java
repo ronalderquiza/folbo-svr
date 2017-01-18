@@ -24,7 +24,7 @@ public class database_manager  {
 	private static Statement st;
 	private static ResultSet rs;
 	private static PreparedStatement pst;
-	private String user;
+	private String user;                         /** <jkjjjkjkj*/
 	private String pass;
 	private String host;
 	private String database;

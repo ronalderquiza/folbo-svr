@@ -39,7 +39,11 @@ public class machineLearning_manager {
 		Movie movie = input_data;
 		double[][] training_dataX = setTrainingDataX(movie);	//features
 		double[] training_dataY = setTrainingDataY(movie);		//targets
-		double[] input = {movie.getProdInfo().getStarValue(), movie.getRelease().getYear(), movie.getRelease().getMonth(), movie.getMovieInfo().getTheme()};
+		double[] input = {movie.getProdInfo().getStarValue(),
+							movie.getRelease().getYear(),
+							movie.getRelease().getMonth(),
+							movie.getMovieInfo().getTheme()
+						};
 
 
 		//setting the training data of the model
