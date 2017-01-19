@@ -11,13 +11,13 @@ import main.database_manager;
 import main.system_manager;
 
 /**
- * @author		Ronald Erquiza, Katrina Buca
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	output_manager.java
  * Description:	Manages the output of the system
+ * @author		Ronald Erquiza, Katrina Buca
  * @version		1.3.1
  *
- * @lastreview 
+ * @lastreview 20170117
  * 
  */
 public class output_manager {
@@ -28,10 +28,9 @@ public class output_manager {
 	private HashMap<Integer, String> artistNames;
 	
 	/**
-	 * initialize output manager
+	 * Instantiation of Output Manager
 	 */
 	public output_manager() {
-		// TODO Auto-generated constructor stub
 		system_manager.getSplashscreen().setLabel("Initializing output manager...");
 		setThemes(getList("tbltheme", "theme"));
 		setGenres(getList("tblgenre", "genre"));
@@ -41,7 +40,7 @@ public class output_manager {
 	}
 	
 	/**
-	 * execute the output manager
+	 * Execution of the Output Manager
 	 */
 	public void execute(){
 		Movie movie = system_manager.getInput_mngr().getMovie();
@@ -104,9 +103,9 @@ public class output_manager {
 	}
 	
 	/**
-	 * getting the data
-	 * @param tblName
-	 * @param colName
+     * Getting the List
+	 * @param tblName Table Name
+	 * @param colName Column Name
 	 * @return result
 	 */
 	public String[] getList(String tblName, String colName){
@@ -115,8 +114,8 @@ public class output_manager {
 		String query = "SELECT * FROM `" + tblName + "`";
 		try {
 			dbmngr.query(query);
-			for(;dbmngr.getRs().next();)
-				list.add(dbmngr.getRs().getString(colName));
+			for(;dbmngr.getResultSet().next();)
+				list.add(dbmngr.getResultSet().getString(colName));
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -130,10 +129,10 @@ public class output_manager {
 	}
 	
 	/**
-	 * getting the data
-	 * @param tblName
-	 * @param colID 
-	 * @param colName
+	 * Getting the List in HashMap Data
+	 * @param tblName Table Name
+	 * @param colID  Column ID
+	 * @param colName Column Name
 	 * @return result
 	 */
 	public HashMap<Integer, String> getListHM(String tblName, String colID, String colName){
@@ -142,8 +141,8 @@ public class output_manager {
 		String query = "SELECT * FROM `" + tblName + "`";
 		try {
 			dbmngr.query(query);
-			for(;dbmngr.getRs().next();)
-				list.put(dbmngr.getRs().getInt(colID), dbmngr.getRs().getString(colName));
+			for(;dbmngr.getResultSet().next();)
+				list.put(dbmngr.getResultSet().getInt(colID), dbmngr.getResultSet().getString(colName));
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -154,70 +153,80 @@ public class output_manager {
 
 
 	/**
-	 * @return the artistNames
+     * Getting Artist Names
+	 * @return Artist Names
 	 */
 	public HashMap<Integer, String> getArtistNames() {
 		return artistNames;
 	}
 
 	/**
-	 * @param artistNames the artistNames to set
+     * Setting Artist Names
+	 * @param artistNames Artist Names
 	 */
 	public void setArtistNames(HashMap<Integer, String> artistNames) {
 		this.artistNames = artistNames;
 	}
 
 	/**
-	 * @return the themes
+     * Getting Themes
+	 * @return Themes
 	 */
 	public String[] getThemes() {
 		return themes;
 	}
 
 	/**
-	 * @param themes the themes to set
+     * Setting Themes
+	 * @param themes Themes
 	 */
 	public void setThemes(String[] themes) {
 		this.themes = themes;
 	}
 
 	/**
-	 * @return the genres
+     * Getting Genres
+	 * @return Genres
 	 */
 	public String[] getGenres() {
 		return genres;
 	}
 
 	/**
-	 * @param genres the genres to set
+     * Setting Genres
+	 * @param genres Genres
 	 */
 	public void setGenres(String[] genres) {
 		this.genres = genres;
 	}
 
 	/**
-	 * @return the producers
+     * Getting Producers
+	 * @return Producers
 	 */
 	public String[] getProducers() {
 		return producers;
 	}
 
 	/**
-	 * @param producers the producers to set
+     * Setting Producers
+	 * @param producers Producers
 	 */
 	public void setProducers(String[] producers) {
 		this.producers = producers;
 	}
 
 	/**
-	 * @return the directors
+     * Getting Directors
+	 * @return Directors
 	 */
 	public String[] getDirectors() {
 		return directors;
 	}
 
 	/**
-	 * @param directors the directors to set
+     * Setting Directors
+	 * @param directors Directors
 	 */
 	public void setDirectors(String[] directors) {
 		this.directors = directors;

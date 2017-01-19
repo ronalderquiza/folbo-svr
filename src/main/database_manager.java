@@ -19,7 +19,52 @@ import javax.swing.JOptionPane;
  * Ron, Kat, Ran
  */
 public class database_manager  {
+    /**
+     * Driver for the Database
+     */
 	private final String DRIVER_CLASS = "com.mysql.jdbc.Driver";
+<<<<<<< HEAD
+
+    /**
+     * Connection of the Database
+     */
+    private static Connection connection;
+
+    /**
+     * Statement from the Database
+     */
+    private static Statement statement;
+
+    /**
+     * Result Set from the Database
+     */
+    private static ResultSet resultSet;
+
+    /**
+     * Prepared Statement from the Database
+     */
+    private static PreparedStatement preparedStatement;
+
+    /**
+     * Username of the Database
+     */
+    private String user;
+
+    /**
+     * Password of the Database
+     */
+    private String pass;
+
+    /**
+     * Host of the Database
+     */
+    private String host;
+
+    /**
+     * Database Name
+     */
+    private String database;
+=======
 	private static Connection con;
 	private static Statement st;
 	private static ResultSet rs;
@@ -28,32 +73,31 @@ public class database_manager  {
 	private String pass;
 	private String host;
 	private String database;
+>>>>>>> c4d41264175697e9a2d5d1e9bbd5adb2e9808fdd
 	
 	/**
-	 * @param host
-	 * @param database
-	 * @param user
-	 * @param pass
-	 * instantiation of the manager
+     * Instantiation of the Database Manager
+	 * @param host Host Name
+	 * @param database Database Name
+	 * @param user Username
+	 * @param pass Password
 	 */
 	public database_manager(String host, String database, String user, String pass){
-		system_manager.getSplashscreen().setLabel("Initializing database manager...");
-		this.setUser(user);
-		this.setPass(pass);
-		this.setHost(host);
+        system_manager.getSplashscreen().setLabel("Initializing database manager...");
+        this.setUser(user);
+        this.setPass(pass);
+        this.setHost(host);
 		this.setDatabase(database);
 		system_manager.getSplashscreen().setLabel("Checking database connection...");
 		checkConnection();
 	}
-	
-	/**
-	 * 
-	 * @param host
-	 * @param user
-	 * @param pass
-	 * instantiation of the manager if no database yet
-	 * 
-	 */
+
+    /**
+     * Instantiation of the Database Manager if No Database yet
+     * @param host Host Name
+     * @param user Username
+     * @param pass Password
+     */
 	public database_manager(String host, String user, String pass){
 		system_manager.getSplashscreen().setLabel("Initializing database manager...");
 		this.setUser(user);
@@ -64,63 +108,59 @@ public class database_manager  {
 	}
 	
 	/**
-	 * @param query
+     * SQL Query
+	 * @param query Query
 	 * @throws ClassNotFoundException
 	 * @throws SQLException
-	 * SQL query
-	 * 
 	 */
 	public void query(String query) throws ClassNotFoundException, SQLException{
 		Class.forName(getDRIVER_CLASS());
-		setCon(DriverManager.getConnection(getHost()+getDatabase(), getUser(), getPass()));
-		setSt(getCon().createStatement());
-		setRs(getSt().executeQuery(query));
+		setConnection(DriverManager.getConnection(getHost()+getDatabase(), getUser(), getPass()));
+		setStatement(getConnection().createStatement());
+		setResultSet(getStatement().executeQuery(query));
 	}
 	
 	/**
-	 * @param query
-	 * @param database
+     * SQL Update Query
+	 * @param query Query
+	 * @param database Database Name
 	 * @throws ClassNotFoundException
 	 * @throws SQLException
-	 * update query
-	 * 
 	 */
 	public void update(String query, String database) throws ClassNotFoundException, SQLException{
 		Class.forName(getDRIVER_CLASS());
-		setCon(DriverManager.getConnection(getHost()+database, getUser(), getPass()));
-		setSt(getCon().createStatement());
-		getSt().executeUpdate(query);
+		setConnection(DriverManager.getConnection(getHost()+database, getUser(), getPass()));
+		setStatement(getConnection().createStatement());
+		getStatement().executeUpdate(query);
 	}
 
 	/**
-	 * @param query
+     * SQL Update Query if no database yet
+     * @param query Query
 	 * @throws ClassNotFoundException
 	 * @throws SQLException
-	 * update query if no database yet
-	 * 
 	 */
 	public void update(String query) throws ClassNotFoundException, SQLException{
 		Class.forName(getDRIVER_CLASS());
-		setCon(DriverManager.getConnection(getHost(), getUser(), getPass()));
-		setSt(getCon().createStatement());
-		getSt().executeUpdate(query);
+		setConnection(DriverManager.getConnection(getHost(), getUser(), getPass()));
+		setStatement(getConnection().createStatement());
+		getStatement().executeUpdate(query);
 	}
 	
 	/**
-	 * checking of database connection
+	 * Checking of Database Connection
 	 */
 	public void checkConnection(){
 		try {
 			Class.forName(getDRIVER_CLASS());
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			JOptionPane.showMessageDialog(null, "Error Driver Class");
 			System.exit(0);
 		}
 
 		try {
-			setCon(DriverManager.getConnection(getHost(), getUser(), getPass())); //connection establishment
+			setConnection(DriverManager.getConnection(getHost(), getUser(), getPass())); //connection establishment
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -131,119 +171,136 @@ public class database_manager  {
 	}
 
 	/**
-	 * @return resultset
+     * Getting Result Set
+	 * @return Result Set
 	 */
-	public ResultSet getRs() {
-		return rs;
+	public ResultSet getResultSet() {
+		return resultSet;
 	}
 
 	/**
-	 * @param rs
+     * Setting Result Set
+	 * @param resultSet Result Set
 	 */
-	public static void setRs(ResultSet rs) {
-		database_manager.rs = rs;
+	public static void setResultSet(ResultSet resultSet) {
+		database_manager.resultSet = resultSet;
 	}
 
 	/**
-	 * @return driver_class
+     * Getting the Driver Class
+	 * @return Driver Class
 	 */
 	public String getDRIVER_CLASS() {
 		return DRIVER_CLASS;
 	}
 
 	/**
-	 * @return con
+	 * Getting Connection
+     * @return Connection
 	 */
-	public static Connection getCon() {
-		return con;
+	public static Connection getConnection() {
+		return connection;
 	}
 
 	/**
-	 * @param con
+     * Setting Connection
+	 * @param connection Connection
 	 */
-	public static void setCon(Connection con) {
-		database_manager.con = con;
+	public static void setConnection(Connection connection) {
+		database_manager.connection = connection;
 	}
 
 	/**
-	 * @return st
+     * Getting Statement
+	 * @return Statement
 	 */
-	public static Statement getSt() {
-		return st;
+	public static Statement getStatement() {
+		return statement;
 	}
 
 	/**
-	 * @param st
+     * Setting Statement
+	 * @param statement Statement
 	 */
-	public static void setSt(Statement st) {
-		database_manager.st = st;
+	public static void setStatement(Statement statement) {
+		database_manager.statement = statement;
 	}
 
 	/**
-	 * @return pst
+     * Getting Prepared Statement
+	 * @return Prepared Statement
 	 */
-	public static PreparedStatement getPst() {
-		return pst;
+	public static PreparedStatement getPreparedStatement() {
+		return preparedStatement;
 	}
 
 	/**
-	 * @param pst
+     * Setting Prepared Statement
+	 * @param preparedStatement Prepared Statement
 	 */
-	public static void setPst(PreparedStatement pst) {
-		database_manager.pst = pst;
+	public static void setPreparedStatement(PreparedStatement preparedStatement) {
+		database_manager.preparedStatement = preparedStatement;
 	}
 
 	/**
-	 * @return user
+     * Getting username
+	 * @return username
 	 */
 	public String getUser() {
 		return user;
 	}
 
 	/**
-	 * @param user
+     * Setting username
+	 * @param user username
 	 */
 	public void setUser(String user) {
 		this.user = user;
 	}
 
 	/**
-	 * @return pass
+     * Getting password
+	 * @return password
 	 */
 	public String getPass() {
 		return pass;
 	}
 
 	/**
-	 * @param pass
+     * Setting password
+	 * @param pass password
 	 */
 	public void setPass(String pass) {
 		this.pass = pass;
 	}
 
 	/**
-	 * @return host
+	 * Getting Host name
+     * @return Host name
 	 */
 	public String getHost() {
 		return host;
 	}
 
 	/**
-	 * @param host
+     * Setting Host name
+	 * @param host Host name
 	 */
 	public void setHost(String host) {
 		this.host = host;
 	}
 
 	/**
-	 * @return database
+     * Getting Database Name
+	 * @return Database Name
 	 */
 	public String getDatabase() {
 		return database;
 	}
 
 	/**
-	 * @param database
+     * Setting Database Name
+	 * @param database Database Name
 	 */
 	public void setDatabase(String database) {
 		this.database = database;

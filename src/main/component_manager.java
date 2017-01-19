@@ -8,16 +8,13 @@ import javax.swing.JLabel;
 import javax.swing.Timer;
 
 /**
- * @author		Ronald Erquiza, Katrina Buca
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	component_manager.java
  * Description:	Component manager
+ * @author		Ronald Erquiza, Katrina Buca
  * @version		1.0.1
- *
- * @lastreview 
- * 
+ * @lastreview
  */
-@SuppressWarnings("serial")
 public class component_manager extends JFrame{
 	//FONTS
 	private static Font fontTinyPlain = new Font("Rockwell", Font.PLAIN, 5); //fontMini
@@ -75,7 +72,7 @@ public class component_manager extends JFrame{
 	private int posY = 0;
 	
 	/**
-	 * initialize component_manager
+	 * Instantiation of Component Manager
 	 */
 	public component_manager() {
 		system_manager.getSplashscreen().setLabel("Initializing Component Manager...");

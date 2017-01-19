@@ -17,7 +17,7 @@ import tools.TextUploader;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	DBInstaller.java
  * Description:	For creating databases.
- * @version		
+ * @version		2.0.1
  *
  * @lastreview 
  * 
@@ -144,8 +144,8 @@ public class DBInstaller {
 		// iterate each catalog in the ResultSet
 		try {
 
-			getDb().setCon(DriverManager.getConnection(host, user, pass));
-			ResultSet rs = getDb().getCon().getMetaData().getCatalogs();
+			getDb().setConnection(DriverManager.getConnection(host, user, pass));
+			ResultSet rs = getDb().getConnection().getMetaData().getCatalogs();
 			while (rs.next()) {
 				// Get the database name, which is at position 1
 				String databaseName = rs.getString(1);

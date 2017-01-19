@@ -5,7 +5,7 @@ package tools;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	Texts.java
  * Description:	
- * @version		
+ * @version		1.0.0
  *
  * @lastreview 
  * 

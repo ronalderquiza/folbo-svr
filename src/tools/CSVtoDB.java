@@ -17,7 +17,7 @@ import tools.TextUploader;
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	CSVtoDB.java
  * Description:	Extracting excel file to database
- * @version		
+ * @version		1.0.0
  *
  * @lastreview 
  * 
@@ -148,8 +148,8 @@ public class CSVtoDB {
 				setCon(DriverManager.getConnection(host+database, user, pass));
 				setSt(getCon().createStatement());
 				setRs(getSt().executeQuery("SELECT * FROM `tblprodcompany`"));
-				for (; getRs().next();) {
-					getCompany().add(getRs().getString("prodCompany"));
+				for (; getResultSet().next();) {
+					getCompany().add(getResultSet().getString("prodCompany"));
 				}
 			} catch (ClassNotFoundException | SQLException e) {
 				// TODO Auto-generated catch block
@@ -195,7 +195,7 @@ public class CSVtoDB {
 	/**
 	 * @return rs
 	 */
-	public static ResultSet getRs() {
+	public static ResultSet getResultSet() {
 		return rs;
 	}
 

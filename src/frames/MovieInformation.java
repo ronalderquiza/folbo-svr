@@ -232,10 +232,10 @@ public class MovieInformation extends JFrame implements MouseListener, MouseMoti
 		database_manager dbmngr = system_manager.getDb_mngr();
 		try {
 			dbmngr.query("SELECT * FROM `tblgenre`;");
-			for (int count = 0; dbmngr.getRs().next(); count++) {
+			for (int count = 0; dbmngr.getResultSet().next(); count++) {
 				if(count > 0)
-					getCbMainGenre().addItem(dbmngr.getRs().getString("genre"));
-				getCbSubGenre().addItem(dbmngr.getRs().getString("genre"));
+					getCbMainGenre().addItem(dbmngr.getResultSet().getString("genre"));
+				getCbSubGenre().addItem(dbmngr.getResultSet().getString("genre"));
 			}
 		} catch (ClassNotFoundException | SQLException e1) {
 			e1.printStackTrace();
@@ -243,8 +243,8 @@ public class MovieInformation extends JFrame implements MouseListener, MouseMoti
 		
 		try {
 			dbmngr.query("SELECT * FROM `tblmtrcbrating`;");
-			for (; dbmngr.getRs().next();) {
-				getCbMTRCBRating().addItem((dbmngr.getRs().getString("mtrcbRate"))+"");
+			for (; dbmngr.getResultSet().next();) {
+				getCbMTRCBRating().addItem((dbmngr.getResultSet().getString("mtrcbRate"))+"");
 			}
 		} catch (ClassNotFoundException | SQLException e1) {
 			e1.printStackTrace();
@@ -252,8 +252,8 @@ public class MovieInformation extends JFrame implements MouseListener, MouseMoti
 		
 		try {
 			dbmngr.query("SELECT * FROM `tblorigin`;");
-			for (; dbmngr.getRs().next();) {
-				getCbOrigin().addItem((dbmngr.getRs().getString("origin"))+"");
+			for (; dbmngr.getResultSet().next();) {
+				getCbOrigin().addItem((dbmngr.getResultSet().getString("origin"))+"");
 			}
 		} catch (ClassNotFoundException | SQLException e1) {
 			e1.printStackTrace();
@@ -274,7 +274,7 @@ public class MovieInformation extends JFrame implements MouseListener, MouseMoti
 					+ "OR `tblmovie`.`theme` = " + movieInfo.getTheme() + " ) "
 					+ "AND `tblmovie`.`mtrcbRating` <= " + movieInfo.getMTRCB() + ")";
 			db_mngr.query(query);
-			for (;db_mngr.getRs().next();) {
+			for (;db_mngr.getResultSet().next();) {
 				counter++;
 			}
 			

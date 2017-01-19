@@ -36,7 +36,7 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 	component_manager cmpmngr = GUI_manager.getCmp_mngr();
 	
 	JLabel labelMinimizeIcon = new JLabel(cmpmngr.getIconMinimizeIcon());
-	JLabel labelCloseIcon = new JLabel(cmpmngr.getIconCloseIcon());;
+	JLabel labelCloseIcon = new JLabel(cmpmngr.getIconCloseIcon());
 	JLabel labelBackground = new JLabel(cmpmngr.getIconBackground());
 	JLabel labelNext = new JLabel(cmpmngr.getIconNext());
 	JLabel labelBack = new JLabel(cmpmngr.getIconBack());
@@ -112,7 +112,10 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 		tfMovieTitle.setForeground(Color.black);
 		labelMovieTheme.setForeground(Color.white);
 		tfMovieTheme.setForeground(Color.black);
-	
+
+		tfMovieTitle.setEditable(false);
+		taPlot.setEditable(false);
+
 		buttonBrowse.setBackground(Color.white);
 		labelNext.setBackground(Color.white);
 		labelBack.setBackground(Color.white);
@@ -141,10 +144,15 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 	@Override
 	public void mouseClicked(MouseEvent arg0) {
 		if(arg0.getSource() == labelNext){
-			String title = tfMovieTitle.getText();
-			system_manager.getInput_mngr().input_story(title, plot, theme);
-			this.setVisible(false);
-			GUI_manager.getMovieSequel().setVisible(true);
+			if(theme == 0){
+				JOptionPane.showMessageDialog(null, "Select plot first!");
+			}
+			else{
+				String title = tfMovieTitle.getText();
+				system_manager.getInput_mngr().input_story(title, plot, theme);
+				this.setVisible(false);
+				GUI_manager.getMovieSequel().setVisible(true);
+			}
 		} else if(arg0.getSource() == labelBack) {
 			this.setVisible(false);
 			GUI_manager.getHome().setVisible(true);

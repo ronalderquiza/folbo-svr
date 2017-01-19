@@ -8,13 +8,13 @@ import java.util.HashMap;
 import objects.NGram;
 
 /**
- * @author		Ronald Erquiza, Katrina Buca
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	theme_recognizer.java
  * Description:	Recognizes the theme from the Movie Information
+ * @author		Ronald Erquiza, Katrina Buca
  * @version		2.3.0
  *
- * @lastreview
+ * @lastreview 20170117
  *
  */
 public class theme_recognizer {
@@ -30,10 +30,9 @@ public class theme_recognizer {
 	final int POINTS = 1;
 	
 	/**
-	 * initialize theme_recognizer
+	 * Instantiaton of Theme Recognizer
 	 */
 	public theme_recognizer() {
-		// TODO Auto-generated constructor stub
 		system_manager.getSplashscreen().setLabel("Initializing Theme Recognizer...");
 		setNgram(new NGram());
 		setThemeKeywords(fetchThemeKeywords());
@@ -42,8 +41,8 @@ public class theme_recognizer {
 	}
 	
 	/**
-	 * executes the theme recognizer
-	 * @param plot 
+	 * Executes the Theme Recognition
+	 * @param plot Plot
 	 */
 	public void execute(String plot){
 		ngram.setStart(1);
@@ -62,7 +61,7 @@ public class theme_recognizer {
 	}
 	
 	/**
-	 * scoring every theme to categorize the plot
+	 * Scoring every theme to categorize the plot
 	 */
 	public void scoringThemes(){
 		for(String gram: ngram.keySet()){
@@ -79,7 +78,7 @@ public class theme_recognizer {
 	}
 	
 	/**
-	 * theme divisor
+	 * Getting the Divisor
 	 */
 	public void getDivisor(){
 		String query = "SELECT COUNT(*), `theme` FROM `tblkeywords` GROUP BY `theme`";
@@ -87,9 +86,9 @@ public class theme_recognizer {
 		database_manager db = system_manager.getDb_mngr();
 		try {
 			db.query(query);
-			for(;db.getRs().next();){
-				int key = db.getRs().getInt("theme");
-				double value = (double)db.getRs().getInt("COUNT(*)");
+			for(;db.getResultSet().next();){
+				int key = db.getResultSet().getInt("theme");
+				double value = (double)db.getResultSet().getInt("COUNT(*)");
 				themeDivisor.put(key, value);
 			}
 		} catch (ClassNotFoundException | SQLException e) {
@@ -100,38 +99,40 @@ public class theme_recognizer {
 	}
 	
 	/**
-	 * @return ngram
+	 * Getting NGram
+	 * @return Ngram
 	 */
 	public NGram getNgram() {
 		return ngram;
 	}
 	
 	/**
-	 * @param ngram
+	 * Setting NGram
+	 * @param ngram NGram
 	 */
 	public void setNgram(NGram ngram) {
 		this.ngram = ngram;
 	}
 
 	/**
-	 * 
-	 * @return theme
+	 * Getting Theme
+	 * @return Theme
 	 */
 	public int getTheme() {
 		return theme;
 	}
 
 	/**
-	 * 
-	 * @param theme
+	 * Setting Theme
+	 * @param theme Theme
 	 */
 	public void setTheme(int theme) {
 		this.theme = theme;
 	}
 
 	/**
-	 * 
-	 * @return fetch arrKeyThemes from the database
+	 * Fetching Theme Keywords from the Database
+	 * @return Theme Keywords
 	 */
 	public String[][] fetchThemeKeywords() {
 		ArrayList<String> keys = new ArrayList<String>();
@@ -141,9 +142,9 @@ public class theme_recognizer {
 		String query = "SELECT * FROM `tblkeywords`";
 		try {
 			db.query(query);
-			for(;db.getRs().next();){
-				keys.add(db.getRs().getString("keyword"));
-				keythemes.add(db.getRs().getInt("theme"));
+			for(;db.getResultSet().next();){
+				keys.add(db.getResultSet().getString("keyword"));
+				keythemes.add(db.getResultSet().getInt("theme"));
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
@@ -158,7 +159,7 @@ public class theme_recognizer {
 	}
 
 	/**
-	 * 
+	 * Getting Theme Keywords
 	 * @return themeKeywords
 	 */
 	public String[][] getThemeKeywords(){
@@ -166,7 +167,7 @@ public class theme_recognizer {
 	}
 	
 	/**
-	 * 
+	 * Setting Theme Keywords
 	 * @param themeKeywords
 	 */
 	public void setThemeKeywords(String[][] themeKeywords) {
@@ -174,7 +175,8 @@ public class theme_recognizer {
 	}
 
 	/**
-	 * @return arrThemes
+	 * Fetching Theme Points
+	 * @return Theme Points
 	 */
 	public double[][] fetchThemePoints() {
 		ArrayList<Integer> themes = new ArrayList<Integer>();
@@ -183,8 +185,8 @@ public class theme_recognizer {
 		String query = "SELECT * FROM `tbltheme`";
 		try {
 			db.query(query);
-			for(;db.getRs().next();){
-				themes.add(db.getRs().getInt("themeID"));
+			for(;db.getResultSet().next();){
+				themes.add(db.getResultSet().getInt("themeID"));
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
@@ -199,16 +201,16 @@ public class theme_recognizer {
 	}
 	
 	/**
-	 * 
-	 * @return themePoints
+	 * Getting Theme Points
+	 * @return Theme Points
 	 */
 	public double[][] getThemePoints() {
 		return themePoints;
 	}
 
 	/**
-	 * 
-	 * @param themePoints
+	 * Setting Theme Points
+	 * @param themePoints Theme Points
 	 */
 	public void setThemePoints(double[][] themePoints) {
 		this.themePoints = themePoints;

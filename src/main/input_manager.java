@@ -4,20 +4,23 @@ import java.util.ArrayList;
 
 import objects.*;
 /**
- * @author		Ronald Erquiza, Katrina Buca
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	input_manager.java
  * Description:	Manages the input of the system
+ * @author		Ronald Erquiza, Katrina Buca
  * @version		1.1.3
  *
  * @lastreview 20161203
  * Ron, Kat, Ran
  */
 public class input_manager {
+    /**
+     * Movie Input
+     */
 	private Movie input;
 
 	/**
-	 * initialize input_manager
+	 * Instantiation of  Input Manager
 	 */
 	public input_manager() {
 		system_manager.getSplashscreen().setLabel("Initializing Input Manager...");
@@ -25,9 +28,10 @@ public class input_manager {
 	}
 
 	/**
-	 * @param title
-	 * @param plot
-	 * @param theme
+     * Input Story
+	 * @param title Title
+	 * @param plot Plot/Story
+	 * @param theme Theme
 	 */
 	public void input_story(String title, String plot, int theme){
 		system_manager.getInput_mngr().getMovie().setTitle(title);
@@ -36,19 +40,19 @@ public class input_manager {
 	}
 	
 	/**
-	 * @param sequel
-	 * accepts sequel to put in Movie object
+     * Input if the movie is Sequel or not
+	 * @param sequel Sequel
 	 */
 	public void input_sequel(int sequel) {
 		input.setSequel(sequel);
 	}
 
 	/**
-	 * @param mg - main genre	
-	 * @param sg - sub-genre
-	 * @param origin
-	 * @param mtrcb - MTRCB rating
-	 * accepts the movie information to put in Movie object
+     * Input Movie Information
+	 * @param mg Main Genre
+	 * @param sg Sub-genre
+	 * @param origin Origin
+	 * @param mtrcb MTRCB rating
 	 */
 	public void input_movieInfo(int mg, int sg, int origin, int mtrcb) {
 		input.getMovieInfo().setMainGenre(mg);
@@ -58,10 +62,10 @@ public class input_manager {
 	}
 	
 	/**
-	 * @param producer
-	 * @param director
-	 * @param distributor
-	 * accepts movie production to put in Movie object
+     * Input Production
+	 * @param producer Producer
+	 * @param director Director
+	 * @param distributor Distributor
 	 */
 	public void input_prod(int producer, int director, int distributor) {
 		input.getProdInfo().setProducer(producer);
@@ -70,8 +74,8 @@ public class input_manager {
 	}
 	
 	/**
-	 * accepts main casts selected
-	 * @param mainCasts
+     * Input Main Casts
+	 * @param mainCasts Main Casts
 	 */
 	public void input_mainCasts(ArrayList<Integer> mainCasts){
 		input.getProdInfo().setMainCasts(mainCasts);
@@ -81,9 +85,9 @@ public class input_manager {
 	}
 
 	/**
-	 * accepts the release date
-	 * @param month
-	 * @param year
+	 * Input Release Information
+     * @param month Month
+	 * @param year Year
 	 */
 	public void input_release(int month, int year) {
 		getMovie().getRelease().setMonth(month+1);
@@ -91,7 +95,8 @@ public class input_manager {
 	}
 
 	/**
-	 * @return input
+     * Getting the Movie Input
+	 * @return Movie Input
 	 */
 	public Movie getMovie() {
 		return input;

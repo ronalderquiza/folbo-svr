@@ -8,13 +8,13 @@ import frames.Splash;
 import tools.DBInstaller;
 
 /**
- * @author		Ronald Erquiza, Katrina Buca
  * Email:		ronalderquiza@gmail.com, izabellebuca@gmail.com
  * Filename:	system_manager.java
  * Description:	System Manager of the FoLBO System
+ * @author		Ronald Erquiza, Katrina Buca
  * @version		1.1.7
  *
- * @lastreview 20161203
+ * @lastreview 20170117
  * Ron, Kat, Ran
  */
 public class system_manager implements Runnable {
@@ -22,30 +22,65 @@ public class system_manager implements Runnable {
 	private String database = "dbfolbo";
 	private String user = "root";
 	private String pass = "";
-	
+
+    /**
+     * Splash Screen
+     */
 	private static Splash splashscreen = new Splash();
-	private static database_manager db_mngr;
-	private static input_manager input_mngr;
-	private static theme_recognizer theme_recog;
-	private static artist_recommender artist_recom;
-	private static starValue_calculator sv_calc;
-	private static machineLearning_manager ml_mngr;
-	private static GUI_manager gui_mngr;
-	private static output_manager output_mngr;
+
+    /**
+     * Database Manager
+     */
+    private static database_manager db_mngr;
+
+    /**
+     * Input Manager
+     */
+    private static input_manager input_mngr;
+
+    /**
+     * Theme Recognizer
+     */
+    private static theme_recognizer theme_recog;
+
+    /**
+     * Artist Recommender
+     */
+    private static artist_recommender artist_recom;
+
+    /**
+     * Star Value Calculator
+     */
+    private static starValue_calculator sv_calc;
+
+    /**
+     * Machine Learning Manager
+     */
+    private static machineLearning_manager ml_mngr;
+
+    /**
+     * GUI Manager
+     */
+    private static GUI_manager gui_mngr;
+
+    /**
+     * Output Manager
+     */
+    private static output_manager output_mngr;
 	private static int time = 1000;
 	private static int currYear = 2014;
 	Thread runner;
 	
 	/**
-	 * initialize system manager
+	 * Instatation of the System Manager
 	 */
 	public system_manager() {
 		start();
 	}
 
 	/**
-	 * @param args
-	 * main function of the system
+     * Main Function of the System
+	 * @param args Arguments
 	 */
 	public static void main(String[] args) {
 		SwingUtilities.invokeLater(new Runnable(){
@@ -59,9 +94,8 @@ public class system_manager implements Runnable {
 	}
 	
 	/**
-	 * initializing system_manager
+	 * Initialization of the Managers
 	 */
-	@SuppressWarnings("static-access")
 	public void initialize(){
 		setDb_mngr(new database_manager(host, database, user, pass));
 		if(!DBInstaller.databaseExists(database)){	//checks the database existence
@@ -96,7 +130,7 @@ public class system_manager implements Runnable {
 	}
 	
 	/**
-	 * run the thread
+	 * Runs the thread
 	 */
 	@Override
 	public void run() {
@@ -105,7 +139,7 @@ public class system_manager implements Runnable {
 	}
 	
 	/**
-	 * start the thread
+	 * Start the thread
 	 */
 	public void start() {
         if (runner == null); {
@@ -115,7 +149,7 @@ public class system_manager implements Runnable {
     }
 	
 	/**
-	 * stop the thread
+	 * Stop the thread
 	 */
 	@SuppressWarnings("deprecation")
 	public void stop() {
@@ -126,58 +160,62 @@ public class system_manager implements Runnable {
     }
 	
 	/**
-	 * resetting the system
+	 * Resetting the system
 	 */
 	public static void reset(){
 		GUI_manager.getMovieSequel().setVisible(true);
 	}
 	
 	/**
-	 * 
-	 * @return gui_mngr
+	 * Getting the GUI Manager
+	 * @return GUI Manager
 	 */
 	public static GUI_manager getGUI_mngr(){
 		return gui_mngr;
 	}
 	
 	/**
-	 * @param gui_manager
-	 * sets the gui_manager
+     * Setting GUI Manager
+	 * @param gui_manager GUI Manager
 	 */
 	public static void setGUI_mngr(GUI_manager gui_manager) {
 		system_manager.gui_mngr = gui_manager;
 	}
 
 	/**
-	 * @return artist_recom
+     * Getting Artist Recommender
+	 * @return Artist Recommender
 	 */
 	public static artist_recommender getArtist_recom() {
 		return artist_recom;
 	}
 
 	/**
-	 * set artist recommender
-	 * @param artist_recom
+	 * Setting Artist Recommender
+	 * @param artist_recom Artist Recommender
 	 */
 	public static void setArtist_recom(artist_recommender artist_recom) {
 		system_manager.artist_recom = artist_recom;
 	}
 
 	/**
-	 * @return input_mngr
+     * Getting Input Manager
+	 * @return Input Manager
 	 */
 	public static input_manager getInput_mngr() {
 		return input_mngr;
 	}
 
 	/**
-	 * @param input_mngr
+     * Setting Input Manager
+	 * @param input_mngr Input Manager
 	 */
 	public static void setInput_mngr(input_manager input_mngr) {
 		system_manager.input_mngr = input_mngr;
 	}
 
 	/**
+     * Getting Database Manager
 	 * @return db_mngr
 	 */
 	public static database_manager getDb_mngr() {
@@ -185,6 +223,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
+     * Setting Databaase Manager
 	 * @param db_mngr
 	 */
 	public static void setDb_mngr(database_manager db_mngr) {
@@ -192,6 +231,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
+     * Getting Theme Recommender
 	 * @return theme_recog
 	 */
 	public static theme_recognizer getTheme_recog() {
@@ -199,6 +239,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
+     * Setting Theme Recommender
 	 * @param theme_recog
 	 */
 	public static void setTheme_recog(theme_recognizer theme_recog) {
@@ -206,74 +247,80 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-	 * @return ml_mngr
+     * Setting Machine Learning Manager
+	 * @return Machine Learning Manager
 	 */
 	public static machineLearning_manager getMl_mngr() {
 		return ml_mngr;
 	}
 
 	/**
-	 * @param ml_mngr
+     * Setting Machine Learning Manager
+	 * @param ml_mngr Machine Learning Manager
 	 */
 	public static void setMl_mngr(machineLearning_manager ml_mngr) {
 		system_manager.ml_mngr = ml_mngr;
 	}
 	
 	/**
-	 * @return sv_calc
+     * Getting Star Value Calculator
+	 * @return Star Value Calculator
 	 */
 	public static starValue_calculator getSv_calc() {
 		return sv_calc;
 	}
 
 	/**
-	 * @param sv_calc
+     * Setting Star Value Calculator
+	 * @param sv_calc Star Value Calculator
 	 */
 	public static void setSv_calc(starValue_calculator sv_calc) {
 		system_manager.sv_calc = sv_calc;
 	}
 
 	/**
-	 * 
-	 * @return output_mngr
+	 * Getting Output Manager
+	 * @return Output Manager
 	 */
 	public static output_manager getOutput_mngr() {
 		return output_mngr;
 	}
 
 	/**
-	 * 
-	 * @param output_mngr
+	 * Setting Output Manager
+	 * @param output_mngr Output Manager
 	 */
 	public static void setOutput_mngr(output_manager output_mngr) {
 		system_manager.output_mngr = output_mngr;
 	}
 
 	/**
-	 * @return the currYear
+     * Getting Current Year
+	 * @return Current Year
 	 */
 	public static int getCurrYear() {
 		return currYear;
 	}
 
 	/**
-	 * @param currYear the currYear to set
+     * Setting Current Year
+	 * @param currYear Current Year
 	 */
 	public static void setCurrYear(int currYear) {
 		system_manager.currYear = currYear;
 	}
 
 	/**
-	 * 
-	 * @return splashscreen
+	 * Getting Splash Screen
+	 * @return Splash Screen
 	 */
 	public static Splash getSplashscreen() {
 		return splashscreen;
 	}
 
 	/**
-	 * 
-	 * @param splashscreen
+	 * Setting Splash Screen
+	 * @param splashscreen Splash Screen
 	 */
 	public static void setSplashscreen(Splash splashscreen) {
 		system_manager.splashscreen = splashscreen;
