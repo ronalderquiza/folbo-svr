@@ -7,25 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4fad861-c7f3-4f42-8f65-c19c8844c85b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieGrossRevenue.class" afterPath="$PROJECT_DIR$/bin/frames/MovieGrossRevenue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FoLBO_jar/FoLBO.jar" afterPath="$PROJECT_DIR$/out/artifacts/FoLBO_jar/FoLBO.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblartist.sql" afterPath="$PROJECT_DIR$/bin/database/tblartist.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblartistmovie.sql" afterPath="$PROJECT_DIR$/bin/database/tblartistmovie.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tbldirector.sql" afterPath="$PROJECT_DIR$/bin/database/tbldirector.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblgender.sql" afterPath="$PROJECT_DIR$/bin/database/tblgender.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblgenre.sql" afterPath="$PROJECT_DIR$/bin/database/tblgenre.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblkeywords.sql" afterPath="$PROJECT_DIR$/bin/database/tblkeywords.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblmonth.sql" afterPath="$PROJECT_DIR$/bin/database/tblmonth.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblmovie.sql" afterPath="$PROJECT_DIR$/bin/database/tblmovie.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblmtrcbrating.sql" afterPath="$PROJECT_DIR$/bin/database/tblmtrcbrating.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblorigin.sql" afterPath="$PROJECT_DIR$/bin/database/tblorigin.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tblprodcompany.sql" afterPath="$PROJECT_DIR$/bin/database/tblprodcompany.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/database/tbltheme.sql" afterPath="$PROJECT_DIR$/bin/database/tbltheme.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frames/MovieGrossRevenue.java" afterPath="$PROJECT_DIR$/src/frames/MovieGrossRevenue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/database_manager.java" afterPath="$PROJECT_DIR$/src/main/database_manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/machineLearning_manager.java" afterPath="$PROJECT_DIR$/src/main/machineLearning_manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/objects/eSVR.java" afterPath="$PROJECT_DIR$/src/objects/eSVR.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/database_manager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="478">
-              <caret line="251" column="0" lean-forward="true" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+              <caret line="251" column="0" lean-forward="false" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,9 +74,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,6 +193,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -516,7 +498,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2408492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2408492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -576,6 +558,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/database_manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/database_manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/system_manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -623,11 +621,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1780#1790#0" expanded="false" />
-            <element signature="e#3903#3911#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +728,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/database_manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
-          <caret line="251" column="0" lean-forward="true" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+          <caret line="251" column="0" lean-forward="false" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
           <folding />
         </state>
       </provider>
