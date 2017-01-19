@@ -11,13 +11,12 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_X" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/bin" />
     <output-test url="file://$MODULE_DIR$/out/test/FoLBO" />
-    <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="module-library">
       <library name="eSVR.jar">
         <CLASSES>

@@ -144,8 +144,8 @@ public class DBInstaller {
 		// iterate each catalog in the ResultSet
 		try {
 
-			getDb().setCon(DriverManager.getConnection(host, user, pass));
-			ResultSet rs = getDb().getCon().getMetaData().getCatalogs();
+			getDb().setConnection(DriverManager.getConnection(host, user, pass));
+			ResultSet rs = getDb().getConnection().getMetaData().getCatalogs();
 			while (rs.next()) {
 				// Get the database name, which is at position 1
 				String databaseName = rs.getString(1);

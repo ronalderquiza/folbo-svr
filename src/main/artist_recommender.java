@@ -197,7 +197,7 @@ public class artist_recommender {
 	
 	/**
 	 * Getting the Final top artists
-     * @return Final Top Artists
+	 * @return Final Top Artists
 	 */
 	public int[] getFinalTop() {
 		return finalTop;

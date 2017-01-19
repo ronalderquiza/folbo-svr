@@ -141,6 +141,7 @@ public class theme_recognizer {
 		database_manager db = system_manager.getDb_mngr();
 		String query = "SELECT * FROM `tblkeywords`";
 		try {
+
 			db.query(query);
 			for(;db.getResultSet().next();){
 				keys.add(db.getResultSet().getString("keyword"));

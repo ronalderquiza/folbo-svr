@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="FoLBO:jar" />
@@ -7,26 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4fad861-c7f3-4f42-8f65-c19c8844c85b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Ron_Erquiza.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieStory.class" afterPath="$PROJECT_DIR$/bin/frames/MovieStory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieCasts.class" afterPath="$PROJECT_DIR$/bin/frames/MovieCasts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieInformation.class" afterPath="$PROJECT_DIR$/bin/frames/MovieInformation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MoviePrequel.class" afterPath="$PROJECT_DIR$/bin/frames/MoviePrequel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/MovieProduction.class" afterPath="$PROJECT_DIR$/bin/frames/MovieProduction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frames/SearchBoxModel.class" afterPath="$PROJECT_DIR$/bin/frames/SearchBoxModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/artist_recommender.class" afterPath="$PROJECT_DIR$/bin/main/artist_recommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/component_manager.class" afterPath="$PROJECT_DIR$/bin/main/component_manager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/database_manager.class" afterPath="$PROJECT_DIR$/bin/main/database_manager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/input_manager.class" afterPath="$PROJECT_DIR$/bin/main/input_manager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/machineLearning_manager.class" afterPath="$PROJECT_DIR$/bin/main/machineLearning_manager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/output_manager.class" afterPath="$PROJECT_DIR$/bin/main/output_manager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/starValue_calculator.class" afterPath="$PROJECT_DIR$/bin/main/starValue_calculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/system_manager$1.class" afterPath="$PROJECT_DIR$/bin/main/system_manager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/system_manager.class" afterPath="$PROJECT_DIR$/bin/main/system_manager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/theme_recognizer.class" afterPath="$PROJECT_DIR$/bin/main/theme_recognizer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/tools/CSVtoDB.class" afterPath="$PROJECT_DIR$/bin/tools/CSVtoDB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/tools/DBInstaller.class" afterPath="$PROJECT_DIR$/bin/tools/DBInstaller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frames/MovieCasts.java" afterPath="$PROJECT_DIR$/src/frames/MovieCasts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frames/MovieInformation.java" afterPath="$PROJECT_DIR$/src/frames/MovieInformation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frames/MoviePrequel.java" afterPath="$PROJECT_DIR$/src/frames/MoviePrequel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frames/MovieProduction.java" afterPath="$PROJECT_DIR$/src/frames/MovieProduction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frames/MovieStory.java" afterPath="$PROJECT_DIR$/src/frames/MovieStory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frames/SearchBoxModel.java" afterPath="$PROJECT_DIR$/src/frames/SearchBoxModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/GUI_manager.java" afterPath="$PROJECT_DIR$/src/main/GUI_manager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FoLBO.iml" afterPath="$PROJECT_DIR$/FoLBO.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/artist_recommender.java" afterPath="$PROJECT_DIR$/src/main/artist_recommender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/component_manager.java" afterPath="$PROJECT_DIR$/src/main/component_manager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/database_manager.java" afterPath="$PROJECT_DIR$/src/main/database_manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/input_manager.java" afterPath="$PROJECT_DIR$/src/main/input_manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/machineLearning_manager.java" afterPath="$PROJECT_DIR$/src/main/machineLearning_manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/output_manager.java" afterPath="$PROJECT_DIR$/src/main/output_manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/starValue_calculator.java" afterPath="$PROJECT_DIR$/src/main/starValue_calculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/system_manager.java" afterPath="$PROJECT_DIR$/src/main/system_manager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/theme_recognizer.java" afterPath="$PROJECT_DIR$/src/main/theme_recognizer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tools/CSVtoDB.java" afterPath="$PROJECT_DIR$/src/tools/CSVtoDB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tools/DBInstaller.java" afterPath="$PROJECT_DIR$/src/tools/DBInstaller.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -37,7 +43,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -50,7 +55,102 @@
     <favorites_list name="FoLBO" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="theme_recognizer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/theme_recognizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2227">
+              <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2743#2744#0" expanded="false" />
+                <element signature="e#2762#2763#0" expanded="false" />
+                <element signature="e#2852#2853#0" expanded="false" />
+                <element signature="e#2877#2878#0" expanded="false" />
+                <element signature="e#2949#2950#0" expanded="false" />
+                <element signature="e#2968#2969#0" expanded="false" />
+                <element signature="e#3055#3056#0" expanded="false" />
+                <element signature="e#3080#3081#0" expanded="false" />
+                <element signature="e#4045#4046#0" expanded="false" />
+                <element signature="e#4072#4073#0" expanded="false" />
+                <element signature="e#4194#4195#0" expanded="false" />
+                <element signature="e#4235#4236#0" expanded="false" />
+                <element signature="e#5030#5031#0" expanded="false" />
+                <element signature="e#5055#5056#0" expanded="false" />
+                <element signature="e#5181#5182#0" expanded="false" />
+                <element signature="e#5218#5219#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artist_recommender.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/artist_recommender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1564">
+              <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database_manager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/database_manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#4818#4819#0" expanded="false" />
+                <element signature="e#4850#4851#0" expanded="false" />
+                <element signature="e#4987#4988#0" expanded="false" />
+                <element signature="e#5029#5030#0" expanded="false" />
+                <element signature="e#5151#5152#0" expanded="false" />
+                <element signature="e#5186#5187#0" expanded="false" />
+                <element signature="e#5302#5303#0" expanded="false" />
+                <element signature="e#5335#5336#0" expanded="false" />
+                <element signature="e#5476#5477#0" expanded="false" />
+                <element signature="e#5520#5521#0" expanded="false" />
+                <element signature="e#5632#5633#0" expanded="false" />
+                <element signature="e#5664#5665#0" expanded="false" />
+                <element signature="e#5799#5800#0" expanded="false" />
+                <element signature="e#5841#5842#0" expanded="false" />
+                <element signature="e#5987#5988#0" expanded="false" />
+                <element signature="e#6027#6028#0" expanded="false" />
+                <element signature="e#6372#6373#0" expanded="false" />
+                <element signature="e#6399#6400#0" expanded="false" />
+                <element signature="e#6514#6515#0" expanded="false" />
+                <element signature="e#6546#6547#0" expanded="false" />
+                <element signature="e#6648#6649#0" expanded="false" />
+                <element signature="e#6675#6676#0" expanded="false" />
+                <element signature="e#6790#6791#0" expanded="false" />
+                <element signature="e#6822#6823#0" expanded="false" />
+                <element signature="e#6926#6927#0" expanded="false" />
+                <element signature="e#6953#6954#0" expanded="false" />
+                <element signature="e#7070#7071#0" expanded="false" />
+                <element signature="e#7102#7103#0" expanded="false" />
+                <element signature="e#7218#7219#0" expanded="false" />
+                <element signature="e#7249#7250#0" expanded="false" />
+                <element signature="e#7386#7387#0" expanded="false" />
+                <element signature="e#7426#7427#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,11 +166,9 @@
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/FoLBO.iml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/frames/MovieStory.java" />
         <option value="$PROJECT_DIR$/src/main/system_manager.java" />
         <option value="$PROJECT_DIR$/src/main/component_manager.java" />
-        <option value="$PROJECT_DIR$/src/main/database_manager.java" />
         <option value="$PROJECT_DIR$/src/main/GUI_manager.java" />
         <option value="$PROJECT_DIR$/src/main/input_manager.java" />
         <option value="$PROJECT_DIR$/src/main/output_manager.java" />
@@ -79,18 +177,21 @@
         <option value="$PROJECT_DIR$/src/frames/MoviePrequel.java" />
         <option value="$PROJECT_DIR$/src/frames/MovieProduction.java" />
         <option value="$PROJECT_DIR$/src/frames/SearchBoxModel.java" />
-        <option value="$PROJECT_DIR$/src/main/artist_recommender.java" />
         <option value="$PROJECT_DIR$/src/main/machineLearning_manager.java" />
         <option value="$PROJECT_DIR$/src/tools/CSVtoDB.java" />
         <option value="$PROJECT_DIR$/src/main/starValue_calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/database_manager.java" />
         <option value="$PROJECT_DIR$/src/main/theme_recognizer.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/artist_recommender.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -102,7 +203,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -133,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -151,11 +253,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoLBO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoLBO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoLBO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoLBO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoLBO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoLBO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,8 +358,13 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method />
@@ -231,8 +383,13 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -441,36 +598,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -555,21 +682,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="system_manager" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -650,36 +762,36 @@
       <workItem from="1484739958215" duration="673000" />
       <workItem from="1484741745558" duration="861000" />
       <workItem from="1484743811225" duration="7477000" />
+      <workItem from="1484838521335" duration="779000" />
+      <workItem from="1484842327041" duration="906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10564000" />
+    <option name="totallyTimeSpent" value="12249000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.4670571" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5087848" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.238653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23855244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -687,8 +799,10 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.4670571" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -747,6 +861,84 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/theme_recognizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2743#2744#0" expanded="false" />
+            <element signature="e#2762#2763#0" expanded="false" />
+            <element signature="e#2852#2853#0" expanded="false" />
+            <element signature="e#2877#2878#0" expanded="false" />
+            <element signature="e#2949#2950#0" expanded="false" />
+            <element signature="e#2968#2969#0" expanded="false" />
+            <element signature="e#3055#3056#0" expanded="false" />
+            <element signature="e#3080#3081#0" expanded="false" />
+            <element signature="e#4045#4046#0" expanded="false" />
+            <element signature="e#4072#4073#0" expanded="false" />
+            <element signature="e#4194#4195#0" expanded="false" />
+            <element signature="e#4235#4236#0" expanded="false" />
+            <element signature="e#5030#5031#0" expanded="false" />
+            <element signature="e#5055#5056#0" expanded="false" />
+            <element signature="e#5181#5182#0" expanded="false" />
+            <element signature="e#5218#5219#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/artist_recommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/database_manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4818#4819#0" expanded="false" />
+            <element signature="e#4850#4851#0" expanded="false" />
+            <element signature="e#4987#4988#0" expanded="false" />
+            <element signature="e#5029#5030#0" expanded="false" />
+            <element signature="e#5151#5152#0" expanded="false" />
+            <element signature="e#5186#5187#0" expanded="false" />
+            <element signature="e#5302#5303#0" expanded="false" />
+            <element signature="e#5335#5336#0" expanded="false" />
+            <element signature="e#5476#5477#0" expanded="false" />
+            <element signature="e#5520#5521#0" expanded="false" />
+            <element signature="e#5632#5633#0" expanded="false" />
+            <element signature="e#5664#5665#0" expanded="false" />
+            <element signature="e#5799#5800#0" expanded="false" />
+            <element signature="e#5841#5842#0" expanded="false" />
+            <element signature="e#5987#5988#0" expanded="false" />
+            <element signature="e#6027#6028#0" expanded="false" />
+            <element signature="e#6372#6373#0" expanded="false" />
+            <element signature="e#6399#6400#0" expanded="false" />
+            <element signature="e#6514#6515#0" expanded="false" />
+            <element signature="e#6546#6547#0" expanded="false" />
+            <element signature="e#6648#6649#0" expanded="false" />
+            <element signature="e#6675#6676#0" expanded="false" />
+            <element signature="e#6790#6791#0" expanded="false" />
+            <element signature="e#6822#6823#0" expanded="false" />
+            <element signature="e#6926#6927#0" expanded="false" />
+            <element signature="e#6953#6954#0" expanded="false" />
+            <element signature="e#7070#7071#0" expanded="false" />
+            <element signature="e#7102#7103#0" expanded="false" />
+            <element signature="e#7218#7219#0" expanded="false" />
+            <element signature="e#7249#7250#0" expanded="false" />
+            <element signature="e#7386#7387#0" expanded="false" />
+            <element signature="e#7426#7427#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/frames/MovieInformation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4063">
@@ -759,7 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,9 +982,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1762#1789#1" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -801,9 +990,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="e#1762#1789#1" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -818,9 +1005,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1762#1789#1" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="37" column="88" selection-start-line="37" selection-start-column="88" selection-end-line="37" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,14 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="248" column="32" selection-start-line="248" selection-start-column="32" selection-end-line="248" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -975,7 +1149,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="65.5" y="14.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="66.0" y="15.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -983,19 +1157,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/database_manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="297" column="0" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/component_manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,10 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="160" column="27" selection-start-line="160" selection-start-column="15" selection-end-line="160" selection-end-column="27" />
-          <folding>
-            <marker date="1484750746245" expanded="true" signature="2730:3174" placeholder="INSERT INTO `dbfolbo`.`tblmovie`... " />
-            <marker date="1484750746245" expanded="true" signature="4397:4427" placeholder="SELECT * FRO... tblprodcompany" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1050,21 +1211,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/artist_recommender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="98" column="30" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
-          <folding>
-            <marker date="1484750746114" expanded="false" signature="1018:1048" placeholder="/unchecked/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/frames/SearchBoxModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,7 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="205" column="26" selection-start-line="205" selection-start-column="26" selection-end-line="205" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,7 +1229,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="185" column="24" selection-start-line="185" selection-start-column="24" selection-end-line="185" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,14 +1244,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#510#527#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#1003#1011#0" expanded="true" />
-            <element signature="e#1093#1101#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1115,11 +1255,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/database_manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4818#4819#0" expanded="false" />
+            <element signature="e#4850#4851#0" expanded="false" />
+            <element signature="e#4987#4988#0" expanded="false" />
+            <element signature="e#5029#5030#0" expanded="false" />
+            <element signature="e#5151#5152#0" expanded="false" />
+            <element signature="e#5186#5187#0" expanded="false" />
+            <element signature="e#5302#5303#0" expanded="false" />
+            <element signature="e#5335#5336#0" expanded="false" />
+            <element signature="e#5476#5477#0" expanded="false" />
+            <element signature="e#5520#5521#0" expanded="false" />
+            <element signature="e#5632#5633#0" expanded="false" />
+            <element signature="e#5664#5665#0" expanded="false" />
+            <element signature="e#5799#5800#0" expanded="false" />
+            <element signature="e#5841#5842#0" expanded="false" />
+            <element signature="e#5987#5988#0" expanded="false" />
+            <element signature="e#6027#6028#0" expanded="false" />
+            <element signature="e#6372#6373#0" expanded="false" />
+            <element signature="e#6399#6400#0" expanded="false" />
+            <element signature="e#6514#6515#0" expanded="false" />
+            <element signature="e#6546#6547#0" expanded="false" />
+            <element signature="e#6648#6649#0" expanded="false" />
+            <element signature="e#6675#6676#0" expanded="false" />
+            <element signature="e#6790#6791#0" expanded="false" />
+            <element signature="e#6822#6823#0" expanded="false" />
+            <element signature="e#6926#6927#0" expanded="false" />
+            <element signature="e#6953#6954#0" expanded="false" />
+            <element signature="e#7070#7071#0" expanded="false" />
+            <element signature="e#7102#7103#0" expanded="false" />
+            <element signature="e#7218#7219#0" expanded="false" />
+            <element signature="e#7249#7250#0" expanded="false" />
+            <element signature="e#7386#7387#0" expanded="false" />
+            <element signature="e#7426#7427#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/theme_recognizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="202" column="7" selection-start-line="202" selection-start-column="7" selection-end-line="202" selection-end-column="7" />
+        <state relative-caret-position="2227">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2743#2744#0" expanded="false" />
+            <element signature="e#2762#2763#0" expanded="false" />
+            <element signature="e#2852#2853#0" expanded="false" />
+            <element signature="e#2877#2878#0" expanded="false" />
+            <element signature="e#2949#2950#0" expanded="false" />
+            <element signature="e#2968#2969#0" expanded="false" />
+            <element signature="e#3055#3056#0" expanded="false" />
+            <element signature="e#3080#3081#0" expanded="false" />
+            <element signature="e#4045#4046#0" expanded="false" />
+            <element signature="e#4072#4073#0" expanded="false" />
+            <element signature="e#4194#4195#0" expanded="false" />
+            <element signature="e#4235#4236#0" expanded="false" />
+            <element signature="e#5030#5031#0" expanded="false" />
+            <element signature="e#5055#5056#0" expanded="false" />
+            <element signature="e#5181#5182#0" expanded="false" />
+            <element signature="e#5218#5219#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/artist_recommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
