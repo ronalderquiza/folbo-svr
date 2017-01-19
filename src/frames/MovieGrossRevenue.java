@@ -190,7 +190,7 @@ public class MovieGrossRevenue extends JFrame implements MouseListener, MouseMot
 		} else if (arg0.getSource() == labelHome) {
 			labelHome.setIcon(cmpmngr.getIconHomeHover());
 		} else if (arg0.getSource() == labelExit) {
-			labelExit.setIcon(cmpmngr.getIconExitHover());
+			labelExit.setIcon(cmpmngr.getIconGRExitHover());
 		} 
 		
 	}
@@ -202,7 +202,7 @@ public class MovieGrossRevenue extends JFrame implements MouseListener, MouseMot
 		} else if (arg0.getSource() == labelHome) {
 			labelHome.setIcon(cmpmngr.getIconHome());
 		} else if (arg0.getSource() == labelExit) {
-			labelExit.setIcon(cmpmngr.getIconExit());
+			labelExit.setIcon(cmpmngr.getIconGRExit());
 		}
 		
 	}
