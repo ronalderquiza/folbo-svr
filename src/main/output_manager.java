@@ -87,9 +87,11 @@ public class output_manager {
 		GUI_manager.getMovieGrossRevenue().getLabelFirstSentence().setText(wholetext);
 		
 		if(BOR <= 10000000) {
-			GUI_manager.getMovieGrossRevenue().getLabelRevenue().setText("<html><div style='" + css + "'>" + "<font color = 'red'>" +  "PHP " + dFormat.format(BOR) + "</font><font size='6' color='white'><i><br>(" + dFormat.format(certainty) + "% Certainty)</i></font>" + "</div></html>");
+			GUI_manager.getMovieGrossRevenue().getLabelRevenue().setText("<html><div style='" + css + "'>" + "<font color = 'red'>" +  "PHP " + dFormat.format(BOR) + "</font></div>") ;
+							//+ "<font size='6' color='white'><i><br>(" + dFormat.format(certainty) + "% Certainty)</i></font>" + "</div></html>");
 		} else {
-			GUI_manager.getMovieGrossRevenue().getLabelRevenue().setText("<html><div style='" + css + "'>" + "<font color = '#2ecc71'>" +  "PHP " + dFormat.format(BOR) + "</font><font size='6' color='white'><i><br>(" + dFormat.format(certainty) + "% Certainty)</i></font>" + "</div></html>");
+			GUI_manager.getMovieGrossRevenue().getLabelRevenue().setText("<html><div style='" + css + "'>" + "<font color = '#2ecc71'>" +  "PHP " + dFormat.format(BOR) + "</font></div>");
+							//+ "<font size='6' color='white'><i><br>(" + dFormat.format(certainty) + "% Certainty)</i></font>" + "</div></html>");
 		}
 		
 		String currString = "<html><div style='" + css + "'>"
