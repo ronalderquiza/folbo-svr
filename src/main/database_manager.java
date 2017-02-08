@@ -156,6 +156,7 @@ public class database_manager {
         try {
             setConnection(DriverManager.getConnection(getHost(), getUser(), getPass())); //connection establishment
         } catch (SQLException e) {
+            // TODO Auto-generated catch block
             e.printStackTrace();
             JOptionPane.showMessageDialog(null, "Error Database Connection: "
                     + "Check your MySQL Connector", null, JOptionPane.ERROR_MESSAGE);

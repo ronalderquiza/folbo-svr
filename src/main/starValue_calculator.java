@@ -57,6 +57,7 @@ public class starValue_calculator {
     private void collectArtistMovie(int year){
         database_manager db = system_manager.getDb_mngr();
         double divisor = 100000000;
+        System.out.println("year:" + year);
         String query = "SELECT SUM(`grossRevenue`), `artistID`, "
                 + "COUNT(`artistID`) FROM `tblartistmovie` "
                 + "INNER JOIN `tblmovie` ON `tblartistmovie`.`movieID` "

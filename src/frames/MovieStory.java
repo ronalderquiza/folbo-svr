@@ -145,7 +145,7 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 	public void mouseClicked(MouseEvent arg0) {
 		if(arg0.getSource() == labelNext){
 			if(theme == 0){
-				JOptionPane.showMessageDialog(null, "Select plot first!");
+				JOptionPane.showMessageDialog(null, "Input your movie plot first!");
 			}
 			else{
 				String title = tfMovieTitle.getText();
@@ -199,8 +199,9 @@ public class MovieStory extends JFrame implements MouseListener, MouseMotionList
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 			//system_manager.getInput_mngr().input_story("", "", 0);
-			
+
 			BrowseFiles story = new BrowseFiles();
+			theme_recognizer theme_recog = new theme_recognizer();
 			taPlot.setText("");
 			title = story.getTitle().toUpperCase();
 			plot = story.getPlot();

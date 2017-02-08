@@ -80,7 +80,7 @@ public class input_manager {
 	public void input_mainCasts(ArrayList<Integer> mainCasts){
 		input.getProdInfo().setMainCasts(mainCasts);
 		input.getProdInfo().getMainCasts();
-		int year = system_manager.getCurrYear();
+		int year = 2014; //system_manager.getCurrYear();
 		input.getProdInfo().setStarValue(system_manager.getSv_calc().execute(mainCasts, year));
 	}
 

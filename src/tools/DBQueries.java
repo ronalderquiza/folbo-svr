@@ -18,7 +18,6 @@ import objects.MovieInfo;
 public class DBQueries {
 
 	Movie movie = system_manager.getInput_mngr().getMovie();
-	int currYear = system_manager.getCurrYear();
 	
 	/**
 	 * Initialize DBQueries
@@ -33,6 +32,8 @@ public class DBQueries {
 	 */
 	public String[] getArtistDataQueries(int gender){
 		MovieInfo movieInfo = movie.getMovieInfo();
+		int currYear = 2014;
+
 		String query1 = "SELECT * FROM `tblartist` " + "INNER JOIN `tblartistmovie` ON "
 				+ "`tblartist`.`artistID` = `tblartistmovie`.`artistID` " + "INNER JOIN `tblmovie` ON "
 				+ "`tblmovie`.`movieID` = `tblartistmovie`.`movieID` " + "WHERE "
@@ -127,6 +128,7 @@ public class DBQueries {
 	 * @return queries
 	 */
 	public String[] getTrainingDataQueries(){
+		int currYear = 2016;
 		String q1 = "SELECT * FROM `tblmovie` WHERE "
 				+ "(`theme` = " + movie.getMovieInfo().getTheme() + " OR "
 				+ "((`mainGenre` = " + movie.getMovieInfo().getMainGenre() + " AND "

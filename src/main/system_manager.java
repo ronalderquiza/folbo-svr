@@ -68,7 +68,7 @@ public class system_manager implements Runnable {
      */
     private static output_manager output_mngr;
 	private static int time = 1000;
-	private static int currYear = 2014;
+	private static int currYear = 2016;
 	Thread runner;
 	
 	/**
@@ -134,7 +134,6 @@ public class system_manager implements Runnable {
 	 */
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 		initialize();
 	}
 	
@@ -163,9 +162,16 @@ public class system_manager implements Runnable {
 	 * Resetting the system
 	 */
 	public static void reset(){
-		GUI_manager.getMovieSequel().setVisible(true);
+
+		artist_recommender artist_recom = new artist_recommender();
+		component_manager component_mngr = new component_manager();
+		GUI_manager gui_mngr = new GUI_manager();
+		input_manager input_mngr = new input_manager();
+		output_manager output_mngr = new output_manager();
+		theme_recognizer theme_recog = new theme_recognizer();
+		GUI_manager.getMovieStory().setVisible(true);
 	}
-	
+
 	/**
 	 * Getting the GUI Manager
 	 * @return GUI Manager

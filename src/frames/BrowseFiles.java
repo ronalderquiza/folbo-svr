@@ -24,7 +24,7 @@ class BrowseFiles {
 		FileNameExtensionFilter filter = new FileNameExtensionFilter("TEXT FILES", "txt", "text");
 		jfc.setFileFilter(filter);
 		JFileChooser chooser = new JFileChooser();
-		chooser.setCurrentDirectory(new java.io.File("C:\\Users\\LAPTOP\\Desktop\\"));
+		chooser.setCurrentDirectory(new File("C:\\Users\\LAPTOP\\Desktop\\"));
 		chooser.setDialogTitle("Choose Movie Plot");
 		chooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
 		chooser.setFileFilter(filter);
