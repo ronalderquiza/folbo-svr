@@ -1,4 +1,4 @@
-# Forecasting Pre-produced Local Box-Office Revenue using Epsilon-Support Vector Regression
+# Forecasting Pre-Produced Local Box-Office Revenue using Epsilon-Support Vector Regression
 
 Forecasting Pre-Produced Local Box Office Revenue using Epsilon-Support Vector Regression
 
