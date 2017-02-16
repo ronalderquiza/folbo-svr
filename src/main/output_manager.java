@@ -54,7 +54,7 @@ public class output_manager {
 		ArrayList<Integer> artists = movie.getProdInfo().getMainCasts();
 		System.out.println(movie);
 		system_manager.getMl_mngr().execute(movie);
-		double BOR = system_manager.getMl_mngr().getOutput();
+		double boxOfficeRevenue = system_manager.getMl_mngr().getOutput();
 		double certainty = system_manager.getMl_mngr().getCertainty();
 		String css = "text-align: center;";
 		DecimalFormat dFormat = new DecimalFormat("#,###.##");
@@ -86,11 +86,11 @@ public class output_manager {
 		
 		GUI_manager.getMovieGrossRevenue().getLabelFirstSentence().setText(wholetext);
 		
-		if(BOR <= 10000000) {
-			GUI_manager.getMovieGrossRevenue().getLabelRevenue().setText("<html><div style='" + css + "'>" + "<font color = 'red'>" +  "PHP " + dFormat.format(BOR) + "</font></div>") ;
+		if(boxOfficeRevenue <= 10000000) {
+			GUI_manager.getMovieGrossRevenue().getLabelRevenue().setText("<html><div style='" + css + "'>" + "<font color = 'red'>" +  "PHP " + dFormat.format(boxOfficeRevenue) + "</font></div>") ;
 							//+ "<font size='6' color='white'><i><br>(" + dFormat.format(certainty) + "% Certainty)</i></font>" + "</div></html>");
 		} else {
-			GUI_manager.getMovieGrossRevenue().getLabelRevenue().setText("<html><div style='" + css + "'>" + "<font color = '#2ecc71'>" +  "PHP " + dFormat.format(BOR) + "</font></div>");
+			GUI_manager.getMovieGrossRevenue().getLabelRevenue().setText("<html><div style='" + css + "'>" + "<font color = '#2ecc71'>" +  "PHP " + dFormat.format(boxOfficeRevenue) + "</font></div>");
 							//+ "<font size='6' color='white'><i><br>(" + dFormat.format(certainty) + "% Certainty)</i></font>" + "</div></html>");
 		}
 		

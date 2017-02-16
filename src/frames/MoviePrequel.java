@@ -24,14 +24,14 @@ import main.*;
  * Description:	Frame for Movie Prequel
  * @version		3.2.0
  *
- * @lastreview 
- * 
+ * @lastreview
+ *
  */
 
 @SuppressWarnings("serial")
 public class MoviePrequel extends JFrame implements MouseListener, MouseMotionListener{
 	component_manager cmpmngr = GUI_manager.getCmp_mngr();
-	
+
 
 	JLabel labelMinimizeIcon = new JLabel(cmpmngr.getIconMinimizeIcon());
 	JLabel labelCloseIcon = new JLabel(cmpmngr.getIconCloseIcon());
@@ -41,11 +41,11 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 	JLabel labelTitle = new JLabel("MOVIE PRE-SEQUEL");
 	//JLabel labelMovieTitle = new JLabel("MOVIE TITLE:");
 	JLabel labelMoviePrequel = new JLabel("PREQUEL:");
-	
+
 	JComboBox<String> cbMovieSequel = new JComboBox<String>();
 	//JTextField tfMovieTitle = new JTextField("");
 	ArrayList<Integer> movieIDs = new ArrayList<Integer>();
-	
+
 	/**
 	 * initialize MoviePrequel
 	 */
@@ -53,12 +53,12 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		system_manager.getSplashscreen().setLabel("Initializing prequels...");
 		this.setSize(550, 560);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	    this.setUndecorated(true);
+		this.setUndecorated(true);
 		this.setResizable(false);
 		this.setLocationRelativeTo(null);
 		this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/frames/Photos/Others/FoLBO_Logo.png")));
 		this.getRootPane().setBorder(BorderFactory.createMatteBorder(2, 2, 2, 2, Color.DARK_GRAY));
-	
+
 		this.add(labelBackground);
 		labelBackground.add(labelTitle);
 		labelBackground.add(labelCloseIcon);
@@ -69,7 +69,7 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		//labelBackground.add(labelMovieTitle);
 		//labelBackground.add(tfMovieTitle);
 		labelBackground.add(labelMoviePrequel);
-		
+
 		labelCloseIcon.setBounds(495, 0, 50, 50);
 		labelMinimizeIcon.setBounds(460, 0, 50, 50);
 		labelNext.setBounds(430, 470, 80, 80);
@@ -79,18 +79,18 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		//tfMovieTitle.setBounds(50, 230, 430, 25);
 		labelMoviePrequel.setBounds(50, 220, 150, 30);
 		cbMovieSequel.setBounds(50, 250, 430, 30);
-		
+
 		labelCloseIcon.setCursor(new Cursor(Cursor.HAND_CURSOR));
 		labelMinimizeIcon.setCursor(new Cursor(Cursor.HAND_CURSOR));
 		labelNext.setCursor(new Cursor(Cursor.HAND_CURSOR));
 		labelBack.setCursor(new Cursor(Cursor.HAND_CURSOR));
-		
+
 		labelNext.setBackground(Color.white);
 		labelBack.setBackground(Color.white);
 
 		labelNext.setOpaque(false);
 		labelBack.setOpaque(false);
-		
+
 		labelNext.setFont(component_manager.getFontMediumBold());
 		labelBack.setFont(component_manager.getFontMediumBold());
 		labelTitle.setFont(component_manager.getFontXLargePlain());
@@ -98,20 +98,20 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		//tfMovieTitle.setFont(component_manager.getFontSmallPlain());
 		//labelMovieTitle.setFont(component_manager.getFontMediumBold());
 		labelMoviePrequel.setFont(component_manager.getFontMediumBold());
-		
+
 		labelTitle.setForeground(Color.white);
 		//labelMovieTitle.setForeground(Color.white);
 		labelMoviePrequel.setForeground(Color.white);
-		
+
 		cbMovieSequel.setEditable(false);
-		
+
 		/*text.setText("");
 		text.addKeyListener(new ComboKeyHandler(cbMovieSequel));*/
-		
+
 		AutoCompletion.enable(cbMovieSequel);
 
 		getDatabase();
-		
+
 		//LISTENERS
 		labelNext.addMouseListener(this);
 		labelBack.addMouseListener(this);
@@ -119,11 +119,11 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		labelMinimizeIcon.addMouseListener(this);
 		this.addMouseListener(this);
 		this.addMouseMotionListener(this);
-		
-		
+
+
 	}
-		
-	
+
+
 	/**
 	 * @param all
 	 * @param ID
@@ -141,15 +141,15 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 	@Override
 	public void mouseClicked(MouseEvent arg0) {
 		if(arg0.getSource() == labelCloseIcon) {
-			 int dialogButton = JOptionPane.showConfirmDialog (null, "Do you really want to exit?","Confirm",JOptionPane.YES_NO_OPTION);
-				if(dialogButton == JOptionPane.YES_OPTION) {
-					System.exit(0);
-				}
+			int dialogButton = JOptionPane.showConfirmDialog (null, "Do you really want to exit?","Confirm",JOptionPane.YES_NO_OPTION);
+			if(dialogButton == JOptionPane.YES_OPTION) {
+				System.exit(0);
+			}
 		} else if(arg0.getSource() == labelMinimizeIcon) {
-			try { 
-				Thread.sleep( 200 ); 
+			try {
+				Thread.sleep( 200 );
 			} catch (Throwable t) {
-				
+
 			}
 			this.setState(Frame.ICONIFIED);
 		} else if(arg0.getSource() == labelNext){
@@ -172,12 +172,12 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		} else if(arg0.getSource() == labelBack) {
 			GUI_manager.getMovieSequel().setVisible(true);
 			this.setVisible(false);
-		} 
+		}
 	}
 
 	private ArrayList<Integer> getMainCasts(int selectedID) {
 		// TODO Auto-generated method stub
-		
+
 		database_manager dbmngr = system_manager.getDb_mngr();
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		String query = "SELECT * FROM `tblartistmovie` WHERE `movieID` = " + selectedID;
@@ -216,7 +216,7 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		return infos;
 	}
 
@@ -224,12 +224,12 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 
 	@Override
 	public void mouseEntered(MouseEvent arg0) {
-		
+
 	}
 
 	@Override
 	public void mouseExited(MouseEvent arg0) {
-		
+
 	}
 
 	@Override
@@ -242,27 +242,27 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 
 	@Override
 	public void mouseReleased(MouseEvent arg0) {
-		
+
 	}
-	
+
 	/**
 	 * initialize getDatabase
 	 */
 	public void getDatabase() {
 		database_manager dbmngr = system_manager.getDb_mngr();
 		ArrayList<Integer> all = new ArrayList<Integer>();
-		int year = system_manager.getCurrYear();
+		int year = 2014; //system_manager.getCurrYear();
 		String query = "SELECT * FROM `tblmovie` WHERE `year` < " + year+ " ORDER BY `year`" ;
-        try {
-        	dbmngr.query(query);
+		try {
+			dbmngr.query(query);
 			for (;dbmngr.getResultSet().next();) {
 				Integer data = dbmngr.getResultSet().getInt("preSequel");
 				all.add(data);
 			}
-        } catch (ClassNotFoundException | SQLException e1) {
+		} catch (ClassNotFoundException | SQLException e1) {
 			e1.printStackTrace();
 		}
-        
+
 		try {
 			dbmngr.query(query);
 			for (; dbmngr.getResultSet().next();) {
@@ -272,22 +272,22 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 				}
 			}
 		} catch (ClassNotFoundException | SQLException e1) {
-			
+
 			e1.printStackTrace();
-		}    
-			
+		}
+
 	}
 
 	@Override
 	public void mouseDragged(MouseEvent arg0) {
 		if(arg0.getSource() == this) {
-			this.setLocation(arg0.getXOnScreen()-cmpmngr.getPosX(),arg0.getYOnScreen()-cmpmngr.getPosY());			
+			this.setLocation(arg0.getXOnScreen()-cmpmngr.getPosX(),arg0.getYOnScreen()-cmpmngr.getPosY());
 		}
-		
+
 	}
 
 	@Override
 	public void mouseMoved(MouseEvent arg0) {
-		
+
 	}
 }

@@ -34,10 +34,7 @@ public class theme_recognizer {
 	 */
 	public theme_recognizer() {
 		system_manager.getSplashscreen().setLabel("Initializing Theme Recognizer...");
-		setNgram(new NGram());
-		setThemeKeywords(fetchThemeKeywords());
-		setThemePoints(fetchThemePoints());
-		getDivisor();
+
 	}
 	
 	/**
@@ -45,6 +42,10 @@ public class theme_recognizer {
 	 * @param plot Plot
 	 */
 	public void execute(String plot){
+		setNgram(new NGram());
+		setThemeKeywords(fetchThemeKeywords());
+		setThemePoints(fetchThemePoints());
+		getDivisor();
 		ngram.setStart(1);
 		ngram.setOrder(2);
 		ngram.setText(plot);

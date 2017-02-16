@@ -152,11 +152,11 @@ public class MovieInformation extends JFrame implements MouseListener, MouseMoti
 			input_manager input = system_manager.getInput_mngr();
 			input.input_movieInfo(mainGenre, subGenre, origin, mtrcb);
 			artist_recommender recom = system_manager.getArtist_recom();
-			recom.getAllTop().clear();
+			recom = new artist_recommender("RESET");
 			if(hasArtist(input.getMovie().getMovieInfo(),MALE))
-				recom.recommendArtist(input.getMovie().getMovieInfo(),MALE);
+				recom.execute(input.getMovie().getMovieInfo(),MALE);
 			if(hasArtist(input.getMovie().getMovieInfo(),FEMALE))
-				recom.recommendArtist(input.getMovie().getMovieInfo(),FEMALE);
+				recom.execute(input.getMovie().getMovieInfo(),FEMALE);
 			if(!recom.getAllTop().isEmpty()){
 				recom.setAll();
 				for(int i = 0; i < recom.getAllTop().size(); i++){

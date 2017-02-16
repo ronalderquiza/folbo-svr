@@ -48,12 +48,23 @@ public class artist_recommender {
 		setTopFemale(new ArrayList<Integer>());
 		setAllTop(new ArrayList<Integer>());
 	}
+
+	public artist_recommender(String command){
+		collectAllArtist();
+		setArtist(new ArrayList[2]);
+		for(int i = 0; i < getArtist().length; i++){
+			getArtist()[i] = new ArrayList<Integer>();
+		}
+		setTopMale(new ArrayList<Integer>());
+		setTopFemale(new ArrayList<Integer>());
+		setAllTop(new ArrayList<Integer>());
+	}
 	/**
 	 * Recommend Artists
 	 * @param movieInfo Movie Information
 	 * @param gender Gender
 	 */
-	public void recommendArtist(MovieInfo movieInfo, int gender) {
+	public void execute(MovieInfo movieInfo, int gender) {
 		int year = system_manager.getCurrYear();
 		collectArtistMovie(year);	//collects all artists' movie count
 		this.setMovieInfo(movieInfo);

@@ -23,54 +23,54 @@ public class system_manager implements Runnable {
 	private String user = "root";
 	private String pass = "";
 
-    /**
-     * Splash Screen
-     */
+	/**
+	 * Splash Screen
+	 */
 	private static Splash splashscreen = new Splash();
 
-    /**
-     * Database Manager
-     */
-    private static database_manager db_mngr;
+	/**
+	 * Database Manager
+	 */
+	private static database_manager db_mngr;
 
-    /**
-     * Input Manager
-     */
-    private static input_manager input_mngr;
+	/**
+	 * Input Manager
+	 */
+	private static input_manager input_mngr;
 
-    /**
-     * Theme Recognizer
-     */
-    private static theme_recognizer theme_recog;
+	/**
+	 * Theme Recognizer
+	 */
+	private static theme_recognizer theme_recog;
 
-    /**
-     * Artist Recommender
-     */
-    private static artist_recommender artist_recom;
+	/**
+	 * Artist Recommender
+	 */
+	private static artist_recommender artist_recom;
 
-    /**
-     * Star Value Calculator
-     */
-    private static starValue_calculator sv_calc;
+	/**
+	 * Star Value Calculator
+	 */
+	private static starValue_calculator sv_calc;
 
-    /**
-     * Machine Learning Manager
-     */
-    private static machineLearning_manager ml_mngr;
+	/**
+	 * Machine Learning Manager
+	 */
+	private static machineLearning_manager ml_mngr;
 
-    /**
-     * GUI Manager
-     */
-    private static GUI_manager gui_mngr;
+	/**
+	 * GUI Manager
+	 */
+	private static GUI_manager gui_mngr;
 
-    /**
-     * Output Manager
-     */
-    private static output_manager output_mngr;
+	/**
+	 * Output Manager
+	 */
+	private static output_manager output_mngr;
 	private static int time = 1000;
 	private static int currYear = 2016;
 	Thread runner;
-	
+
 	/**
 	 * Instatation of the System Manager
 	 */
@@ -79,31 +79,32 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-     * Main Function of the System
+	 * Main Function of the System
 	 * @param args Arguments
 	 */
 	public static void main(String[] args) {
 		SwingUtilities.invokeLater(new Runnable(){
 			@Override
 			public void run(){
+
 				@SuppressWarnings("unused")
 				system_manager system_mngr = new system_manager();	//start of system manager
-			} 
+			}
 		});
 
 	}
-	
+
 	/**
 	 * Initialization of the Managers
 	 */
 	public void initialize(){
 		setDb_mngr(new database_manager(host, database, user, pass));
 		if(!DBInstaller.databaseExists(database)){	//checks the database existence
-			int dialogButton = 
+			int dialogButton =
 					JOptionPane.showConfirmDialog(null, "FoLBO Database is not installed. "
-							+ "Install it now?",
+									+ "Install it now?",
 							"Database Error",
-					JOptionPane.WARNING_MESSAGE);
+							JOptionPane.WARNING_MESSAGE);
 			if (dialogButton == JOptionPane.YES_OPTION) {
 				DBInstaller sqlreader = new DBInstaller();
 				sqlreader.installDB();
@@ -128,44 +129,50 @@ public class system_manager implements Runnable {
 		gui_mngr.getHome().setVisible(true);
 		stop();
 	}
-	
+
 	/**
 	 * Runs the thread
 	 */
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 		initialize();
 	}
-	
+
 	/**
 	 * Start the thread
 	 */
 	public void start() {
-        if (runner == null); {
-            runner = new Thread(this);
-            runner.start();
-        }
-    }
-	
+		if (runner == null); {
+			runner = new Thread(this);
+			runner.start();
+		}
+	}
+
 	/**
 	 * Stop the thread
 	 */
 	@SuppressWarnings("deprecation")
 	public void stop() {
-        if (runner != null) {
-            runner.stop();
-            runner = null;
-        }
-    }
-	
+		if (runner != null) {
+			runner.stop();
+			runner = null;
+		}
+	}
+
 	/**
 	 * Resetting the system
 	 */
 	public static void reset(){
-		GUI_manager.getMovieSequel().setVisible(true);
+
+		artist_recommender artist_recom = new artist_recommender();
+		component_manager component_mngr = new component_manager();
+		GUI_manager gui_mngr = new GUI_manager();
+		input_manager input_mngr = new input_manager();
+		output_manager output_mngr = new output_manager();
+		theme_recognizer theme_recog = new theme_recognizer();
+		GUI_manager.getMovieStory().setVisible(true);
 	}
-	
+
 	/**
 	 * Getting the GUI Manager
 	 * @return GUI Manager
@@ -173,9 +180,9 @@ public class system_manager implements Runnable {
 	public static GUI_manager getGUI_mngr(){
 		return gui_mngr;
 	}
-	
+
 	/**
-     * Setting GUI Manager
+	 * Setting GUI Manager
 	 * @param gui_manager GUI Manager
 	 */
 	public static void setGUI_mngr(GUI_manager gui_manager) {
@@ -183,7 +190,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-     * Getting Artist Recommender
+	 * Getting Artist Recommender
 	 * @return Artist Recommender
 	 */
 	public static artist_recommender getArtist_recom() {
@@ -199,7 +206,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-     * Getting Input Manager
+	 * Getting Input Manager
 	 * @return Input Manager
 	 */
 	public static input_manager getInput_mngr() {
@@ -207,7 +214,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-     * Setting Input Manager
+	 * Setting Input Manager
 	 * @param input_mngr Input Manager
 	 */
 	public static void setInput_mngr(input_manager input_mngr) {
@@ -215,7 +222,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-     * Getting Database Manager
+	 * Getting Database Manager
 	 * @return db_mngr
 	 */
 	public static database_manager getDb_mngr() {
@@ -223,7 +230,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-     * Setting Databaase Manager
+	 * Setting Databaase Manager
 	 * @param db_mngr
 	 */
 	public static void setDb_mngr(database_manager db_mngr) {
@@ -231,7 +238,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-     * Getting Theme Recommender
+	 * Getting Theme Recommender
 	 * @return theme_recog
 	 */
 	public static theme_recognizer getTheme_recog() {
@@ -239,7 +246,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-     * Setting Theme Recommender
+	 * Setting Theme Recommender
 	 * @param theme_recog
 	 */
 	public static void setTheme_recog(theme_recognizer theme_recog) {
@@ -247,7 +254,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-     * Setting Machine Learning Manager
+	 * Setting Machine Learning Manager
 	 * @return Machine Learning Manager
 	 */
 	public static machineLearning_manager getMl_mngr() {
@@ -255,15 +262,15 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-     * Setting Machine Learning Manager
+	 * Setting Machine Learning Manager
 	 * @param ml_mngr Machine Learning Manager
 	 */
 	public static void setMl_mngr(machineLearning_manager ml_mngr) {
 		system_manager.ml_mngr = ml_mngr;
 	}
-	
+
 	/**
-     * Getting Star Value Calculator
+	 * Getting Star Value Calculator
 	 * @return Star Value Calculator
 	 */
 	public static starValue_calculator getSv_calc() {
@@ -271,7 +278,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-     * Setting Star Value Calculator
+	 * Setting Star Value Calculator
 	 * @param sv_calc Star Value Calculator
 	 */
 	public static void setSv_calc(starValue_calculator sv_calc) {
@@ -295,7 +302,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-     * Getting Current Year
+	 * Getting Current Year
 	 * @return Current Year
 	 */
 	public static int getCurrYear() {
@@ -303,7 +310,7 @@ public class system_manager implements Runnable {
 	}
 
 	/**
-     * Setting Current Year
+	 * Setting Current Year
 	 * @param currYear Current Year
 	 */
 	public static void setCurrYear(int currYear) {
@@ -326,5 +333,5 @@ public class system_manager implements Runnable {
 		system_manager.splashscreen = splashscreen;
 	}
 
-	
+
 }

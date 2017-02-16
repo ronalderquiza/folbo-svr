@@ -49,6 +49,7 @@ public class Home extends JFrame implements MouseListener, MouseMotionListener {
 	 * initialize Home
 	 */
 	public Home() {
+		System.out.println("PROGRAM STARTED");
 		system_manager.getSplashscreen().setLabel("Initializing home screen...");
 		this.setTitle("HOME");
 		this.setSize(550, 560);
