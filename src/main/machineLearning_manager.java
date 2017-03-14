@@ -86,7 +86,7 @@ public class machineLearning_manager {
 		DBQueries dbq = new DBQueries();
 		String query = "";
 		index = 0;
-		while(dataList.size() <= 2){
+		while(dataList.size() <= 1){
 			if(movie.getSequel() == 0 || movie.getSequel() == 1){
 					query = dbq.getTrainingDataQueries()[index];
 				try {
@@ -159,7 +159,7 @@ public class machineLearning_manager {
 		DBQueries dbq = new DBQueries();
 		String query = "";
 		index = 0;
-		while(dataList.size() <= 2){
+		while(dataList.size() <= 1){
 			if(movie.getSequel() == 0 || movie.getSequel() == 1){
 				query = dbq.getTrainingDataQueries()[index];
 				try {

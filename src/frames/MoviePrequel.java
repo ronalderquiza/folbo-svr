@@ -38,7 +38,7 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 	JLabel labelBackground = new JLabel(cmpmngr.getIconBackground());
 	JLabel labelNext = new JLabel(cmpmngr.getIconNext());
 	JLabel labelBack = new JLabel(cmpmngr.getIconBack());
-	JLabel labelTitle = new JLabel("MOVIE PRE-SEQUEL");
+	JLabel labelTitle = new JLabel("MOVIE PREQUEL");
 	//JLabel labelMovieTitle = new JLabel("MOVIE TITLE:");
 	JLabel labelMoviePrequel = new JLabel("PREQUEL:");
 
@@ -74,7 +74,7 @@ public class MoviePrequel extends JFrame implements MouseListener, MouseMotionLi
 		labelMinimizeIcon.setBounds(460, 0, 50, 50);
 		labelNext.setBounds(430, 470, 80, 80);
 		labelBack.setBounds(20, 470, 80, 80);
-		labelTitle.setBounds(130, 120, 500, 50);
+		labelTitle.setBounds(160, 120, 500, 50);
 		//labelMovieTitle.setBounds(50, 200, 150, 30);
 		//tfMovieTitle.setBounds(50, 230, 430, 25);
 		labelMoviePrequel.setBounds(50, 220, 150, 30);
