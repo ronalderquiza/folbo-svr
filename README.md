@@ -13,3 +13,5 @@ This system is an expert system with Support Vector Regression algorithm that te
 To use FoLBO System, database should be installed first.
 Runs in JDK 1.8
 
+(c) 2017
+
